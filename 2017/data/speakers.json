@@ -1,0 +1,535 @@
+{
+    "1": {
+        "id": 1,
+        "featured": true,
+        "name": "Walmyr Carvalho",
+        "title": "Desenvolvedor Android",
+        "company": "99",
+        "companyLogo": "/images/logos/99.png",
+        "country": "São Paulo, Brasil",
+        "photoUrl": "/images/people/walmyr.jpg",
+        "shortBio": "Desenvolvedor Android @ 99, Google Developer Expert de Android, organizador do Android Dev BR, Android Meetup RJ e Kotlin Meetup SP.",
+        "bio": "Desenvolvedor Android e designer nascido em Brasília, mas atualmente vivendo em São Paulo, SP. Trabalha com Android há mais de 6 anos e sempre busca fazer o seu trabalho com excelência técnica em desenvolvimento e design. Já trabalhou em projetos para empresas  como Hotel Urbano, Globo.com, CI&T, Google e atualmente trabalha na 99. \n Além do trabalho, é bastante ativo em comunidades e acredita que todo conhecimento deve ser compartilhado. É organizador do Android Meetup Rio de Janeiro, Kotlin Meetup São Paulo e do Android Dev BR, a maior comunidade brasileira de Android no Slack, com mais de 2000 membros. Além disso, costuma palestrar e participar de conferências e tenta retribuir a comunidade o máximo possível. ",
+        "tags": [
+            "Android"
+        ],
+        "badges": [
+            "GDE"
+        ],
+        "socials": [{
+            "icon": "twitter",
+            "name": "Twitter",
+            "link": "https://twitter.com/walmyrcarvalho/"
+        }]
+    },
+    "2": {
+        "id": 2,
+        "featured": true,
+        "name": "Leonardo Saraiva",
+        "title": "Desenvolvedor",
+        "company": "Beauty Date",
+        "companyLogo": "/images/logos/beautydate.png",
+        "country": "Campo Mourão, Brasil",
+        "photoUrl": "/images/people/leonardo.jpg",
+        "shortBio": "Co-fundador do GURU-PR, desenvolvedor louco por tecnologia! Na onda de ruby, rails, hanami, go, grpc, docker, microserviços e kubernetes.",
+        "bio": "Co-fundador do GURU-PR e do WSO2 Brasil!\n Organizador do Tech Day, que ocorre anualmente em Curitiba.\n Desenvolvedor louco por tecnologia, atualmente surfando na onda de ruby, rails, hanami, go, grpc, docker, microserviços e kubernetes. Mas com experiência em sinatra, python (django), java, c# e um pouco de tudo, mas já não tão ativamente.",
+        "tags": [
+            "Ruby",
+            "Cloud",
+            "Open Source",
+            "Kubernetes"
+        ],
+        "badges": [],
+        "socials": [{
+                "icon": "twitter",
+                "name": "Twitter",
+                "link": "https://twitter.com/vyper/"
+            },
+            {
+                "icon": "github",
+                "name": "GitHub",
+                "link": "https://github.com/vyper"
+            }
+        ]
+    },
+    "3": {
+        "id": 3,
+        "featured": true,
+        "name": "Cynthia Zanoni",
+        "title": "Technical Evangelist",
+        "company": "Microsoft",
+        "companyLogo": "/images/logos/microsoft.jpg",
+        "country": "São Paulo, Brasil",
+        "photoUrl": "/images/people/cynthia.jpg",
+        "shortBio": "Technical Evangelist na Microsoft, entusiasta de open source e comunidades, curadora do Mobile Summit e organizadora do WoMakersCode e Mobile Brasil. ",
+        "bio": " Evangelista Técnica na Microsoft, curadora da Mobile Summit Brazil e idealizadora do WoMakersCode, um projeto focado em capacitação e empoderamento feminino e de minorias na TI e atua, também, como coordenadora do WoMoz (Women & Mozilla). É apaixonada open source e nas horas vagas, cria projetos e iniciativas que possam contribuir para o fortalecimento das mulheres no mercado de trabalho e comunidades de tecnologia.",
+        "tags": [
+            "Cloud",
+            "Open Source"
+        ],
+        "badges": [],
+        "socials": [{
+                "icon": "twitter",
+                "name": "Twitter",
+                "link": "http://www.twitter.com/cynthiazanoni"
+            },
+            {
+                "icon": "website",
+                "name": "Webite",
+                "link": "http://cyz.github.io"
+            },
+            {
+                "icon": "facebook",
+                "name": "Facebook",
+                "link": "https://www.facebook.com/cynthiazanoni"
+            },
+            {
+                "icon": "linkedin",
+                "name": "Linkedin",
+                "link": "http://br.linkedin.com/in/cynthiazanoni"
+            }
+        ]
+    },
+    "4": {
+        "id": 4,
+        "featured": true,
+        "name": "Angelo Belchior",
+        "title": "Lead Software Developer",
+        "company": "ESX - entrega contínua de valor",
+        "companyLogo": "/images/logos/esx.png",
+        "country": "São Paulo, Brasil",
+        "photoUrl": "/images/people/angelo.png",
+        "shortBio": "Microsoft MVP em Visual Studio and Technologies, Lead Software Developer, Monkey Nights Co-Founder",
+        "bio": "Angelo Belchior é desenvolvedor há quase 15 anos tendo participado de projetos Desktop, Web e agora Mobile utilizando Xamarin. É Microsoft MVP em Visual Studio and Technologies, MCPD em Web e é Lead Software Developer na ESX",
+        "tags": [
+            "Xamarin",
+            "Mobile"
+        ],
+        "badges": [],
+        "socials": [{
+                "icon": "twitter",
+                "name": "Twitter",
+                "link": "http://twitter.com/angelobelchior"
+            },
+            {
+                "icon": "github",
+                "name": "GitHub",
+                "link": "http://github.com/angelobelchior"
+            },
+            {
+                "icon": "facebook",
+                "name": "Facebook",
+                "link": "http://fb.com/angelobelchior8"
+            },
+            {
+                "icon": "youtube",
+                "name": "YouTube",
+                "link": "http://youtube.com/angelobelchior"
+            },
+            {
+                "icon": "medium",
+                "name": "Medium",
+                "link": "https://medium.com/@angelobelchior"
+            },
+            {
+                "icon": "website",
+                "name": "MVP",
+                "link": "https://mvp.microsoft.com/pt-br/PublicProfile/5001635?fullName=Angelo%20Luis"
+            }
+        ]
+    },
+    "5": {
+        "id": 5,
+        "featured": true,
+        "name": " Matheus Costa Vieira",
+        "title": " Analista de Sistemas",
+        "company": "CINQ Technologies",
+        "companyLogo": "/images/logos/cinq.png",
+        "country": "Curitiba, Brasil",
+        "photoUrl": "/images/people/matheus_costa.jpg",
+        "shortBio": "Programador e Professor. Amo a Deus, minha esposa, meu filho e criar programas! Gosto de codificar com muito café e muito metal",
+        "bio": "Casado com a Daniela e pai do Pedro Henrique. Bacharel em Sistemas de Informação pela Universidade Positivo, pós-graduado em Engenharia E Aarquitetura DE Software pela Universidade Estácio de Sá, pós-graduando em Sistemas Embarcados e Internet das Coisas pela Univerdade Positivo. Mais de 9 anos de experiência com desenvolvimento de software com passagem em diversos tipos de projetos (e-commerce, rastreamento de veículos, ERP, sistemas de mensagens de aviação comercial). Trabalho com desenvolvimento Web, Desktop e Mobile. Esse semestre inicei na carreira de docência lecionando as disciplinas de Desenvolvimento Web e Programação Visual na Faculdade Opet",
+        "tags": [
+            "Node JS",
+            "Testes"
+        ],
+        "badges": [],
+        "socials": [{
+                "icon": "twitter",
+                "name": "Twitter",
+                "link": "https://twitter.com/macostavieira"
+            },
+            {
+                "icon": "github",
+                "name": "GitHub",
+                "link": "https://github.com/matheus-vieira"
+            },
+            {
+                "icon": "facebook",
+                "name": "Facebook",
+                "link": "https://facebook.com/macovieiraa"
+            },
+            {
+                "icon": "linkedin",
+                "name": "Linkedin",
+                "link": "https://linkedin.com/in/macostavieira"
+            },
+            {
+                "icon": "gplus",
+                "name": "Google Plus",
+                "link": "https://plus.google.com/+MatheusCostaVieira"
+            }
+        ]
+    },
+    "6": {
+        "id": 6,
+        "featured": true,
+        "name": "Joselito Júnior",
+        "title": "Instrutor",
+        "country": "Recife, Brasil",
+        "company": "Tampa Works",
+        "companyLogo": "/images/logos/tampa.png",
+        "photoUrl": "/images/people/joselito.jpg",
+        "shortBio": "Organizador do GDG Recife e do devbeers, podcaster no Code Talks e instrutor do Ionic Bootcamp..",
+        "bio": " Organizador do GDG Recife e do devbeers, podcaster no Code Talks, instrutor dos Ionic Bootcamp e fundador das startups premiadas Estudorama e Rabiscapp. Além de ganhador de Hackathons aposentado, é entusiasta do Design Thinking, Lean Startup e desenvolvimento Ágil de software. Fã de Fórmula 1 e de fazer piadas de gosto duvidoso.",
+        "tags": [
+            "Progressive Web Apps",
+            "Front-end",
+            "Ionic"
+        ],
+        "badges": [],
+        "socials": [{
+                "icon": "twitter",
+                "name": "Twitter",
+                "link": "http://twitter.com/joselitjunior1"
+            },
+            {
+                "icon": "github",
+                "name": "GitHub",
+                "link": "http://github.com/joselitojunior1"
+            },
+            {
+                "icon": "facebook",
+                "name": "Facebook",
+                "link": "http://fb.com/joselitojr"
+            }
+        ]
+    },
+    "7": {
+        "id": 7,
+        "featured": true,
+        "name": "Loiane Groner",
+        "title": "Desenvolvedora FullStack",
+        "country": "São Paulo, Brasil",
+        "company": "Citi e loiane.training",
+        "companyLogo": "/images/logos/citi.png",
+        "photoUrl": "/images/people/loiane.jpg",
+        "shortBio": "Dev FullStack @ Citi e é autora de 7 livros publicados mundialmente em inglês. Nas horas vagas publica cursos gratuitos em loiane.training.",
+        "bio": "Possui 10+ anos de experiência em TI, trabalha como desenvolvedora FullStack em uma empresa multinacional e ama compartilhar conhecimento! Já palestrou por vários eventos no Brasil e ministrou cursos nos Estados Unidos.\n Autora dos livros: Ext JS 4 First Look, Mastering Ext J(primeira e segunda edição), Sencha Architect App Development e Learning JavaScript Data Structures and Algorithms (primeira e segunda edição), JavaScript Regular Expressions - todos publicados pela editora Packt e lançados mundialmente em inglês (com tradução de alguns livros para chinês e coreano). Espera poder lançar livros em Português em breve. Entusiasta Java, Sencha, Angular e mobile híbrido (Phonegap/Ionic). Participa ativamente dessas comunidades. Escreve para o blog http://loiane.com e publica aulas e cursos em http://loiane.training.",
+        "tags": [
+            "Ionic",
+            "Front-end",
+            "JavaScript"
+        ],
+        "badges": [],
+        "socials": [{
+                "icon": "twitter",
+                "name": "Twitter",
+                "link": "http://www.twitter.com/loiane"
+            },
+            {
+                "icon": "github",
+                "name": "GitHub",
+                "link": "http://www.facebook.com/loianegroner"
+            },
+            {
+                "icon": "facebook",
+                "name": "Facebook",
+                "link": "https://github.com/loiane"
+            },
+            {
+                "icon": "youtube",
+                "name": "YouTube",
+                "link": "http://www.youtube.com/loianegroner"
+            },
+            {
+                "icon": "linkedin",
+                "name": "Linkedin",
+                "link": "http://linkedin.com/in/loiane"
+            }
+        ]
+    },
+    "8": {
+        "id": 8,
+        "featured": true,
+        "name": "Lazaro Fernandes",
+        "title": "Desenvolvedor",
+        "country": "São Paulo, Brasil",
+        "company": "Lambda3",
+        "companyLogo": "/images/logos/lambda.png",
+        "photoUrl": "/images/people/lazaro.jpg",
+        "shortBio": "Desenvolvedor na Lambda3 e corredor nas horas vagas",
+        "bio": "Formado em Ciências da Computação e com pós-graduação em Desenvolvimento de Produtos e Serviços pela FIA, possui 10 anos de experiência em desenvolvimento web, participa de eventos, podcasts e meetups da área ajudando na divulgação de novas tecnologias ",
+        "tags": [
+            "Hololens"
+        ],
+        "badges": [],
+        "socials": [{
+                "icon": "twitter",
+                "name": "Twitter",
+                "link": "https://twitter.com/lazarofl"
+            },
+            {
+                "icon": "linkedin",
+                "name": "Linkedin",
+                "link": "https://br.linkedin.com/in/lazaroflima"
+            }
+        ]
+    },
+    "9": {
+        "id": 9,
+        "featured": true,
+        "name": "Neto Marin",
+        "title": "Developer Advocate",
+        "country": "São Paulo, Brasil",
+        "company": "Google",
+        "companyLogo": "/images/logos/google.png",
+        "photoUrl": "/images/people/NetoMarin.png",
+        "shortBio": "Android Developer Advocate no Google e podcaster, que tem como objetivo ajudar os desenvolvedores a criarem apps Android de alta qualidade.",
+        "bio": "Neto Marin é Developer Advocate do Google no Brasil e tem como principal objetivo ajudar os desenvolvedores a criarem aplicativos de alta qualidade para as plataformas Android. Um apaixonado pelas tecnologias móveis, começou a desenvolver para telefones celulares em 2005 com Java ME, tendo experiência em diversas outras plataformas e trabalhando com Android desde os primeiros SDKs em 2007. Desde 2010 vem se aventurando no mundo de softwares embarcados e pequenos dispositivos conectados como hobby, e agora está envolvido com a nova plataforma de IoT do Google, o Android Things. Neto também é um dos hosts do podcast Dev & Community Cast, que tem episódios sobre comunidades e desenvolvimento, além da série Faaala, Neto! onde compartilha suas experiências e pensamentos sobre o desenvolvimento de software.",
+        "tags": [
+            "Android"
+        ],
+        "badges": [],
+        "socials": [{
+                "icon": "twitter",
+                "name": "Twitter",
+                "link": "https://twitter.com/netomarin"
+            },
+            {
+                "icon": "gplus",
+                "name": "Google Plus",
+                "link": "http://google.com/+NetoMarin"
+            },
+            {
+                "icon": "facebook",
+                "name": "Facebook",
+                "link": "https://www.facebook.com/netomarin"
+            }
+        ]
+    },
+    "10": {
+        "id": 10,
+        "featured": true,
+        "name": "Danilo Gonçalves",
+        "title": " Arquiteto de Software",
+        "country": "Curitiba, Brasil",
+        "company": "EBANX",
+        "companyLogo": "/images/logos/ebanx.png",
+        "photoUrl": "/images/people/danilo.png",
+        "shortBio": " Arquiteto de Software no EBANX, rubista de longa data e entusiasta da programação funcional.",
+        "bio": "Arquiteto de Software no EBANX, rubista de longa data, nerd de carteirinha e eterno estudante. Trabalhando como desenvolvedor por mais de metade de sua existência, adquiriu experiência em diversas linguagens e tecnologias e deixou um rastro de novos rubistas por onde passou. Entusiasta da programação funcional, mais recentemente da linguagem Elixir, busca constantemente trazer novos membros para o lado imutável da força.",
+        "tags": [
+            "Ruby",
+            "PHP",
+            "Pokémon",
+            "Elixir"
+        ],
+        "badges": [],
+        "socials": [{
+                "icon": "github",
+                "name": "GitHub",
+                "link": "https://github.com/danxexe"
+            },
+            {
+                "icon": "linkedin",
+                "name": "Linkedin",
+                "link": "https://www.linkedin.com/in/danilorg/"
+            }
+        ]
+    },
+    "11": {
+        "id": 11,
+        "featured": true,
+        "name": "Luis Leão",
+        "title": "Course Manager",
+        "company": "Udacity",
+        "country": "São Paulo, Brasil",
+        "companyLogo": "/images/logos/udacity.png",
+        "photoUrl": "/images/people/luis.jpg",
+        "shortBio": "Course Manager na Udacity, co-organiza o Google Developer Group de São Paulo",
+        "bio": "Course Manager na Udacity, co-organiza o Google Developer Group de São Paulo e atua em diversas áreas voltadas para empreendedorismo e inovação, entre eles é responsável por um grupo de estudo de Internet das Coisas (IoT) no RedBull Station e pelo programa Startup in School, projeto de formação empreendedora e programação para estudantes de escolas públicas.",
+        "tags": [
+            "iot",
+            "Firebase "
+        ],
+        "socials": [{
+            "name": "Twitter",
+            "icon": "twitter",
+            "link": "twitter.com/luisleao"
+        }, {
+            "name": "Linkedin",
+            "icon": "linkedin",
+            "link": "http://www.linkedin.com/in/luisleao"
+        }, {
+            "name": "GitHub",
+            "icon": "github",
+            "link": "https://github.com/luisleao"
+        }]
+    },
+    "12": {
+        "id": 12,
+        "featured": true,
+        "name": "Marcelo Ricardo Quinta",
+        "title": "Professor e pesquisador",
+        "company": "UFG",
+        "country": "Goiânia, Brasil",
+        "companyLogo": "/images/logos/ufg.jpg",
+        "photoUrl": "/images/people/quinta.jpg",
+        "shortBio": "Desenvolvedor móvel há mais de 10 anos, professor, pesquisador, Google Expert, Intel Innovator, mentor de startups para o Google.",
+        "bio": "Desenvolvedor móvel há mais de 10 anos, professor, pesquisador, Google Expert, Intel Innovator, mentor de startups para o Google.",
+        "tags": [
+            "Android",
+            "iOS "
+        ],
+        "socials": [{
+            "name": "Twitter",
+            "icon": "twitter",
+            "link": "twitter.com/mrquinta"
+        }]
+    },
+    "13": {
+        "id": 13,
+        "featured": true,
+        "name": "André Baltieri",
+        "title": "CIO",
+        "company": "balta.io",
+        "country": "São Paulo, Brasil",
+        "companyLogo": "/images/logos/balta-io.png",
+        "photoUrl": "/images/people/baltieri.jpg",
+        "shortBio": "Microsoft MVP desde 2013, trabalha com aplicações Web desde 2013 tendo atuado em projetos de pequeno, médio e grande porte no Brasil e Estados Unidos.",
+        "bio": "Microsoft MVP desde 2013, trabalha com aplicações Web desde 2013 tendo atuado em projetos de pequeno, médio e grande porte no Brasil e Estados Unidos. Apesar do grande vínculo com a Microsoft, é amante das tecnologias Open Source, onde atua boa parte do tempo. Atualmente trabalha com consultorias e treinamentos, tendo passado por inúmeras empresas no Brasil, e é CIO da plataforma de cursos online, balta.io.",
+        "tags": [
+            "Dot Net Core",
+            "C#"
+        ],
+        "socials": [{
+            "name": "WebSite",
+            "icon": "website",
+            "link": "http://andrebaltieri.net/"
+        }]
+    },
+    "14": {
+        "id": 14,
+        "featured": true,
+        "name": "Ângelo Polotto",
+        "title": "Software Engineer",
+        "company": "Radek Systems",
+        "country": "Curitiba, Brasil",
+        "companyLogo": "/images/logos/radek.svg",
+        "photoUrl": "/images/people/polotto.jpg",
+        "shortBio": "Graduado em Engenharia, atua no desenvolvimento de software voltado para dispositivos móveis. Estuda a plataforma Arduino como hobby.",
+        "bio": "Graduado em Engenharia Eletrônica pela Universidade Tecnológica Federal do Paraná, possui interesse em desenvolvimento de software voltado para dispositivos móveis e embarcados. Trabalha atualmente com desenvolvimento para Android e iOS utilizando a ferramenta Xamarin e a linguagem C#.",
+        "tags": [
+            "Arduino"
+        ],
+        "socials": [{
+            "name": "Linkedin",
+            "icon": "linkedin",
+            "link": "https://br.linkedin.com/in/angelo-polotto-7400576a"
+        }, {
+            "name": "Twitter",
+            "icon": "twitter",
+            "link": "https://twitter.com/AngeloPolotto"
+        }, {
+            "name": "Github",
+            "icon": "github",
+            "link": "https://github.com/angelopolotto"
+        }]
+
+    },
+    "15": {
+        "id": 15,
+        "featured": true,
+        "name": "Matheus Donizete",
+        "title": "Desenvolvedor",
+        "company": "StrikeXII Development",
+        "country": "Curitiba, Brasil",
+        "companyLogo": "/images/logos/strike.png",
+        "photoUrl": "/images/people/matheus.jpg",
+        "shortBio": "Desenvolvedor JavaScript há 5 anos,inicialmente como front-end,atualmente trabalho com JavaScript Full-Stack e aplicações web em tempo real",
+        "bio": "Entusiasta JavaScript, cursando Ciência da Computação pela UFPR, desenvolvedor JavaScript há 5 anos, em paralelo trabalhando com diversas linguagens back-end, por vezes com desenvolvimento móvel, porém sempre no cenário front-end. Atualmente trabalhando com aplicações Full-Stack feitas em JavaScript, voltado a aplicações em tempo real.",
+        "tags": [
+            "Node JS"
+        ],
+        "socials": [{
+            "name": "Linkedin",
+            "icon": "linkedin",
+            "link": "https://www.linkedin.com/in/matheusdonizete"
+        }, {
+            "name": "Github",
+            "icon": "github",
+            "link": "https://github.com/MatheusDonizete"
+        }, {
+            "name": "Twitter",
+            "icon": "twitter",
+            "link": "https://twitter.com/MathDonizete"
+        }]
+    },
+    "16": {
+        "id": 16,
+        "featured": true,
+        "name": "Marcos Hitanael Barchiki dos Santos",
+        "title": "CEO",
+        "company": "RouteSmart",
+        "country": "Curitiba, Brasil",
+        "companyLogo": "/images/logos/routesmart.png",
+        "photoUrl": "/images/people/marcos.jpg",
+        "shortBio": "Desenvolvedor web/mobile, CEO na RouteSmart, Fundador da Comunidade CocosSharp BR, Nerd, Maker, Fã de C#, Xamarin, Games e IoT.",
+        "bio": "Sou desenvolvedor, empreendedor, nerd e maker. CEO na RouteSmart e 100% focado em soluções inovadoras. Fundador da Comunidade CocosSharp Brasil e membro do CodeFor Curitiba. Fã de C#, PHP e Hackathons OpenSource. Entusiasta de Xamarin, Games, IoT e realidade Virtual.",
+        "tags": [
+            "Xamarin"
+        ],
+        "socials": [{
+            "name": "Linkedin",
+            "icon": "linkedin",
+            "link": "https://www.linkedin.com/in/marcos-hitanael-barchiki-dos-santos-38647032"
+        }, {
+            "name": "Github",
+            "icon": "github",
+            "link": "https://github.com/mhbsti"
+        }, {
+            "name": "Twitter",
+            "icon": "twitter",
+            "link": "https://twitter.com/mhbsantos"
+        }, {
+            "name": "Website",
+            "icon": "website",
+            "link": "http://mhbs.com.br"
+        }, {
+            "name": "Medium",
+            "icon": "medium",
+            "link": "https://medium.com/@barchiki/"
+        }]
+    },
+    "17": {
+        "id": 17,
+        "featured": true,
+        "name": "Leandro Prado",
+        "title": "Premier Field Engineer",
+        "company": "Microsoft",
+        "country": "São Paulo, Brasil",
+        "companyLogo": "/images/logos/microsoft.jpg",
+        "photoUrl": "/images/people/leandro.png",
+        "shortBio": "Leandro Prado é graduado em Sistemas de Informação pela PUC-PR, trabalho com desenvolvimento desde 2003 e nos últimos anos tenho trabalhado com Visual Studio e TFS",
+        "bio": "Leandro Prado é graduado em Sistemas de Informação pela PUC-PR, trabalho com desenvolvimento desde 2003 e nos últimos anos tenho trabalhado com Visual Studio e TFS. Atualmente trabalha como Premier Field Engineer na Microsoft especializado em DevOps e ALM. Fanático por futebol e torcedor do melhor time do paraná – COXA",
+        "tags": [
+            "Visual Studio"
+        ],
+        "socials": [{
+            "name": "Twitter",
+            "icon": "twitter",
+            "link": "https://twitter.com/Blog_Prado"
+        }]
+    }
+}

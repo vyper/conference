@@ -1,0 +1,226 @@
+{
+    "firebase": {
+        "name": "hoverboard-master",
+        "domain": "hoverboard-master.firebaseapp.com",
+        "database": "https://hoverboard-master.firebaseio.com",
+        "api": "AIzaSyCaSkhtHekxAqXXzzbuNs2s6CpGdhZdta8",
+        "userSessionsPath": "/userSessions"
+    },
+    "pages": {
+        "home": {
+            "headerSettings": {
+                "backgroundColor": "#C2185B",
+                "backgroundImage": "/images/backgrounds/home.png",
+                "fontColor": "#fff",
+                "tabBarColor": "#fff",
+                "hideLogo": true,
+                "minHeight": "360px"
+            }
+        },
+        "speakers": {
+            "headerSettings": {
+                "backgroundColor": "#3f51b5",
+                "fontColor": "#fff",
+                "tabBarColor": "#fff"
+            }
+        },
+        "schedule": {
+            "headerSettings": {
+                "backgroundColor": "#673ab7",
+                "fontColor": "#fff",
+                "tabBarColor": "#fff"
+            }
+        },
+        "team": {
+            "headerSettings": {
+                "backgroundColor": "#009688",
+                "fontColor": "#fff",
+                "tabBarColor": "#fff"
+            }
+        },
+        "cod": {
+            "headerSettings": {
+                "backgroundColor": "#673ab7",
+                "fontColor": "#fff",
+                "tabBarColor": "#fff"
+            }
+        },
+        "faq": {
+            "headerSettings": {
+                "backgroundColor": "#673ab7",
+                "fontColor": "#fff",
+                "tabBarColor": "#fff"
+            }
+        },
+        "camiseta": {
+            "headerSettings": {
+                "backgroundColor": "#009688",
+                "fontColor": "#fff",
+                "tabBarColor": "#fff"
+            }
+        }
+    },
+    "navigation": [{
+            "route": "home",
+            "permalink": "/"
+        },
+        {
+            "route": "speakers",
+            "permalink": "/speakers/"
+        },
+        {
+            "route": "schedule",
+            "permalink": "/schedule/"
+        },
+        {
+            "route": "team",
+            "permalink": "/team/"
+        },
+        {
+            "route": "faq",
+            "permalink": "/faq/"
+        },
+        {
+            "route": "camiseta",
+            "permalink": "/camiseta/"
+        }
+    ],
+    "url": "https://hoverboard.firebaseapp.com/",
+    "mailchimp": {
+        "url": "http://codes.us14.list-manage.com/subscribe?u=0e1ffbabd1d82a2a0b0f31935&id=460d8f922d",
+        "name": "b_0e1ffbabd1d82a2a0b0f31935_460d8f922d"
+    },
+    "partnershipProposition": "mailto:capivaracodes@gmail.com",
+    "disqusShortName": "hoverboard-gdg-x",
+    "languages": [{
+            "name": "Português",
+            "key": "pt-br"
+        },
+        {
+            "name": "English",
+            "key": "en"
+        }
+    ],
+    "footerBlocks": [{
+            "title": "for-visitors",
+            "links": [{
+                    "text": "buy-ticket",
+                    "url": "https://www.sympla.com.br/capivara-codes-conference__105289",
+                    "newTab": true
+                }, {
+                    "text": "team",
+                    "url": "/team/"
+                },
+                {
+                    "text": "cod",
+                    "url": "/cod/"
+                },
+                {
+                    "text": "faq",
+                    "url": "/faq/"
+                },
+                {
+                    "text": "capivara-codes",
+                    "url": "https://www.facebook.com/capivaracodes",
+                    "newTab": true
+                },
+                {
+                    "text": "slack",
+                    "url": "http://slack.capivara.codes",
+                    "newTab": true
+                }
+            ]
+        },
+        {
+            "title": "for-partners",
+            "links": [{
+                    "text": "partnership-proposition",
+                    "url": "mailto:capivaracodes@gmail.com",
+                    "newTab": true
+                },
+                {
+                    "text": "media-kit",
+                    "url": "https://drive.google.com/open?id=0B6xjCs4nGoqdSi1zUmVSZndoVHc",
+                    "newTab": true
+                }
+            ]
+        }
+    ],
+    "contactBlock": {
+        "links": [{
+            "text": "capivaracodes@gmail.com",
+            "url": "mailto:capivaracodes@gmail.com"
+        }]
+    },
+    "tickets": {
+        "url": "https://www.sympla.com.br/capivara-codes-conference__105289",
+        "elements": [{
+            "name": "lazy-bird-ticket",
+            "price": 120,
+            "currency": "R$",
+            "starts": "lazy-bird-ticket-starts",
+            "ends": "lazy-bird-ticket-ends",
+            "soldOut": false
+        }]
+    },
+    "teamPageTitle": "team-page-title",
+    "teamPageText": "team-page-text",
+    "statistics": [{
+            "counter": 400,
+            "caption": "attendees"
+        },
+        {
+            "counter": 17,
+            "caption": "sessions"
+        },
+        {
+            "counter": 765,
+            "caption": "minutos"
+        }, {
+            "counter": 3,
+            "caption": "tracks"
+        }
+    ],
+    "hashtag": "CapivaraCodesConference",
+    "social": [{
+            "name": "twitter",
+            "nickname": "Capivara Codes",
+            "url": "https://twitter.com/capivaracodes"
+        },
+        {
+            "name": "facebook",
+            "nickname": "Capivara Codes",
+            "url": "https://www.facebook.com/capivaracodes"
+        },
+        {
+            "name": "slack",
+            "nickname": "Capivara Codes",
+            "url": "http://slack.capivara.codes"
+        }
+    ],
+    "gallery": {
+        "photos": {
+            "big": "/images/backgrounds/foto_1.jpg",
+            "small": [
+                "/images/backgrounds/foto_2.jpg",
+                "/images/backgrounds/foto_3.jpg"
+            ]
+        }
+    },
+    "location": {
+        "apiKey": "AIzaSyDPuDfwt2XtS7QC3BoQPlL5eTWJ_TFrKUQ",
+        "link": "http://www.fesppr.br/portal/",
+        "pointer": {
+            "latitude": -25.425179,
+            "longitude": -49.263243,
+            "zoom": 15
+        },
+        "mapCenter": {
+            "latitude": -25.425179,
+            "longitude": -49.263243
+        },
+        "images": [
+            "/images/backgrounds/fesp_1.jpg"
+        ]
+    }
+}

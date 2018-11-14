@@ -1,0 +1,70 @@
+[{
+        "title": "template-creator",
+        "logos": [{
+            "name": "Capivara Codes",
+            "url": "http://capivara.codes/",
+            "logoUrl": "../images/logos/capivara_rosa.svg",
+            "width": 170
+        }]
+    },
+    {
+        "title": "general-partner",
+        "logos": [{
+                "name": "Ebanx",
+                "url": "https://www.ebanx.com",
+                "logoUrl": "../images/logos/ebanx.png"
+            }, {
+                "name": "FESP",
+                "url": "http://www.fesppr.br/portal/",
+                "logoUrl": "../images/logos/fesp.jpg"
+            },
+            {
+                "name": "Radek",
+                "url": "http://www.radek.com.br",
+                "logoUrl": "../images/logos/radek.svg"
+            },
+          {
+            "name": "Microsoft",
+            "url": "http://www.microsoft.com.br",
+            "logoUrl": "../images/logos/microsoft.jpg"
+          },
+            {
+                "name": "Umbler",
+                "url": "https://www.umbler.com/",
+                "logoUrl": "../images/logos/umbler.svg"
+            }
+        ]
+    },
+    {
+        "title": "midia-partner",
+        "logos": [{
+            "name": "iMasters",
+            "url": "http://imasters.com.br/",
+            "logoUrl": "../images/logos/imasters.png"
+        }, {
+            "name": "Balta.io",
+            "url": "http://balta.io/",
+            "logoUrl": "../images/logos/balta-io.png"
+        }, {
+          "name": "Azuris",
+          "url": "http://www.azuris.com.br",
+          "logoUrl": "../images/logos/azuris.png"
+        }]
+    },
+    {
+        "title": "community-partner",
+        "logos": [{
+            "name": "GDG Curitiba",
+            "url": "http://www.gdgcuritiba.com.br/",
+            "logoUrl": "../images/logos/gdgcuritiba.png"
+        }, {
+            "name": ".NET Curitiba",
+            "url": "http://dotnetcuritiba.com.br",
+            "logoUrl": "../images/logos/netcuritiba.png"
+        }, {
+          "name": "DevParaná",
+          "url": "http://www.devparana.org/",
+          "logoUrl": "../images/logos/devpr.png"
+        }]
+    }
+]
