@@ -1,20 +1,19 @@
 <div class="uk-flex
 uk-flex-center
 uk-flex-middle
-uk-height-viewport
+uk-section-large
 uk-position-z-index
-uk-position-relative"
-  data-uk-height-viewport="min-height: 400">
+uk-position-relative">
   <!-- NAV -->
   <div class="uk-position-top">
     <div class="uk-container uk-container-small">
       <nav class="uk-navbar-container uk-navbar-transparent" data-uk-navbar>
-        <div class="uk-navbar-center">
+        <div class="uk-navbar-left">
           <div class="uk-navbar-item">
             <a class="uk-logo" href="/home"><img src="../../../assets/img/logo_capiconf.svg" alt="Logo"></a>
           </div>
         </div>
-        <!-- <div class="uk-navbar-right">
+        <div class="uk-navbar-right">
           <ul class="uk-navbar-nav">
             <li class="uk-visible@s"><a href="/about">CONHEÇA O EVENTO</a></li>
             <li class="uk-visible@s"><a href="/speakers">PALESTRANTES</a></li>
@@ -23,7 +22,7 @@ uk-position-relative"
             <li class="uk-visible@s"><a href="/help">AJUDA</a></li>
             <li><a class="uk-navbar-toggle" data-uk-toggle data-uk-navbar-toggle-icon href="#offcanvas-nav"></a></li>
           </ul>
-        </div> -->
+        </div>
       </nav>
     </div>
   </div>
@@ -47,13 +46,190 @@ uk-position-relative"
     </div>
   </div>
   <!-- /TEXT -->
-  <!-- FOOT -->
-  <div class="uk-position-bottom-center uk-position-small">
-  </div>
-  <!-- /FOOT -->
 </div>
+<!-- CONTENT -->
+<section class="uk-section uk-section-large uk-section-secondary capiconf-bg-primary">
+  <div class="uk-container uk-container-small uk-text-center">
+    <h1>Conteúdo++</h1>
+    <p class="uk-text-large">
+        Palestras apresentando cases do mundo real, entregues por palestrantes com experiências práticas, profissionais do desenvolvimento, liderança de times e gestão técnica, tudo isso em um ambiente propício para troca de experiências e contatos.
+    </p>
+    <div class="uk-text-center capiconf-center">
+        <div class="uk-grid-small" uk-grid uk-countdown="date: 2019-05-11T08:00:00+00:00">
+            <div>
+                <div class="uk-countdown-number uk-countdown-days"></div>
+                <div class="uk-countdown-label uk-margin-small uk-text-center uk-visible@s">Dias</div>
+            </div>
+            <div class="uk-countdown-separator">:</div>
+            <div>
+                <div class="uk-countdown-number uk-countdown-hours"></div>
+                <div class="uk-countdown-label uk-margin-small uk-text-center uk-visible@s">Horas</div>
+            </div>
+            <div class="uk-countdown-separator">:</div>
+            <div>
+                <div class="uk-countdown-number uk-countdown-minutes"></div>
+                <div class="uk-countdown-label uk-margin-small uk-text-center uk-visible@s">Minutos</div>
+            </div>
+            <div class="uk-countdown-separator">:</div>
+            <div>
+                <div class="uk-countdown-number uk-countdown-seconds"></div>
+                <div class="uk-countdown-label uk-margin-small uk-text-center uk-visible@s">Segundos</div>
+            </div>
+        </div>
+    </div>
+  </div>
+</section>
+<!-- speakers -->
+<section  class="uk-padding-large capiconf-bg-white">
+    <div class="uk-container uk-container-small uk-text-center">
+        <h1 class="capiconf-heading">Rockstars Speakers</h1>
+        <p class="uk-text-large capiconf-text">
+            Palestrantes e influenciadores que são reconhecidos nacionalmente como destaques em suas áreas de atuação.
+        </p>
+        <div class="uk-padding uk-grid uk-grid-small uk-child-width-1-3 uk-child-width-1-1@m uk-child-width-1-3@l uk-grid-match"
+        data-uk-lightbox="toggle:a.uk-position-cover"
+        data-uk-grid>
+            <div *ngFor="let item of speakers">
+                <!-- <div class="uk-card uk-card-default uk-card-hover uk-card-small">
+                  <div class="uk-card-media-top">
+                    <div class="uk-inline-clip uk-transition-toggle uk-light">
+                      <img src="{{ item.profilePhoto }}"
+                           alt="{{ item.name }} @ {{ item.position }}">
+                    </div>
+                  </div>
+                  <div class="uk-card-body">
+                    <h5 class="uk-margin-remove-bottom capiconf-text uk-text-bold">{{ item.name }}</h5>
+                    <span class="uk-text-meta capiconf-text uk-text-center">{{ item.position }}</span>
+                  </div>
+                  <div class="uk-card-footer"></div>
+                </div> -->
+                <div>
+                    <div class="uk-card uk-card-default uk-card-hover uk-card-small">
+                        <div class="uk-card-media-top">
+                            <img src="{{ item.profilePhoto }}"
+                           alt="{{ item.name }} @ {{ item.position }}">
+                        </div>
+                        <div class="uk-card-body">
+                            <h5 class="uk-card-title uk-margin-remove-bottom">{{ item.name }}</h5>
+                            <span class="uk-text-meta capiconf-text uk-text-center">{{ item.position }}</span>
+                        </div>
+                        <div class="uk-card-footer">
+                          <a *ngFor="let url of item.urls" href="{{ url.linkedin }}"
+                          target="_blank"
+                          title="{{ url.linkedin }}">
+                            <span class="capiconf-text" uk-icon="linkedin"></span>
+                          </a>
+                        </div>
+                    </div>
+                </div>
+              </div>
+        </div>
+    </div>
+</section>
+<!-- countdown -->
+<section class="uk-padding">
+    <div class="uk-child-width-expand@s uk-text-center" uk-grid>
+        <div>
+            <div class="uk-card uk-card-body">
+                <span uk-icon="icon: users; ratio: 3.5"></span>
+                <h1 class="uk-article-title">+840</h1>
+                <p class="uk-article-meta">Participantes</p>
+            </div>
+        </div>
+        <div>
+            <div class="uk-card uk-card-body uk-text-center">
+                <span uk-icon="icon: clock; ratio: 3.5"></span>
+                <h1 class="uk-article-title">+900</h1>
+                <p class="uk-article-meta">Minutos de conteúdo</p>
+            </div>
+        </div>
+        <div>
+            <div class="uk-card uk-card-body uk-text-center">
+                <span uk-icon="icon: calendar; ratio: 3.5"></span>
+                <h1 class="uk-article-title">02</h1>
+                <p class="uk-article-meta">Dias</p>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- PHOTOS -->
+<section>
+    <div class="uk-child-width-expand@s uk-padding-remove uk-margin-remove" uk-grid>
+      <div uk-lightbox class="uk-background-muted uk-padding-remove">
+          <a href="../../../assets/img/30167357_2139593752935742_8792859760783042036_o.jpg">
+          <img src="../../../assets/img/30167357_2139593752935742_8792859760783042036_o.jpg">
+          </a>
+      </div>
+      <div uk-lightbox class="uk-background-muted uk-padding-remove">
+          <a href="../../../assets/img/30167357_2139593752935742_8792859760783042036_o.jpg">
+          <img src="../../../assets/img/30167357_2139593752935742_8792859760783042036_o.jpg">
+          </a>
+      </div>
+      <div uk-lightbox class="uk-background-muted uk-padding-remove">
+          <a href="../../../assets/img/30167357_2139593752935742_8792859760783042036_o.jpg">
+          <img src="../../../assets/img/30167357_2139593752935742_8792859760783042036_o.jpg">
+          </a>
+      </div>
+      <div uk-lightbox class="uk-background-muted uk-padding-remove">
+          <a href="../../../assets/img/30167357_2139593752935742_8792859760783042036_o.jpg">
+          <img src="../../../assets/img/30167357_2139593752935742_8792859760783042036_o.jpg">
+          </a>
+      </div>
+    </div>
+    <div class="uk-child-width-expand@s uk-padding-remove uk-margin-remove" uk-grid>
+        <div uk-lightbox class="uk-background-muted uk-padding-remove">
+            <a href="../../../assets/img/30167357_2139593752935742_8792859760783042036_o.jpg">
+            <img src="../../../assets/img/30167357_2139593752935742_8792859760783042036_o.jpg">
+            </a>
+        </div>
+        <div uk-lightbox class="uk-background-muted uk-padding-remove">
+            <a href="../../../assets/img/30167357_2139593752935742_8792859760783042036_o.jpg">
+            <img src="../../../assets/img/30167357_2139593752935742_8792859760783042036_o.jpg">
+            </a>
+        </div>
+        <div uk-lightbox class="uk-background-muted uk-padding-remove">
+            <a href="../../../assets/img/30167357_2139593752935742_8792859760783042036_o.jpg">
+            <img src="../../../assets/img/30167357_2139593752935742_8792859760783042036_o.jpg">
+            </a>
+        </div>
+        <div uk-lightbox class="uk-background-muted uk-padding-remove">
+            <a href="../../../assets/img/30167357_2139593752935742_8792859760783042036_o.jpg">
+            <img src="../../../assets/img/30167357_2139593752935742_8792859760783042036_o.jpg">
+            </a>
+        </div>
+      </div>
+</section>
+<!-- speakers -->
+<section  class="uk-padding-large capiconf-bg-white">
+    <div class="uk-container uk-container-small uk-text-center">
+        <h1 class="capiconf-heading">Inscrições</h1>
+        <p class="uk-text-large capiconf-text">
+            Palestrantes e influenciadores que são reconhecidos nacionalmente como destaques em suas áreas de atuação.
+        </p>
+        <div class="uk-padding uk-grid uk-grid-small uk-child-width-1-2 uk-child-width-1-3@m uk-child-width-1-4@l uk-grid-match" data-uk-lightbox="toggle:a.uk-position-cover" data-uk-grid>
+            <!-- item -->
+            <div *ngFor="let item of speakers">
+                <div class="uk-card uk-card-default uk-card-small">
+                  <div class="uk-card-media-top">
+                    <div class="uk-inline-clip uk-transition-toggle uk-light">
+                      <img src="{{ item.profilePhoto }}"
+                           alt="{{ item.name }} @ {{ item.position }}">
+                    </div>
+                  </div>
+                  <div class="uk-card-header">
+                    <div class="uk-grid-small uk-flex uk-flex-middle" data-uk-grid>
+                      <div class="uk-width-expand">
+                        <h5 class="uk-margin-remove-bottom capiconf-text">{{ item.name }}</h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+    </div>
+</section>
 <!-- OFFCANVAS -->
-<!-- <div id="offcanvas-nav" data-uk-offcanvas="flip: true; overlay: false">
+<div id="offcanvas-nav" data-uk-offcanvas="flip: true; overlay: false">
   <div class="uk-offcanvas-bar uk-offcanvas-bar-animation uk-offcanvas-slide">
     <button class="uk-offcanvas-close uk-close uk-icon" type="button" data-uk-close></button>
     <ul class="uk-nav uk-nav-default">
@@ -76,5 +252,5 @@ uk-position-relative"
     <h3>Inscrições abertas</h3>
     <p>Você não pode perder o #CapiConf 2019, ele vem cheio de oportunidades de aprendizado e networking! Garanta seu ingresso com desconto comprando antecipadamente.</p>
   </div>
-</div> -->
+</div>
 <!-- /OFFCANVAS -->
