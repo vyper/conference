@@ -64,6 +64,22 @@ export const SPEAKERS = [
         { linkedin: 'https://www.linkedin.com/in/walmyrcarvalho/' }
       ]
     },
+    { order: 9,
+      name: 'Rodrigo Wanderley de Melo Cardoso',
+      profilePhoto: '../../../assets/img/speakers/poke.jpg',
+      position: 'Community Manager na iMasters & The Velopers',
+      urls: [
+        { linkedin: 'https://www.linkedin.com/in/pokemaobr/' }
+      ]
+    },
+    { order: 10,
+      name: 'Giovanni Bassi',
+      profilePhoto: '../../../assets/img/speakers/bassi.jpg',
+      position: 'Chief Software Architect @ Lambda3',
+      urls: [
+        { linkedin: 'https://www.linkedin.com/in/giovannibassi/' }
+      ]
+    },
   ];
 
 export const PHOTOS = [
