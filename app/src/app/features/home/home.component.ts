@@ -1,5 +1,5 @@
 import { Component, OnInit, Renderer } from '@angular/core';
-import { SPEAKERS } from './home.data';
+import { SPEAKERS, PHOTOS } from './home.data';
 
 @Component({
   selector: 'app-home',
@@ -9,6 +9,7 @@ import { SPEAKERS } from './home.data';
 export class HomeComponent implements OnInit {
 
   speakers = SPEAKERS;
+  photos = PHOTOS;
 
   constructor() {
     // tslint:disable-next-line:max-line-length
