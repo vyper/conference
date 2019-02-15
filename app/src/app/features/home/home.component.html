@@ -15,11 +15,12 @@ uk-position-relative">
         </div>
         <div class="uk-navbar-right">
           <ul class="uk-navbar-nav">
-            <li class="uk-visible@s"><a href="/about">CONHEÇA O EVENTO</a></li>
-            <li class="uk-visible@s"><a href="/speakers">PALESTRANTES</a></li>
-            <li class="uk-visible@s"><a href="/agenda">AGENDA</a></li>
-            <li class="uk-visible@s"><a href="/partners">Patrocínio e Apoio</a></li>
-            <li class="uk-visible@s"><a href="/help">AJUDA</a></li>
+            <!-- <li class="uk-visible@s"><a href="/about">CONHEÇA O EVENTO</a></li> -->
+            <!-- <li class="uk-visible@s"><a href="/speakers">PALESTRANTES</a></li> -->
+            <!-- <li class="uk-visible@s"><a href="/agenda">AGENDA</a></li> -->
+            <!-- <li class="uk-visible@s"><a href="/partners">Patrocínio e Apoio</a></li> -->
+            <!-- <li class="uk-visible@s"><a href="/help">AJUDA</a></li> -->
+            <li class="uk-visible@s"><a href="http://bit.ly/capiconf-2019-c4p" target="_blank">CALL 4 PAPERS</a></li>
             <li><a class="uk-navbar-toggle" data-uk-toggle data-uk-navbar-toggle-icon href="#offcanvas-nav"></a></li>
           </ul>
         </div>
@@ -36,14 +37,13 @@ uk-position-relative">
     <div class="uk-width-4-5@m uk-margin-auto animate uk-invisible">
       <p class="lead">Dois dias de troca de conhecimento, cultura e discussões sobre desenvolvimento!</p>
     </div>
-    <div class="uk-margin-medium-top animate uk-invisible" data-uk-margin data-uk-scrollspy-class="uk-animation-fade uk-invisible">
-      <a class="uk-button uk-button-default uk-button-large uk-width-2-3 uk-width-auto@s"
-      data-uk-icon="microphone"
-        title="Participe do nosso Call 4 Papers"
-        href="http://bit.ly/capiconf-2019-c4p">QUERO PALESTRAR</a>
-      <a class="uk-button uk-button-primary uk-button-large uk-width-2-3 uk-width-auto@s" data-uk-icon="check"
+    <div class="uk-margin-top animate uk-invisible" data-uk-margin data-uk-scrollspy-class="uk-animation-fade uk-invisible">
+      <a class="uk-button uk-button-primary uk-button-large uk-width-2-3 uk-width-auto@s" data-uk-icon="arrow-down"
       title="Quero fazer a minha inscrição logo!" href="http://bit.ly/capiconf-2019-inscricao">QUERO ME INSCREVER</a>
     </div>
+    <div class="uk-margin-top">
+        <span uk-icon="icon: arrow-down; ratio: 3"></span>
+      </div>
   </div>
   <!-- /TEXT -->
 </div>
@@ -89,20 +89,7 @@ uk-position-relative">
         <div class="uk-padding uk-grid uk-grid-small uk-child-width-1-3 uk-child-width-1-1@m uk-child-width-1-3@l uk-grid-match"
         data-uk-lightbox="toggle:a.uk-position-cover"
         data-uk-grid>
-            <div *ngFor="let item of speakers">
-                <!-- <div class="uk-card uk-card-default uk-card-hover uk-card-small">
-                  <div class="uk-card-media-top">
-                    <div class="uk-inline-clip uk-transition-toggle uk-light">
-                      <img src="{{ item.profilePhoto }}"
-                           alt="{{ item.name }} @ {{ item.position }}">
-                    </div>
-                  </div>
-                  <div class="uk-card-body">
-                    <h5 class="uk-margin-remove-bottom capiconf-text uk-text-bold">{{ item.name }}</h5>
-                    <span class="uk-text-meta capiconf-text uk-text-center">{{ item.position }}</span>
-                  </div>
-                  <div class="uk-card-footer"></div>
-                </div> -->
+          <div *ngFor="let item of speakers">
                 <div>
                     <div class="uk-card uk-card-default uk-card-hover uk-card-small">
                         <div class="uk-card-media-top">
@@ -122,8 +109,9 @@ uk-position-relative">
                         </div>
                     </div>
                 </div>
-              </div>
+          </div>
         </div>
+        <p class="uk-text-meta capiconf-text uk-text-center">* Palestrantes confirmados até o momento!</p>
     </div>
 </section>
 <!-- countdown -->
@@ -155,28 +143,13 @@ uk-position-relative">
 <!-- PHOTOS -->
 <section>
     <div class="uk-child-width-expand@s uk-padding-remove uk-margin-remove" uk-grid>
-      <div uk-lightbox class="uk-background-muted uk-padding-remove">
-          <a href="../../../assets/img/30167357_2139593752935742_8792859760783042036_o.jpg">
-          <img src="../../../assets/img/30167357_2139593752935742_8792859760783042036_o.jpg">
-          </a>
-      </div>
-      <div uk-lightbox class="uk-background-muted uk-padding-remove">
-          <a href="../../../assets/img/30167357_2139593752935742_8792859760783042036_o.jpg">
-          <img src="../../../assets/img/30167357_2139593752935742_8792859760783042036_o.jpg">
-          </a>
-      </div>
-      <div uk-lightbox class="uk-background-muted uk-padding-remove">
-          <a href="../../../assets/img/30167357_2139593752935742_8792859760783042036_o.jpg">
-          <img src="../../../assets/img/30167357_2139593752935742_8792859760783042036_o.jpg">
-          </a>
-      </div>
-      <div uk-lightbox class="uk-background-muted uk-padding-remove">
-          <a href="../../../assets/img/30167357_2139593752935742_8792859760783042036_o.jpg">
-          <img src="../../../assets/img/30167357_2139593752935742_8792859760783042036_o.jpg">
+      <div *ngFor="let item of photos" uk-lightbox class="uk-background-muted uk-padding-remove">
+          <a href="{{ item.path }}">
+          <img src="{{ item.path }}">
           </a>
       </div>
     </div>
-    <div class="uk-child-width-expand@s uk-padding-remove uk-margin-remove" uk-grid>
+    <!-- <div class="uk-child-width-expand@s uk-padding-remove uk-margin-remove" uk-grid>
         <div uk-lightbox class="uk-background-muted uk-padding-remove">
             <a href="../../../assets/img/30167357_2139593752935742_8792859760783042036_o.jpg">
             <img src="../../../assets/img/30167357_2139593752935742_8792859760783042036_o.jpg">
@@ -197,44 +170,141 @@ uk-position-relative">
             <img src="../../../assets/img/30167357_2139593752935742_8792859760783042036_o.jpg">
             </a>
         </div>
-      </div>
+    </div> -->
 </section>
-<!-- speakers -->
-<section  class="uk-padding-large capiconf-bg-white">
-    <div class="uk-container uk-container-small uk-text-center">
-        <h1 class="capiconf-heading">Inscrições</h1>
-        <p class="uk-text-large capiconf-text">
-            Palestrantes e influenciadores que são reconhecidos nacionalmente como destaques em suas áreas de atuação.
+<!-- inscricao -->
+<section  class="uk-section uk-section-muted uk-padding-remove-bottom">
+    <div class="uk-container uk-container-small">
+      <header class="uk-text-center">
+        <h1 class="uk-heading-primary capiconf-heading">Inscrições</h1>
+        <p class="uk-width-3-5 uk-margin-auto capiconf-text">
+           Confira os valores da inscrição na fase promocional
         </p>
-        <div class="uk-padding uk-grid uk-grid-small uk-child-width-1-2 uk-child-width-1-3@m uk-child-width-1-4@l uk-grid-match" data-uk-lightbox="toggle:a.uk-position-cover" data-uk-grid>
-            <!-- item -->
-            <div *ngFor="let item of speakers">
-                <div class="uk-card uk-card-default uk-card-small">
-                  <div class="uk-card-media-top">
-                    <div class="uk-inline-clip uk-transition-toggle uk-light">
-                      <img src="{{ item.profilePhoto }}"
-                           alt="{{ item.name }} @ {{ item.position }}">
-                    </div>
-                  </div>
-                  <div class="uk-card-header">
-                    <div class="uk-grid-small uk-flex uk-flex-middle" data-uk-grid>
-                      <div class="uk-width-expand">
-                        <h5 class="uk-margin-remove-bottom capiconf-text">{{ item.name }}</h5>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+      </header>
+      <div class="uk-grid uk-grid-small uk-child-width-1-2@m uk-margin-medium-top uk-grid-match"
+      data-uk-scrollspy="cls: uk-animation-slide-bottom-small; target: > div > .uk-card; delay: 200" data-uk-grid>
+        <!-- price -->
+        <div>
+          <div class="uk-card uk-card-default uk-card-hover uk-flex uk-flex-column" data-uk-scrollspy-class="uk-animation-slide-left-small">
+            <div class="uk-card-header uk-text-center">
+              <h4 class="uk-text-bold capiconf-heading uk-margin-remove-bottom">PROMOCIONAL</h4>
+              <h5 class="capiconf-text uk-margin-remove">
+                <em class="capiconf-text">para um dia de conferência</em></h5>
+            </div>
+            <div class="uk-card-body uk-flex-1">
+              <div class="uk-flex uk-flex-middle uk-flex-center">
+                <span style="font-size: 4rem; font-weight: 200; line-height: 1em">
+                  <span style="font-size: 0.5em">R$</span>115<small>.00</small>
+                </span>
               </div>
+              <ul>
+                <li>Um dia de palestras</li>
+                <li>Camiseta</li>
+                <li>Caneca</li>
+                <li>Adesivo</li>
+                <li>Gravações das palestras</li>
+                <li>Coffee breaks</li>
+                <li>Sorteio de brindes</li>
+              </ul>
+            </div>
+            <div class="uk-card-footer">
+              <a href="http://bit.ly/capiconf-2019-inscricao" class="uk-button uk-button-primary uk-width-1-1">INSCREVA-SE</a>
+            </div>
+          </div>
         </div>
+        <!-- /price -->
+
+        <!-- price -->
+        <div>
+            <div class="uk-card uk-card-default uk-card-hover uk-flex uk-flex-column" data-uk-scrollspy-class="uk-animation-slide-left-small">
+              <div class="uk-card-header uk-text-center">
+                <h4 class="uk-text-bold capiconf-heading uk-margin-remove-bottom">PROMOCIONAL</h4>
+                <h5 class="capiconf-text uk-margin-remove">
+                  <em class="capiconf-text">para dois de conferência</em></h5>
+              </div>
+              <div class="uk-card-body uk-flex-1">
+                <div class="uk-flex uk-flex-middle uk-flex-center">
+                  <span style="font-size: 4rem; font-weight: 200; line-height: 1em">
+                    <span style="font-size: 0.5em">R$</span>200<small>.00</small>
+                  </span>
+                </div>
+                <ul>
+                  <li>Dois dias de palestras</li>
+                  <li>Camiseta</li>
+                  <li>Caneca</li>
+                  <li>Adesivo</li>
+                  <li>Gravações das palestras</li>
+                  <li>Coffee breaks</li>
+                  <li>Sorteio de brindes</li>
+                </ul>
+              </div>
+              <div class="uk-card-footer">
+                <a href="http://bit.ly/capiconf-2019-inscricao" class="uk-button uk-button-primary uk-width-1-1">INSCREVA-SE</a>
+              </div>
+            </div>
+        </div>
+        <!-- /price -->
+      </div>
+      <div class="capiconf-text  uk-text-center uk-text-small uk-text-muted uk-section uk-section-small">
+        <p class="capiconf-text">Valores promocionais para inscrições realizadas até 10/03/2019</p>
+        <a href="http://bit.ly/capiconf-2019-inscricao" target="_blank"
+        title="Confira as fases e valores para garantir a sua vaga."
+          data-uk-icon="arrow-right"
+          data-uk-scroll="duration: 400"
+          class="uk-button uk-button-secondary uk-margin-medium-top uk-button-large">
+          Confira as fases e valores para garantir a sua vaga.
+        </a>
+      </div>
     </div>
 </section>
+<!--FOOTER-->
+<footer class="uk-section-secondary">
+    <div class="uk-container uk-section">
+      <div class="uk-grid uk-child-width-1-3@l" data-uk-grid>
+        <div>
+          <h4>#CapiConf 2019</h4>
+          <ul class="uk-list uk-list-bullet">
+            <li><a href="mailto:capivaracodes@gmail.com" title="Informações sobre Parceira e Patrocínio">Informações sobre Parceira e Patrocínio</a></li>
+            <li><a href="mailto:capivaracodes@gmail.com" title="Contato">Contato</a></li>
+            <li><a href="http://bit.ly/capiconf-2019-inscricao" title="Culpa qui officia">Inscrições</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4>Edições anteriores</h4>
+          <ul class="uk-list uk-list-bullet">
+            <li><a href="https://capiconf18.azurewebsites.net" title="#CapiConf 2018">2018</a></li>
+            <li><a href="https://capiconf17.azurewebsites.net" title="#CapiConf 2017">2017</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Social Media</h4>
+          <a href="http://facebook.com/capiconf" class="uk-icon-button  uk-margin-small-right" data-uk-icon="facebook"></a>
+          <a href="https://twitter.com/CapiConf/" class="uk-icon-button  uk-margin-small-right" data-uk-icon="twitter"></a>
+          <a href="https://www.instagram.com/CapiConf/" class="uk-icon-button" data-uk-icon="instagram"></a>
+        </div>
+      </div>
+    </div>
+    <div class="uk-section uk-section-xsmall" style="background-color: rgba(0,0,0,0.15)">
+      <div class="uk-container">
+        <div class="uk-grid uk-child-width-1-1@s uk-text-center" data-uk-grid>
+          <div class="uk-text-center uk-margin">
+              <img src="../../../assets/img/logo_capiconf.svg"
+               style="height:60px"
+               alt="#CapiConf 2019 Logo">
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!--/FOOTER-->
 <!-- OFFCANVAS -->
 <div id="offcanvas-nav" data-uk-offcanvas="flip: true; overlay: false">
   <div class="uk-offcanvas-bar uk-offcanvas-bar-animation uk-offcanvas-slide">
     <button class="uk-offcanvas-close uk-close uk-icon" type="button" data-uk-close></button>
     <ul class="uk-nav uk-nav-default">
       <li class="uk-active"><a href="#">#CapiConf 2019</a></li>
-      <li class="uk-parent">
+      <!-- <li class="uk-parent">
         <a href="/about">Conheça o Evento</a>
         <ul class="uk-nav-sub">
           <li><a href="#">Motivação</a></li>
@@ -247,7 +317,8 @@ uk-position-relative">
       <li class="uk-active"><a href="/agenda">Agenda</a></li>
       <li class="uk-active"><a href="/partners">Patrocínio e Apoio</a></li>
       <li class="uk-active"><a href="/help">Ajuda</a></li>
-      <li class="uk-active"><a href="/coc">Código de Conduta</a></li>
+      <li class="uk-active"><a href="/coc">Código de Conduta</a></li> -->
+            <li class="uk-active"><a href="http://bit.ly/capiconf-2019-c4p" target="_blank">CALL 4 PAPERS</a></li>
     </ul>
     <h3>Inscrições abertas</h3>
     <p>Você não pode perder o #CapiConf 2019, ele vem cheio de oportunidades de aprendizado e networking! Garanta seu ingresso com desconto comprando antecipadamente.</p>
