@@ -1,0 +1,47 @@
+<app-navbar></app-navbar>
+<!-- HERO -->
+<section class="uk-section uk-section-large uk-section-secondary uk-margin-top capiconf-uk-cover">
+  <div class="uk-container uk-container">
+    <h1>ROCKSTARS SPEAKERS</h1>
+    <p class="uk-text-large">Conheça os palestrantes da edição de 2019 do #CapiConf</p>
+  </div>
+</section>
+<!-- HERO -->
+<section class="uk-section uk-article uk-section-small">
+  <div class="uk-container uk-container">
+    <h2 class="uk-text-bold uk-h1 uk-margin-remove-adjacent uk-margin-remove-top">O que você pode esperar dos palestrantes de 2019?</h2>
+    <p class="uk-text-lead uk-margin-bottom">Palestras apresentando cases do mundo real apresentados por palestrantes com experiências práticas, que
+      realmente participaram das soluções apresentadas, profissionais do desenvolvimento, liderança de times e gestão
+      técnica, tudo isso em um ambiente propício para troca de experiências e contatos.</p>
+    <div class="uk-padding-small"></div>
+    <div class="uk-grid uk-grid-small uk-child-width-1-3 uk-child-width-1-1@m uk-child-width-1-4@l uk-grid-match"
+      uk-grid="masonry: true">
+      <div *ngFor="let item of speakers" class="uk-padding-small">
+        <div>
+          <div class=" uk-card uk-card-default uk-card-hover uk-card-small">
+            <div class="uk-card-media-top">
+              <img src="{{ item.profilePhoto }}" alt="{{ item.name }} @ {{ item.position }}" />
+            </div>
+            <div class="uk-card-body">
+              <h5 class="uk-card-title uk-margin-remove-bottom">
+                {{ item.name }}
+              </h5>
+              <span class="uk-text-meta capiconf-text uk-text-center">{{
+                item.position
+                }}</span>
+            </div>
+            <div class="uk-card-footer">
+              <a *ngFor="let url of item.urls" href="{{ url.linkedin }}" target="_blank" title="{{ url.linkedin }}">
+                <span class="capiconf-text" uk-icon="linkedin"></span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <p class="uk-text-meta capiconf-text">
+      * Palestrantes confirmados até o momento!
+    </p>
+  </div>
+</section>
+<app-tickets></app-tickets>
