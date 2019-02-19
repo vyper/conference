@@ -1,5 +1,6 @@
 import { Component, OnInit, Renderer } from '@angular/core';
 import { SPEAKERS, PHOTOS } from './home.data';
+import { NAVPAGES } from '../navbar/navigation.data';
 
 @Component({
   selector: 'app-home',
@@ -8,6 +9,7 @@ import { SPEAKERS, PHOTOS } from './home.data';
 })
 export class HomeComponent implements OnInit {
 
+  pages = NAVPAGES;
   speakers = SPEAKERS;
   photos = PHOTOS;
 
