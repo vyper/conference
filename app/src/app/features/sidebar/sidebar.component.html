@@ -17,17 +17,12 @@
           <li><a href="#">Paricipe do #CapiCoders</a></li>
           <li><a href="#">Localização</a></li>
         </ul>
-      </li>
-      <li class="uk-active"><a href="/speakers">Palestrantes</a></li>
-      <li class="uk-active"><a href="/agenda">Agenda</a></li>
-      <li class="uk-active"><a href="/partners">Patrocínio e Apoio</a></li>
-      <li class="uk-active"><a href="/help">Ajuda</a></li>
-      <li class="uk-active"><a href="/coc">Código de Conduta</a></li> -->
-      <li class="uk-active">
-        <a href="http://bit.ly/capiconf-2019-c4p" target="_blank"
-          >CALL 4 PAPERS</a
-        >
-      </li>
+      </li> -->
+      <ul class="uk-nav-sub">
+        <li *ngFor="let page of pages" class="uk-active">
+            <a title="{{ page.description | titlecase }}" href="{{ page.route }}">{{ page.title  }}</a>
+        </li>
+      </ul>
     </ul>
     <h3>Inscrições abertas</h3>
     <p>

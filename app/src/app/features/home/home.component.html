@@ -19,16 +19,9 @@ uk-position-relative"
         </div>
         <div class="uk-navbar-right">
           <ul class="uk-navbar-nav">
-            <!-- <li class="uk-visible@s"><a href="/about">CONHEÇA O EVENTO</a></li> -->
-            <!-- <li class="uk-visible@s"><a href="/speakers">PALESTRANTES</a></li> -->
-            <!-- <li class="uk-visible@s"><a href="/agenda">AGENDA</a></li> -->
-            <!-- <li class="uk-visible@s"><a href="/partners">Patrocínio e Apoio</a></li> -->
-            <!-- <li class="uk-visible@s"><a href="/help">AJUDA</a></li> -->
-            <li class="uk-visible@s">
-              <a href="http://bit.ly/capiconf-2019-c4p" target="_blank"
-                >CALL 4 PAPERS</a
-              >
-            </li>
+              <li class="uk-visible@s" *ngFor="let page of pages">
+                  <a title="{{ page.description }}" href="{{ page.route }}">{{ page.title }}</a>
+              </li>
             <li>
               <a
                 class="uk-navbar-toggle"

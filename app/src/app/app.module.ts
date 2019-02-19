@@ -8,6 +8,7 @@ import { RouterModule } from '@angular/router';
 import { FooterComponent } from './features/footer/footer.component';
 import { SidebarComponent } from './features/sidebar/sidebar.component';
 import { NavbarComponent } from './features/navbar/navbar.component';
+import { CodeOfConductComponent } from './features/code-of-conduct/code-of-conduct.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { NavbarComponent } from './features/navbar/navbar.component';
     HomeComponent,
     FooterComponent,
     SidebarComponent,
-    NavbarComponent
+    NavbarComponent,
+    CodeOfConductComponent
   ],
   imports: [
     BrowserModule,
