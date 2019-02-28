@@ -15,11 +15,11 @@ export class HomeComponent implements OnInit {
 
   constructor() {
     // tslint:disable-next-line:max-line-length
-     document.body.classList.add('uk-light');
-     document.body.classList.add('wrap');
-     document.body.classList.add('uk-background-norepeat');
-     document.body.classList.add('uk-background-secondary');
-     document.body.classList.add('capiconf-uk-cover');
+      document.body.classList.add('uk-light');
+    //  document.body.classList.add('wrap');
+      document.body.classList.add('uk-background-norepeat');
+      document.body.classList.add('uk-background-secondary');
+      document.body.classList.add('capiconf-uk-cover');
    }
 
   ngOnInit() {
