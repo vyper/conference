@@ -11,6 +11,8 @@ import { NavbarComponent } from './features/navbar/navbar.component';
 import { CodeOfConductComponent } from './features/code-of-conduct/code-of-conduct.component';
 import { SpeakersComponent } from './features/speakers/speakers.component';
 import { TicketsComponent } from './features/tickets/tickets.component';
+import { TalksComponent } from './features/talks/talks.component';
+import { AgendaComponent } from './features/agenda/agenda.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +23,9 @@ import { TicketsComponent } from './features/tickets/tickets.component';
     NavbarComponent,
     CodeOfConductComponent,
     SpeakersComponent,
-    TicketsComponent
+    TicketsComponent,
+    TalksComponent,
+    AgendaComponent
   ],
   imports: [
     BrowserModule,
