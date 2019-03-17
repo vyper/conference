@@ -6,5 +6,5 @@ export const NAVPAGES = [
     // { visible: false, title: 'Patrocínio e Apoio', route: '/partners', description: 'Patrocínio e Apoio' },
     // { visible: false, title: 'AJUDA', route: '/help', description: 'Precisa de ajuda? Aqui temos algumas respostas' },
     { visible: true, title: 'COC', route: '/code-of-conduct', description: 'Nosso código de conduta' },
-    { visible: true, title: 'CALL 4 PAPERS', route: 'http://bit.ly/capiconf-2019-c4p', description: '' },
+    //{ visible: true, title: 'CALL 4 PAPERS', route: 'http://bit.ly/capiconf-2019-c4p', description: '' },
 ];
