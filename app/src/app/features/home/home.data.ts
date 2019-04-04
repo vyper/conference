@@ -39,15 +39,6 @@ export const SPEAKERS = [
           { linkedin: 'https://www.linkedin.com/in/angelobelchior/' }
         ]
       },
-
-    { order: 6,
-      name: 'Joselito Júnior',
-      profilePhoto: '../../../assets/img/speakers/joselito.jpg',
-      position: 'OSS developer analyst @ Stone Payments',
-      urls: [
-        { linkedin: 'https://www.linkedin.com/in/joselitojunior/' }
-      ]
-    },
     { order: 7,
         name: 'Carlos dos Santos',
         profilePhoto: '../../../assets/img/speakers/carlao.jpg',
