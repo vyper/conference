@@ -1,6 +1,7 @@
 import { Component, OnInit, Renderer } from '@angular/core';
 import { SPEAKERS, PHOTOS } from './home.data';
 import { NAVPAGES } from '../navbar/navigation.data';
+import { shuffle } from 'src/app/utils/array.utils';
 
 @Component({
   selector: 'app-home',
@@ -10,7 +11,7 @@ import { NAVPAGES } from '../navbar/navigation.data';
 export class HomeComponent implements OnInit {
 
   pages = NAVPAGES;
-  speakers = SPEAKERS;
+  speakers = shuffle(SPEAKERS.slice(0, 8));
   photos = PHOTOS;
 
   constructor() {
