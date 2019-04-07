@@ -103,24 +103,29 @@ uk-position-relative">
       Palestrantes e influenciadores que são reconhecidos nacionalmente como
       destaques em suas áreas de atuação.
     </p>
-    <div class="uk-flex uk-flex-center" uk-grid>
+    <div class="uk-flex uk-flex-center"  uk-grid="masonry: true">
       <div class="uk-width-1-4@m uk-width-1-1@s" *ngFor="let item of speakers">
             <div class="uk-card uk-card-default uk-card-hover uk-card-small uk-margin-small">
               <div class="uk-card-media-top">
-                <img width="100%" src="{{ item.profilePhoto }}" alt="{{ item.name }} @ {{ item.position }}" />
+                <img width="100%" src="{{ item.speaker.avatar }}" alt="{{ item.name }} @ {{ item.position }}" />
               </div>
               <div class="uk-card-body">
                 <h5 class="uk-card-title uk-margin-remove-bottom">
-                  {{ item.name }}
+                  {{ item.speaker.name }}
                 </h5>
                 <span class="uk-text-meta capiconf-text uk-text-center">{{
-                  item.position
+                  item.speaker.position
                   }}</span>
               </div>
               <div class="uk-card-footer">
-                <a *ngFor="let url of item.urls" href="{{ url.linkedin }}" target="_blank" title="{{ url.linkedin }}">
-                  <span class="capiconf-text" uk-icon="linkedin"></span>
-                </a>
+                  <span *ngFor="let social of item.speaker.social" >
+                      <a *ngIf="social.url" href="{{ social.url }}" target="_blank">
+                        <span *ngIf="social.type === 'linkedin'" class="capiconf-text uk-margin-right	" uk-icon="linkedin"></span>
+                        <span *ngIf="social.type === 'facebook'" class="capiconf-text uk-margin-right	" uk-icon="facebook"></span>
+                        <span *ngIf="social.type === 'twitter'" class="capiconf-text uk-margin-right	" uk-icon="twitter"></span>
+                        <span *ngIf="social.type === 'github'" class="capiconf-text uk-margin-right	" uk-icon="github"></span>
+                      </a>
+                   </span>
               </div>
             </div>
       </div>
@@ -206,7 +211,6 @@ uk-position-relative">
     </div> -->
 </section>
 <app-tickets></app-tickets>
-
 <section class="uk-section uk-section-small uk-margin-remove uk-padding-remove capiconf-bg-white">
   <header class="uk-text-center uk-margin uk-padding">
     <h1 class="uk-heading-primary capiconf-heading">Patrocínio e Apoio</h1>

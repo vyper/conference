@@ -13,5 +13,5 @@ export function shuffle(arra1) {
         arra1[ctr] = arra1[index];
         arra1[index] = temp;
     }
-    return arra1;
+    return arra1.slice(0, 8);
 }
