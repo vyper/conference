@@ -13,6 +13,7 @@ import { SpeakersComponent } from './features/speakers/speakers.component';
 import { TicketsComponent } from './features/tickets/tickets.component';
 import { TalksComponent } from './features/talks/talks.component';
 import { AgendaComponent } from './features/agenda/agenda.component';
+import { FaqComponent } from './features/faq/faq.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { AgendaComponent } from './features/agenda/agenda.component';
     SpeakersComponent,
     TicketsComponent,
     TalksComponent,
-    AgendaComponent
+    AgendaComponent,
+    FaqComponent
   ],
   imports: [
     BrowserModule,

@@ -9,16 +9,11 @@
             <div class="uk-navbar-right uk-visible@m">
                 <ul class="uk-navbar-nav">
                     <li *ngFor="let page of pages" class="uk-active">
-                        <a title="{{ page.description }}" href="{{ page.route }}" >{{ page.title }}</a>
+                        <a title="{{ page.description }}" href="{{ page.route }}">{{ page.title }}</a>
                     </li>
                     <li>
-                            <a
-                              class="uk-navbar-toggle"
-                              data-uk-toggle
-                              data-uk-navbar-toggle-icon
-                              href="#offcanvas-nav"
-                            ></a>
-                          </li>
+                        <a class="uk-navbar-toggle" data-uk-toggle data-uk-navbar-toggle-icon href="#offcanvas-nav"></a>
+                    </li>
                 </ul>
             </div>
         </nav>
