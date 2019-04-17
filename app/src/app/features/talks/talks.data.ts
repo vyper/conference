@@ -295,7 +295,7 @@ export const TALKS = [
         description: 'Como reutilizar tags, reduzir o tamanho de um página html, isolamento da estilização. Criando componentes personalizados e facilmente atualizáveis. ',
         speaker: {
             name: 'Demys Cota de Lima',
-            avatar: '../../../assets/img/speakers/',
+            avatar: '../../../assets/img/speakers/demy.jpg',
             bio: 'Analista de Sistema pela contabilizei, formado em Sistemas de Informação e pós graduação em Lean Manufacturing',
             position: '',
             social: [
@@ -498,7 +498,7 @@ export const TALKS = [
         description: 'Hoje o Laravel vem crescendo muito no mundo do desenvolvimento WEB, ele trás diversas funcionalidades que auxiliam muito na hora de criar um simples CRUD. Nessa palestra quero demostrar como é possível criar facílmente um CRUD com Laravel e conectado em apenas 30 min.',
         speaker: {
             name: 'Gabriel Luiz Novaski',
-            avatar: '../../../assets/img/speakers/',
+            avatar: '../../../assets/img/speakers/gabriel.jpg',
             bio: 'Me chamo Gabriel Novaski, tenho 21 anos. Programo desde os 14 anos e trabalho com PHP a 4 anos, sendo 2 anos focados em Laravel. Estou no ultimo ano de Sistemas de informação e sou analista de sistemas na contabilizei.',
             position: '',
             social: [
@@ -927,4 +927,92 @@ export const TALKS = [
             ]
         }
     },
+    {
+      title: 'Construindo produtos em uma arquitetura de microsserviços no Nubank',
+      tags: ['software'],
+      description: 'Com o constante crescimento do Nubank, criar e evoluir um produto são desafios que os diversos times enfrentam. Este desafio fica ainda maior se esta arquitetura deve ser capaz de garantir a segurança e consistência necessárias ao mercado financeiro e, ao mesmo tempo, evitar uma abordagem monolítica centrada em um bancos de dados tradicional. Nessa palestra, iremos mostrar como construimos os produtos de empréstimo pessoal e do programa de pontos (Rewards).',
+      speaker: {
+          name: 'Marina Limeira',
+          avatar: '../../../assets/img/speakers/marina.jpg',
+          bio: 'Marina Limeira entrou no Nubank em 2017 como engenheira de software e trabalha usando diferentes linguagens no desenvolvimento do aplicativo (React Native) e dos serviços (Clojure) da empresa. Natural de Alagoas, já contribuiu para projetos da Mozilla Brasil e organizou duas edições do Rails Girls em Maceió.  ',
+          position: 'Software Engineer @ Nubank',
+          social: [
+              {
+                  url: 'https://www.linkedin.com/in/marina-limeira-27303888/',
+                  type: 'linkedin'
+              },
+              {
+                  url: '',
+                  type: 'twitter'
+              },
+              {
+                  url: '',
+                  type: 'facebook'
+              },
+              {
+                  url: '',
+                  type: 'github'
+              }
+          ]
+      }
+  },
+  {
+    title: 'Construindo produtos em uma arquitetura de microsserviços no Nubank',
+    tags: ['software'],
+    description: 'Com o constante crescimento do Nubank, criar e evoluir um produto são desafios que os diversos times enfrentam. Este desafio fica ainda maior se esta arquitetura deve ser capaz de garantir a segurança e consistência necessárias ao mercado financeiro e, ao mesmo tempo, evitar uma abordagem monolítica centrada em um bancos de dados tradicional. Nessa palestra, iremos mostrar como construimos os produtos de empréstimo pessoal e do programa de pontos (Rewards).',
+    speaker: {
+        name: 'Isabella Mendonça',
+        avatar: '../../../assets/img/speakers/isabella.jpg',
+        bio: 'Isabella Mendonça entrou no Nubank em 2017 como engenheira de software e trabalha usando diferentes linguagens no desenvolvimento dos serviços da empresa, como Clojure, Kafka e Datomic. Natural de Santos, organizou na primeira edição brasileira do Clojure Bridge em São Paulo. Atualmente estuda ciência da computação na USP e é Técnica em Computação pelo IFSP.',
+        position: 'Software Engineer @ Nubank',
+        social: [
+            {
+                url: 'https://www.linkedin.com/in/isamendonca/',
+                type: 'linkedin'
+            },
+            {
+                url: '',
+                type: 'twitter'
+            },
+            {
+                url: '',
+                type: 'facebook'
+            },
+            {
+                url: '',
+                type: 'github'
+            }
+        ]
+    },
+  },
+  {
+    title: 'Como criar sua carreria, sem recursos e sem apoios',
+    tags: ['software'],
+    description: '43% dos jovens periféricos desistem da escola antes dos 19 anos, 92% dos que concluem não sabem matemática, periféricos representam a minoria nas empresas. 2,8% das pessoas que acessam o StackOverflow são negras. Quase todo mundo que fala sobre carreira em tecnologia, teve vários recursos e apoio de várias pessoas. Bom, a vida não é bem assim e aqui você vai descobrir a realidade crua e nua - essa talk é sobre como eu escapei dessas estatísticas e fiz minha própria carreira com contas a pagar, comida pra por na mesa, sem recursos e sem expectativa.',
+    speaker: {
+        name: 'Matheus Hernandes Gonçalves',
+        avatar: '../../../assets/img/speakers/matheus.jpg',
+        bio: 'Eng de Software, community manager, podcaster & curioso sobre quase tudo. Amo StarWars, cervejas, rolês & história. fun fact: eu tenho um bot no twitter que posta fotos de capivara, @capivara_bot',
+        position: 'Community manager at @backend-br',
+        social: [
+            {
+                url: '',
+                type: 'linkedin'
+            },
+            {
+                url: 'https://twitter.com/onhernandes',
+                type: 'twitter'
+            },
+            {
+                url: '',
+                type: 'facebook'
+            },
+            {
+                url: 'https://github.com/onhernandes',
+                type: 'github'
+            }
+        ]
+    }
+  }
+
 ]
