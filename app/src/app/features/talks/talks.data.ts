@@ -237,7 +237,7 @@ export const TALKS = [
         description: 'Arquitetura de micro-serviços orientados a eventos estão tomando conta do desenvolvimento web, no estado da arte, mas esses conceitos ainda são difíceis de aprender e ainda mais de aplicar corretamente. Esta apresentação será no estilo hands-on.',
         speaker: {
             name: 'Cristóvão Diniz Trevisan',
-            avatar: '../../../assets/img/speakers/',
+            avatar: '../../../assets/img/speakers/cris.jpg',
             bio: 'Formado em engenharia eletrônica na UTFPR, desenvolvedor  ativo e CTO na ReactiveHub. Atualmente focado em frontend, microserviços e desenvolvimento multi-cloud. No tempo livre sou ator, músico e surfista.',
             position: '',
             social: [
@@ -353,7 +353,7 @@ export const TALKS = [
         description: 'Você adora "codar". Tem prazer em ficar focado por horas (sem ser interrompido, de preferência) escrevendo linhas de código para então, ver seu lindo software rodando (não de primeira, claro). Mas agora se viu em uma situação que exige habilidades que não tem tanta familiaridade: liderar um time! Você está começando uma jornada como empreendedor ou, quem sabe, seu time já te vê como líder e você nem percebeu, mas precisa assumir a posição. Qual a melhor forma de lidar com estas situações?',
         speaker: {
             name: 'Fabio Bacarin',
-            avatar: '../../../assets/img/speakers/',
+            avatar: '../../../assets/img/speakers/foto-perfil-contabilizei-square.jpg',
             bio: 'Cofundador e ex-CTO da Contabilizei, primeiro e maior escritório de contabilidade online para Micro e Pequenas Empresas. A Contabilizei proporciona aos seus +10k clientes, menos burocracia e mais facilidade, para que tenham maior controle e foco no seu próprio negócio. Como CTO na Contabilizei, formei e liderei times de tecnologia com +60 pessoas (Developers, Product Owners, QAs, Tech Leads, Managers). Sou formado em Ciências da Computação e especialista em Gestão de Tecnologia.  Empreendedor com mais de 18 anos de experiência em Tecnologia, tendo atuado em áreas como ERPs, governo e plataformas digitais.   ',
             position: '',
             social: [
@@ -382,7 +382,7 @@ export const TALKS = [
         description: 'Muito se fala de micro-serviços, nuvem, serviços escaláveis, porem existem muitos desafios e muita brincadeira para migrar um monolítico legado. Gostaria de compartilhar os desafios e os cuidados para não cair nas armadilhas dessa tendencia. ',
         speaker: {
             name: 'Fabio Claus Soares',
-            avatar: '../../../assets/img/speakers/',
+            avatar: '../../../assets/img/speakers/fabio_claus.jpg',
             bio: 'Amante de tecnologia e apaixonado por desenvolvimento, atualmente Head de Arquitetura e Desenvolvimento no Paraná Banco com vivencia em projetos ágeis e transformações digitais.',
             position: '',
             social: [
@@ -411,7 +411,7 @@ export const TALKS = [
         description: 'As aplicações mobile a cada dia vem incorporando ou compartilhando grandes funcionalidades com outras aplicações, e para facilitar o nosso dia-a-dia podemos modularizar as aplicações em libraries, features e bundles. Nessa talk vou mostrar quais os tipos de modularização disponíveis para aplicações Android e qual foi a estratégia que utilizamos na MaxMilhas para compartilhar features entre aplicações.',
         speaker: {
             name: 'Felipe Arimateia Terra Souza',
-            avatar: '../../../assets/img/speakers/',
+            avatar: '../../../assets/img/speakers/felipe.jpg',
             bio: 'Atualmente sou Head of Mobile na MaxMilhas, já trabalhei em grandes aplicações mobile para clientes nacionais e internacionais. Nos últimos anos, especializei-me na plataforma Android, dando cursos e palestras.',
             position: '',
             social: [
@@ -440,7 +440,7 @@ export const TALKS = [
         description: 'Serviços de backend, frontend ou api com traefik como proxy reverso. Uma maneira fácil de disponibilizar vários serviços em cluster com docker swarm..',
         speaker: {
             name: 'Felipe Francisco',
-            avatar: '../../../assets/img/speakers/',
+            avatar: '../../../assets/img/speakers/felipe_fran.jpg',
             bio: 'Sou felipecwb. Desenvolvedor web há 5 anos, troubleshooter, apaixonado por tecnologia, OpenSource, linux e afins. Procuro sempre ajudar a resolver problemas como escalabilidade, disponibilidade e performance da melhor maneira.',
             position: '',
             social: [
@@ -469,7 +469,7 @@ export const TALKS = [
         description: 'Nessa palestra será mostrado diversas maneiras de criar a esteira de Continuous Integration e Continuous Deployment de suas aplicações uitlizando Visual Studio, Azure DevOps e Azure. Não existe desculpa para os times não automatizarem o seu processo de entrega de software.',
         speaker: {
             name: 'Vinicius Jose de Moura',
-            avatar: '../../../assets/img/speakers/',
+            avatar: '../../../assets/img/speakers/vm.jpg',
             bio: 'MVP na categoria Developer Technologies desde 2015. ALM DevOps Rangers desde 2015. Criador e mantenedor do canal Azure DevOps Sprints no Youtube. Tem atuado há mais de 10 anos como consultor ALM DevOps, vivenciando diferentes cenários nas mais variadas empresas, ajudando os times na adoção de processos ágeis de desenvolvimento.',
             position: '',
             social: [
@@ -585,7 +585,7 @@ export const TALKS = [
         description: 'Palestra de cunho técnico e comportamental. A ideia é explorar uma situação cotidiana de um desenvolvedor frontend e exemplificar como uma abordagem TDD pode lhe beneficiar. Os exemplos serão realizados principalmente em React, mas a intenção é conversar com todos independente da tecnologia utilizada.',
         speaker: {
             name: 'Gustavo Camargo Bini',
-            avatar: '../../../assets/img/speakers/',
+            avatar: '../../../assets/img/speakers/gustavo_cam.jpg',
             bio: 'Trabalho exclusivamente como desenvolvedor no Paraná Banco, liderando o frontend do web app utilizado pelos nossos clientes.',
             position: '',
             social: [
@@ -672,7 +672,7 @@ export const TALKS = [
         description: 'Na era atual do desenvolvimento, a acessibilidade deve estar intrínseca a proposta de valor. Nessa palestra quero mostrar os principais problemas enfrentados, alguns bad e good cases e deixar um cookbook com diversas ferramentas para ajudar os devs a atingir a tão esperada acessibilidade - afinal, o valor deve ser entregue para todos.',
         speaker: {
             name: 'Julio Pavani Lozovei',
-            avatar: '../../../assets/img/speakers/',
+            avatar: '../../../assets/img/speakers/JulioPavaniLozovei.jpg',
             bio: 'Front-end developer desde que se conhece por gente, acredita que o impossível é apenas questão de vontade.',
             position: '',
             social: [
@@ -759,7 +759,7 @@ export const TALKS = [
         description: 'Você já deve ter ouvido falar que testes automatizados são importantes para uma aplicação, mas também já pode ter ouvido que escrever testes pode te deixar menos produtivo, pelo menos no início. Imagine o impacto disso em um ecossistema que já é complicado: Mobile para iOS e Android. Até que ponto isso é verdade? A partir de quando escrever testes compensa no mundo real? Graças a uma boa suite de testes escrita em C# e a utilização de Xamarin, eu fui capaz de reescrever meus apps iOS e Android inteiros em 1 noite, com 0 reports de bugs ou crashes. Nessa apresentação vou mostrar como utilizar uma solução Cross-Platform para mobile e escrever testes automatizados que te dão a segurança e produtividade para que você não sofra quando precisar reagir à mudanças, garantindo seu sucesso nas lojas da Apple e do Google.',
         speaker: {
             name: 'Mahmoud Ali',
-            avatar: '../../../assets/img/speakers/',
+            avatar: '../../../assets/img/speakers/mud.jpg',
             bio: 'Microsoft MVP, Desenvolvedor Web e Mobile, entusiasta open source, gamer e apreciador de boas cervejas.',
             position: '',
             social: [
@@ -788,7 +788,7 @@ export const TALKS = [
         description: 'Essa palestra não é tecnica, mas tem por objetivo estimular aquelas pessoas que tem o conhecimento técnico a passarem a contribuir para projetos de Software Livre e Código Aberto. Vou mostrar o que é Software Livre e Código Aberto para aqueles(as) desenvolvedores(as) que não conhecem, mostrando a história, filosofia, conceitos, diferenças e licenças.  Todo(a) desenvolvedor(a) pode contribuir com projetos de Software Livre e Código Aberto seja profissionalmente dentro de uma empresa ou apenas como hobby nas horas livres, independente da linguagem. A comunidade brasileira é bastante conhecida internacionalmente por ser grande usuária de softwares  livres e de código aberto, devemos passar a ser também grandes desenvolvedores de código aberto, e para isso precisamos desmistificar alguns conceitos e estimular os(as) desenvolvedores(as) que nunca conttribuiram para nenhum projeto.',
         speaker: {
             name: 'Paulo Henrique de Lima Santana',
-            avatar: '../../../assets/img/speakers/',
+            avatar: '../../../assets/img/speakers/foto-paulo.jpg',
             bio: 'Cientista da Computação pela UFPR, desde 2000 é um entusiasta de Software Livre participando de diversos grupos de atuação como o Projeto Debian, a Comunidade Curitiba Livre e a Associação Software Livre.Org. Trabalha com administração de redes e sistemas GNU/Linux em Curitiba, e no tempo livre organiza de eventos para a comunidade entre eles FLISOL, Software Freedom Day, Circuito Curitibano de Software Livre, e MiniDebConf Curitiba. Fui Curador de Software Livre da Campus Party Brasil, e atualmente sou Debian Developer colaborando no empacotamento de softwares para o Projeto Debian, e participo da organização a DebConf19 - evento mundial que acontecerá em 2019 em Curitiba.',
             position: '',
             social: [
@@ -875,7 +875,7 @@ export const TALKS = [
         description: 'Somos desenvolvedores de software e é de nossa natureza construir coisas novas. Sempre corremos atrás da nova revolução. Queremos reescrever todo o código, trocar o antigo pelo novo, ideal, estado da arte. Teríamos coragem para abraçar um caminho de evolução?',
         speaker: {
             name: 'Kalecser Kurtz',
-            avatar: '../../../assets/img/speakers/',
+            avatar: '../../../assets/img/speakers/Kalecser.png',
             bio: 'Kalecser é desenvolvedor de software desde 1999, especialista em testes automatizados e qualidade de software. Trabalha hoje no EBANX como gerente de desenvolvimento, tomando conta da plataforma tecnológica de pagamentos ajudando a conectar milhões de brasileiros com sites internacionais.',
             position: '',
             social: [
@@ -904,7 +904,7 @@ export const TALKS = [
         description: 'Como a integração do design do produto, growth marketing e customer success contribui na experiência do usuário.',
         speaker: {
             name: 'Sergio Coelho',
-            avatar: '../../../assets/img/speakers/',
+            avatar: '../../../assets/img/speakers/sergiocoelho.jpg',
             bio: 'Head de Experiência B2C no EBANX, designer de formação, com especialização em negócios, marketing e estratégia digital.',
             position: 'Head of Strategic Design & Marketing @ EBANX',
             social: [
@@ -1009,6 +1009,35 @@ export const TALKS = [
             },
             {
                 url: 'https://github.com/onhernandes',
+                type: 'github'
+            }
+        ]
+    }
+  },
+  {
+    title: 'Inteligência Artificial para Acessibilidade',
+    tags: ['ai'],
+    description: 'A inteligência artificial tem trazido grande impacto nos negócios mas ela também tem um poder muito grande de transformar vidas. Nesta palestra iremos ver alguns exemplos e como podemos utilizar o Azure Cognitive Services para atingirmos resultados parecidos em nossas aplicações.',
+    speaker: {
+        name: 'Angelo Belchior',
+        avatar: '../../../assets/img/speakers/angelo.jpg',
+        bio: 'Angelo Belchior é desenvolvedor há 15 anos, tendo participado de projetos desktop, web e agora mobile utilizando Xamarin. É  Microsoft MVP em AI e Developer Technologies, MCPD  em web e trabalha como Cloud Solution Architect.',
+        position: 'Lead Software Developer @ ESX',
+        social: [
+            {
+                url: 'https://www.linkedin.com/in/angelobelchior/',
+                type: 'linkedin'
+            },
+            {
+                url: '',
+                type: 'twitter'
+            },
+            {
+                url: '',
+                type: 'facebook'
+            },
+            {
+                url: '',
                 type: 'github'
             }
         ]
