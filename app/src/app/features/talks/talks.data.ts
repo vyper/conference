@@ -615,7 +615,7 @@ export const TALKS = [
         speaker: {
             name: 'Isabelle Gomes Samways',
             avatar: '../../../assets/img/speakers/Isabelle.jpg',
-            bio: 'Product Manager na Eadbox, autoditadata, aspirante a dev. Participante do Hacktoberfest, apoiadora do Colaboradados e proprietária do La Belle Pâtisserie. Transformo café e álcool em códigos e em docinhos.',
+            bio: 'Product Manager na Eadbox, autodidata, aspirante a dev. Participante do Hacktoberfest, apoiadora do Colaboradados e proprietária do La Belle Pâtisserie. Transformo café e álcool em códigos e em docinhos.',
             position: 'Product Manager Intern @ EADBOX',
             social: [
                 {
@@ -1043,5 +1043,151 @@ export const TALKS = [
         ]
     }
   }
-
+  ,
+  {
+    title: 'Projetos anticases... porque também é importante falar sobre o que deu errado.',
+    tags: ['mobile'],
+    description: 'Projetos não se tornam cases de sucesso somente por trabalharem com tecnologia de ponta. Situações cotidianas e decisões equivocadas podem contribuir para que um projeto que tem tudo pra dar certo, não dar tão certo assim.',
+    speaker: {
+        name: 'Oberdan Ferreira',
+        avatar: '../../../assets/img/speakers/oberdan-ferreira.jpg',
+        bio: 'Bacharel em Ciência da Computação pela, não faz merge de nenhum código pro master sem passar por revisão. Trabalha a mais de 8 anos com desenvolvimento de software utilizando .NET para clientes nacionais e internacionais e ultimamente se dedica ao desenvolvimento mobile com Xamarin. Atualmente é Principal Engineer na ArcTouch e desenvolve apps para grandes clientes do mercado americano ao mesmo tempo que ouve música pesada 🤘',
+        position: 'Principal Software Engineer @ ArcTouch',
+        social: [
+            {
+                url: 'https://www.linkedin.com/in/oberdanf/',
+                type: 'linkedin'
+            },
+            {
+                url: '',
+                type: 'twitter'
+            },
+            {
+                url: '',
+                type: 'facebook'
+            },
+            {
+                url: '',
+                type: 'github'
+            }
+        ]
+    }
+  }
+  ,
+  {
+    title: 'RxJava from Scratch: o guia do aprendizado.',
+    tags: ['mobile'],
+    description: 'RxJava chegou e veio para ficar. Mas, é um tanto complexo entendê-lo... não é mesmo? A curva de aprendizado de RxJava não é tão curta, mas não precisa se desesperar, aqui irei ensinar de forma simples como ele funciona para que você possa entender de uma vez por todas seu funcionamento mesmo que não seja um expert no assunto.',
+    speaker: {
+        name: 'Paula Caroline da Rosa',
+        avatar: '../../../assets/img/speakers/paulac.jpg',
+        bio: 'Desenvolvedora Android há 5 anos. Organizadora do GDG-Floripa e do Women Techmakers Floripa. Apaixonada por tecnologia e por compartilhar conhecimento.',
+        position: 'Android Developer @ ArcTouch',
+        social: [
+            {
+                url: 'https://www.linkedin.com/in/paularosa/',
+                type: 'linkedin'
+            },
+            {
+                url: '',
+                type: 'twitter'
+            },
+            {
+                url: '',
+                type: 'facebook'
+            },
+            {
+                url: '',
+                type: 'github'
+            }
+        ]
+    }
+  },
+  {
+    title: 'Os desafios no desenvolvimento de sistemas embarcados',
+    tags: ['mobile'],
+    description: 'Os sistemas embarcados fazem parte do dia-a-dia em praticamente todos os ambientes, desde o doméstico, comercial, transportes, industrial, médico, militar, espacial entre outros. Esses ambientes apresentam diferentes restrições e exigências, como por exemplo o baixo consumo de energia, a alta disponibilidade ou a alta confiabilidade. Esses requisitos criam um ambiente complexo e nessa palestra serão abordados alguns dos desafios e caminhos que podem ser seguidos pela equipe de desenvolvimento.',
+    speaker: {
+        name: 'Luiz Henrique Duma',
+        avatar: '../../../assets/img/speakers/luiz_henrique_duma.png',
+        bio: 'High committed professional with BSc in Eletronic Engineering, MBA in Project Management and Master Degree in Telecommunications Engineering',
+        position: 'Gerente de Embarcados @ Alta Rail Tecnology',
+        social: [
+            {
+                url: 'https://www.linkedin.com/in/luiz-henrique-duma-2b225ab/',
+                type: 'linkedin'
+            },
+            {
+                url: '',
+                type: 'twitter'
+            },
+            {
+                url: '',
+                type: 'facebook'
+            },
+            {
+                url: '',
+                type: 'github'
+            }
+        ]
+    }
+  },
+  {
+    title: 'Escalabilidade e Conteinerização de sistema monolíticos com microserviços e Docker',
+    tags: ['mobile'],
+    description: 'Microserviços e Docker estão na moda. Mas quem paga as contas de 95% das empresas hoje em dia são sistemas monolíticos gigantescos escritos em linguagens a muito tempo defasadas. Nessa palestra abordo como migrar esses sistemas utilizando Conteiners, Docker, IaaS e DevOps, para que eles se tornem resilientes, manuteníveis e escaláveis.  ',
+    speaker: {
+        name: 'Marco Gabriel',
+        avatar: '../../../assets/img/speakers/luiz_henrique_duma.png',
+        bio: 'Senior systems analyst with more than 13 years of experience in software analysis and development. International experience with several clients inside and outside the company.',
+        position: 'Analista de sistema @ Alta Rail Tecnology',
+        social: [
+            {
+                url: 'https://www.linkedin.com/in/marcogabriel/',
+                type: 'linkedin'
+            },
+            {
+                url: '',
+                type: 'twitter'
+            },
+            {
+                url: '',
+                type: 'facebook'
+            },
+            {
+                url: '',
+                type: 'github'
+            }
+        ]
+    }
+  },
+  {
+    title: 'Escalabilidade e Conteinerização de sistema monolíticos com microserviços e Docker',
+    tags: ['mobile'],
+    description: 'Microserviços e Docker estão na moda. Mas quem paga as contas de 95% das empresas hoje em dia são sistemas monolíticos gigantescos escritos em linguagens a muito tempo defasadas. Nessa palestra abordo como migrar esses sistemas utilizando Conteiners, Docker, IaaS e DevOps, para que eles se tornem resilientes, manuteníveis e escaláveis.  ',
+    speaker: {
+        name: 'Joselito Jr',
+        avatar: '../../../assets/img/speakers/joselito.jpg',
+        bio: 'I am a software engineer, consultant, and public speaker currently based in Rio de Janeiro, Brazil. My interests range from technology to entrepreneurship. I love travelling, web development, and burritos.',
+        position: 'Stone',
+        social: [
+            {
+                url: '',
+                type: 'linkedin'
+            },
+            {
+                url: 'https://twitter.com/breakzplatform',
+                type: 'twitter'
+            },
+            {
+                url: '',
+                type: 'facebook'
+            },
+            {
+                url: 'https://github.com/breakzplatform',
+                type: 'github'
+            }
+        ]
+    }
+  }
 ]
