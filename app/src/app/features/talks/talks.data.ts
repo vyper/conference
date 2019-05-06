@@ -1138,7 +1138,7 @@ export const TALKS = [
     description: 'Microserviços e Docker estão na moda. Mas quem paga as contas de 95% das empresas hoje em dia são sistemas monolíticos gigantescos escritos em linguagens a muito tempo defasadas. Nessa palestra abordo como migrar esses sistemas utilizando Conteiners, Docker, IaaS e DevOps, para que eles se tornem resilientes, manuteníveis e escaláveis.  ',
     speaker: {
         name: 'Marco Gabriel',
-        avatar: '../../../assets/img/speakers/luiz_henrique_duma.png',
+        avatar: '../../../assets/img/speakers/marco.jpg',
         bio: 'Senior systems analyst with more than 13 years of experience in software analysis and development. International experience with several clients inside and outside the company.',
         position: 'Analista de sistema @ Alta Rail Tecnology',
         social: [
