@@ -321,11 +321,11 @@ export const TALKS = [
     {
         title: 'Design Thinking para não-designers: Como aplicar em projetos de T.I.?',
         tags:['Design Thinking', 'Cases','Developer stories'],
-        description: 'Como reutilizar tags, reduzir o tamanho de um página html, isolamento da estilização. Criando componentes personalizados e facilmente atualizáveis. ',
+        description: 'Uma nova prática altamente utilizada por empresas e por diversas áreas e que agora ganha espaço na gestão de TI. Esta metodologia favorece com que a equipe melhore sua performance e ganhe maior visão de como melhorar produtos e serviços, além de como criar novos. Então, que tal saber como aplicar esse tal de Design Thinking?',
         speaker: {
             name: 'Eluana Sievert Cardoso',
             avatar: '../../../assets/img/speakers/eluana.jpg',
-            bio: 'Uma nova prática altamente utilizada por empresas e por diversas áreas e que agora ganha espaço na gestão de TI. Esta metodologia favorece com que a equipe melhore sua performance e ganhe maior visão de como melhorar produtos e serviços, além de como criar novos. Então, que tal saber como aplicar esse tal de Design Thinking?',
+            bio: 'Técnica em Automação Industrial, Tecnóloga em Mecatrônica Industrial e Pós Graduanda em Gestão de Projetos. Atua no ramo de engenharia ferroviária há 4 anos. É entusiasta sobre equidade de gênero na tecnologia, indústria 4.0, movimento maker e tecnologia. Ama a natureza, tempo de qualidade com amigos e sua filha de quatro patas: Godiva.',
             position: 'Design Engineer @ Alta Rail Technology',
             social: [
                 {
@@ -1185,6 +1185,35 @@ export const TALKS = [
             },
             {
                 url: 'https://github.com/breakzplatform',
+                type: 'github'
+            }
+        ]
+    }
+  },
+  {
+    title: 'Criando uma aplicação serverless com CQRS, Azure Functions, Blob Storage e CosmosDB',
+    tags: ['CQRS','Azure', 'CosmosDB'],
+    description: 'A arquitetura serverless é uma arquitetura voltada para pequenas aplicações com o foco de ser extremamente rápida, escalável e de baixo custo. Nesta palestra pretendo demonstrar boas práticas e como aproveitar os recursos da Microsoft Azure para construir uma aplicação ideal.',
+    speaker: {
+        name: 'Rafael Turino',
+        avatar: '../../../assets/img/speakers/turino.png',
+        bio: 'Sou aficionado por tecnologia, games e programação. Trabalho com desenvolvimento a mais de 10 anos, com tecnologias como .NET, Mobile e WEB.',
+        position: 'Software Engineer @ ArcTouch',
+        social: [
+            {
+                url: 'https://www.linkedin.com/in/trturino/',
+                type: 'linkedin'
+            },
+            {
+                url: '',
+                type: 'twitter'
+            },
+            {
+                url: '',
+                type: 'facebook'
+            },
+            {
+                url: 'https://github.com/trturino',
                 type: 'github'
             }
         ]
