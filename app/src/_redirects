@@ -1,7 +1,7 @@
 # Redirects from what the browser requests to what we serve
-/home              /
-/code-of-conduct  /
-/agenda          /
-/speakers         /
-/talks            /
-/faq            /
+/home              /index.html
+/code-of-conduct  /index.html
+/agenda          /index.html
+/speakers         /index.html
+/talks            /index.html
+/faq            /index.html
