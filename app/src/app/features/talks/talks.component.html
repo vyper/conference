@@ -1,0 +1,50 @@
+<app-navbar></app-navbar>
+<!-- HERO -->
+<section class="uk-section uk-section-large uk-section-secondary uk-margin-top capiconf-uk-cover">
+  <div class="uk-container uk-container">
+    <h1>Palestras</h1>
+    <p class="uk-text-large">Todas as palestras confirmadas :)</p>
+  </div>
+</section>
+<!-- HERO -->
+<section class="uk-section uk-article uk-section-small">
+  <div class="uk-container uk-container">
+    <h2 class="uk-text-bold uk-h1 uk-margin-remove-adjacent uk-margin-remove-top">O que você pode esperar das Palestras?</h2>
+    <p class="uk-text-lead uk-margin-bottom">Cases do mundo real apresentados por palestrantes com experiências práticas, que
+      realmente participaram das soluções apresentadas.</p>
+    <div class="uk-padding-small"></div>
+    
+    <div class="uk-flex uk-flex-center" uk-grid>
+      <div class="uk-width-1-1@m uk-width-1-1@s" *ngFor="let item of talks">
+            <div class="uk-card uk-card-default uk-card-hover uk-card-small uk-margin-small">
+              <div class="uk-card-media-top">
+                <!-- <img width="100%" src="{{ item.profilePhoto }}" alt="{{ item.name }} @ {{ item.position }}" /> -->
+              </div>
+              <div class="uk-card-body">
+                <h5 class="uk-card-title uk-margin-remove-bottom">
+                  {{ item.title }}
+                </h5>
+                <span class="uk-text-meta capiconf-text uk-text-center">{{
+                  item.description
+                  }}</span>
+                  <div class="uk-margin-top">
+                    <span class="uk-badge uk-margin-right" *ngFor="let tag of item.tags">{{tag | uppercase }}</span>
+                  </div>
+              </div>
+              <div class="uk-card-footer">
+                  <b class="capiconf-text" data-uk-tooltip title="{{ item.speaker.bio }}" style="cursor:pointer">
+                  {{ item.speaker.name }}
+                  </b>
+                <!-- <a *ngFor="let url of item.urls" href="{{ url.linkedin }}" target="_blank" title="{{ url.linkedin }}">
+                  <span class="capiconf-text" uk-icon="linkedin"></span>
+                </a> -->
+              </div>
+            </div>
+      </div>
+    </div>
+    <p class="uk-text-meta capiconf-text">
+      * Palestras confirmadas até o momento!
+    </p>
+  </div>
+</section>
+<app-tickets></app-tickets>
