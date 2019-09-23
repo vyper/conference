@@ -1,32 +1,23 @@
 
 		<!-- TOP -->
-		<div class="top-wrap uk-position-relative uk-light uk-background-secondary">
-
+		<div id="start" class="top-wrap uk-position-relative uk-light uk-background-secondary">
 			<!-- NAV -->
 			<div class="nav" data-uk-sticky="cls-active: uk-background-secondary uk-box-shadow-medium; top: 100vh; animation: uk-animation-slide-top">
 				<div class="uk-container">
 					<nav class="uk-navbar uk-navbar-container uk-navbar-transparent" data-uk-navbar>
 						<div class="uk-navbar-left">
 							<div class="uk-navbar-item uk-padding-remove-horizontal">
-								<a class="uk-logo" title="Logo" href=""><img src="img/marketing-logo.svg" alt="Logo"></a>
+								<a class="uk-logo" title="Logo" href=""><img src="../../../assets/logo_dark_bg.svg" alt="Logo #CapiConf"></a>
 							</div>
 						</div>
 						<div class="uk-navbar-right">
 							<ul class="uk-navbar-nav uk-visible@s">
-								<li class="uk-active uk-visible@m"><a href="" data-uk-icon="home"></a></li>
-								<li><a href="">Features</a></li>
-								<li>
-									<a href="#" data-uk-icon="chevron-down">Products</a>
-									<div class="uk-navbar-dropdown">
-										<ul class="uk-nav uk-navbar-dropdown-nav">
-											<li><a href="#">Big Data</a></li>
-											<li><a href="#">Marketing</a></li>
-											<li><a href="#">Analytics</a></li>
-											<li><a href="#">AI Lab</a></li>
-										</ul>
-									</div>
-								</li>
-								<li><a href="">Testimonials</a></li>
+								<li class="uk-active uk-visible@m"><a href="#start" data-uk-scroll="duration: 500" data-uk-icon="home"></a></li>
+                <li><a href="" data-uk-scroll="duration: 500">Agenda</a></li>
+                <li><a href="" data-uk-scroll="duration: 500">Palestrantes</a></li>
+                <li><a href="" data-uk-scroll="duration: 500">Localização</a></li>
+                <li><a href="#sponsors" data-uk-scroll="duration: 500">Patrocinadores</a></li>
+                <li><a href="" data-uk-scroll="duration: 500">Dúvidas</a></li>
 							</ul>
 							<a class="uk-navbar-toggle uk-navbar-item uk-hidden@s" data-uk-toggle data-uk-navbar-toggle-icon href="#offcanvas-nav"></a>
 						</div>
@@ -36,25 +27,24 @@
 			<!-- /NAV -->
 
 			<div class="uk-cover-container uk-light uk-flex uk-flex-middle top-wrap-height">
-
-				<!-- TOP CONTAINER -->
-				<div class="uk-container uk-flex-auto top-container uk-position-relative uk-margin-medium-top" data-uk-parallax="y: 0,50; easing:0; opacity:0.2">
-					<div class="uk-width-1-2@s" data-uk-scrollspy="cls: uk-animation-slide-right-medium; target: > *; delay: 150">
-						<h6 class="uk-text-primary uk-margin-small-bottom">RESEARCH</h6>
-						<h1 class="uk-margin-remove-top">Innovation in your hands.</h1>
-						<p class="subtitle-text uk-visible@s">Tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-						quis nostrud exercitation ullamco </p>
-						<a href="#" title="Learn More" class="uk-button uk-button-primary uk-border-pill" data-uk-scrollspy-class="uk-animation-fade">LEARN MORE</a>
-					</div>
-				</div>
+        <!--- TOP CONTAINER -->
+          <div class="uk-container uk-flex-auto top-container uk-position-relative uk-margin-medium-top" data-uk-parallax="y: 0,50; easing:0; opacity:0.2">
+            <div data-uk-grid="">
+              <div class="uk-width-1-5@m uk-visible@l" data-uk-scrollspy="cls: uk-animation-slide-right-medium; target: > *; delay: 150">
+                  <img src="../../../assets/logo_round_normal.svg" alt="#CapiConf Logo" />
+              </div>
+              <div class="uk-width-1-1@s uk-width-1-2@l" data-uk-scrollspy="cls: uk-animation-slide-right-medium; target: > *; delay: 150">
+                  <h3 class="uk-text-primary uk-margin-small-bottom">{{ conference.date }}</h3>
+                  <h1 class="uk-margin-remove-top">{{ conference.description }}</h1>
+                  <p class="subtitle-text ">{{ conference.highlight }}</p>
+                  <a href="#tickets" title="INSCREVA-SE" class="uk-button uk-button-primary uk-border-pill custom-button" data-uk-scroll="duration: 500" data-uk-scrollspy-class="uk-animation-fade">INSCREVA-SE</a>
+              </div>
+            </div>
+          </div>
 				<!-- /TOP CONTAINER -->
-				<!-- TOP IMAGE -->
-				<img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-srcset="https://picsum.photos/640/700/?image=816 640w,
-				https://picsum.photos/960/700/?image=816 960w,
-				https://picsum.photos/1200/900/?image=816 1200w,
-				https://picsum.photos/2000/1000/?image=816 2000w"
-				data-sizes="100vw"
-				data-src="https://picsum.photos/1200/900/?image=816" alt="" data-uk-cover data-uk-img data-uk-parallax="opacity: 1,0.1; easing:0"
+        <!-- TOP IMAGE -->
+				<img src="https://images.unsplash.com/flagged/photo-1563536314719-2e812e896f50?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80"
+				alt="" data-uk-cover data-uk-img data-uk-parallax="opacity: 0.5,0.1; easing:0"
 				>
 				<!-- /TOP IMAGE -->
 			</div>
@@ -216,14 +206,62 @@
 
 				</div>
 			</div>
-		</section>
-		<!-- BOTTOM -->
-		<section class="uk-section uk-section-default">
+    </section>
+    <!-- tickets -->
+		<section id="tickets" class="uk-cover-container overlay-wrap">
+        <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-srcset="https://picsum.photos/640/650/?image=770 640w,
+        https://picsum.photos/960/650/?image=770 960w,
+        https://picsum.photos/1200/650/?image=770 1200w,
+        https://picsum.photos/2000/650/?image=770 2000w"
+        data-sizes="100vw"
+        data-src="https://picsum.photos/1200/650/?image=770" alt="" data-uk-cover data-uk-img
+        >
+        <div class="uk-container uk-position-z-index uk-position-relative uk-section uk-section-xlarge uk-light">
+          <div class="uk-grid uk-flex-right">
 
-			<div class="uk-container uk-container-xsmall uk-text-center uk-section uk-padding-remove-top">
-				<h5 class="uk-text-primary">ANALYTICS</h5>
-				<h2 class="uk-margin-remove uk-h1">Know the behavior of your potential customers.</h2>
-			</div>
+            <div class="uk-width-2-5@m" data-uk-parallax="y: 50,-50; easing: 0; media:@l">
+              <h6>TESTIMONIALS</h6>
+              <div class="uk-position-relative uk-visible-toggle uk-light" data-uk-slider="easing: cubic-bezier(.16,.75,.47,1)">
+                <ul class="uk-slider-items uk-child-width-1-1">
+                  <li>
+                    <div data-uk-slider-parallax="opacity: 0.2,1,0.2">
+                      <h2 class="uk-margin-small-top">"Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur"</h2>
+                      <p class="uk-text-meta">Lorena Smith, founder of Some Cool Startup</p>
+                    </div>
+                  </li>
+                  <li>
+                    <div data-uk-slider-parallax="opacity: 0.2,1,0.2">
+                      <h2 class="uk-margin-small-top">"Aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur"</h2>
+                      <p class="uk-text-meta">Lorena Smith, founder of Some Cool Startup</p>
+                    </div>
+                  </li>
+                  <li>
+                    <div data-uk-slider-parallax="opacity: 0.2,1,0.2">
+                      <h2 class="uk-margin-small-top">"Irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur"</h2>
+                      <p class="uk-text-meta">Lorena Smith, founder of Some Cool Startup</p>
+                    </div>
+                  </li>
+                </ul>
+                <ul class="uk-slider-nav uk-dotnav uk-margin-top"><li></li></ul>
+
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+    <!-- tickets -->
+		<!-- SPONSORS -->
+		<section id="sponsors" class="uk-section uk-section-default">
+
+      <div class="uk-container uk-container-xsmall uk-text-center uk-section uk-padding-remove-top">
+				<h5 class="uk-text-primary">PATROCÍNIO</h5>
+        <h1 class="uk-margin-remove uk-h1">QUER DEIXAR A SUA MARCA NO #CAPICONF?</h1>
+        <h2>
+            Entre em contato pelo email
+           <a class="custom-dark-link" href="mailto:sponsors@capiconf.com">sponsors@capiconf.com</a>
+        </h2>
+      </div>
 			<div class="uk-container">
 				<div class="uk-grid uk-grid-large uk-child-width-1-3@m" data-uk-grid data-uk-scrollspy="target: > div; delay: 150; cls: uk-animation-slide-bottom-medium">
 					<div class="uk-text-center">
@@ -258,11 +296,28 @@
 					</div>
 
 				</div>
-			</div>
+      </div>
+      <div class="uk-margin-large"></div>
+      <div class="uk-margin-large-top uk-container uk-container-xsmall uk-text-center uk-section uk-padding-remove-top">
+          <h5 class="uk-text-primary">APOIO</h5>
+          <h3 class="uk-margin-remove">Instituições, organizações e comunidades que apoiam a comunidade de desenvolvedores do Paraná.</h3>
+      </div>
+      <div class="uk-container">
+          <div class="uk-grid uk-grid-large uk-child-width-1-3@m" data-uk-grid data-uk-scrollspy="target: > div; delay: 150; cls: uk-animation-slide-bottom-medium">
+            <div class="uk-text-center">
+            </div>
+            <div class="uk-text-center">
+              <a href="https://universidade.up.edu.br/" target="_blank"><img src="../../../assets/sponsors/universidade_positivo.png" data-src="img/marketing-4.svg" data-uk-img alt="UNIVERSIDADE POSITIVO"></a>
+            </div>
+            <div class="uk-text-center">
+            </div>
+          </div>
+        </div>
+        <div class="uk-margin-large"></div>
 		</section>
-		<!-- BOTTOM -->
+		<!-- /SPONSORS -->
 		<!-- LOGOS -->
-		<div class="uk-section uk-section-small uk-section-muted">
+		<!-- <div class="uk-section uk-section-small uk-section-muted">
 			<div class="uk-container uk-container-small">
 				<div class="uk-grid uk-child-width-1-4 uk-child-width-expand@m logos-grid" data-uk-grid data-uk-scrollspy="cls: uk-animation-scale-down; target: > div > img; delay: 100">
 					<div>
@@ -291,54 +346,29 @@
 					</div>
 				</div>
 			</div>
-		</div>
+		</div> -->
 		<!-- /LOGOS -->
 		<!-- FOOTER -->
 		<footer class="uk-section uk-section-secondary uk-padding-remove-bottom">
 			<div class="uk-container">
 				<div class="uk-grid uk-grid-large" data-uk-grid>
+          <div  class="uk-width-1-6@m">
+              <img class="uk-height-small" src="../../../assets/logo_round_normal.svg" alt="#CapiConf Logo" />
+          </div>
 					<div class="uk-width-1-2@m">
-						<h5>OUR COMPANY</h5>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud cillum dolore eu fugiat nulla contact to: <a href="#" title="">info@company.com</a></p>
+						<p>O #CapiConf é um grande encontro de pessoas, comunidades e entusiastas de TI. O evento teve sua primeira edição em 2014 e desde então vem abordando os principais tópicos e temáticas de interesse das comunidades tecnicas.</p>
 						<div>
-							<a href="" class="uk-icon-button" data-uk-icon="twitter"></a>
-							<a href="" class="uk-icon-button" data-uk-icon="facebook"></a>
-							<a href="" class="uk-icon-button" data-uk-icon="instagram"></a>
-						</div>
+							<a href="http://twitter.com/capiconf" target="_blank" class="uk-icon-button" data-uk-icon="twitter"></a>
+							<a href="https://facebook.com/capiconf/" target="_blank" class="uk-icon-button" data-uk-icon="facebook"></a>
+							<a href="https://instagram.com/capiconf/" target="_blank" class="uk-icon-button" data-uk-icon="instagram"></a>
+            </div>
+            <p>Hero photo by <a href="https://unsplash.com/@joeel56" target="_blank">Nicole Wolf</a> on Unsplash</p>
 					</div>
-					<div class="uk-width-1-6@m">
-						<h5>PRODUCTS</h5>
-						<ul class="uk-list">
-							<li>Big Data</li>
-							<li>Marketing</li>
-							<li>Analytics</li>
-							<li>AI Lab</li>
-						</ul>
-					</div>
-					<div class="uk-width-1-6@m">
-						<h5>OUR COMPANY</h5>
-						<ul class="uk-list">
-							<li>Team</li>
-							<li>Work</li>
-							<li>Culture</li>
-							<li>Contact Us</li>
-						</ul>
-					</div>
-					<div class="uk-width-1-6@m">
-						<h5>OUR OFFICES</h5>
-						<ul class="uk-list">
-							<li>London</li>
-							<li>Chicago</li>
-							<li>Dubai</li>
-							<li>Brussels</li>
-						</ul>
-					</div>
-
 				</div>
 			</div>
 
 			<div class="uk-text-center uk-padding uk-padding-remove-horizontal">
-				<span class="uk-text-small uk-text-muted">© 2019 Marketing Layout - <a href="https://github.com/zzseba78/Kick-Off">Created by KickOff</a> | Built with <a href="http://getuikit.com" title="Visit UIkit 3 site" target="_blank" data-uk-tooltip><span data-uk-icon="uikit"></span></a></span>
+				<span class="uk-text-small uk-text-muted">© 2020 #everydaycapybara | We <span data-uk-icon="heart"></span> Community</span>
 			</div>
 		</footer>
 		<!-- /FOOTER -->
@@ -360,9 +390,13 @@
 					<li><a href="#"><span class="uk-margin-small-right uk-icon" data-uk-icon="icon: thumbnails"></span> Item</a></li>
 					<li class="uk-nav-divider"></li>
 					<li><a href="#"><span class="uk-margin-small-right uk-icon" data-uk-icon="icon: trash"></span> Item</a></li>
-				</ul>
-				<h3>Title</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          <li class="uk-nav-header">Edição anteriores</li>
+          <li><a href="/code-of-conduct">2019</a></li>
+          <li><a href="/code-of-conduct">2018</a></li>
+          <li><a href="/code-of-conduct">2017</a></li>
+        </ul>
+				<h3>Sobre</h3>
+				<p>O #CapiConf é um grande encontro de pessoas, comunidades e entusiastas de TI. O evento teve sua primeira edição em 2014 e desde então vem abordando os principais tópicos e temáticas de interesse das comunidades tecnicas.</p>
 			</div>
 		</div>
 		<!-- /OFFCANVAS -->

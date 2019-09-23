@@ -51,3 +51,21 @@
 	margin: 0 auto;
 	filter:  grayscale(0);
 }
+
+.custom-button {
+  background: linear-gradient(45deg, #FF0E5A 0%, #FF6001 100%);
+  color: #FFF;
+}
+
+.custom-button:hover {
+  color:#FAFAFA;
+}
+
+.uk-text-primary,  {
+  color:#FF273F !important;
+}
+
+.custom-dark-link {
+  color:#333333 !important;
+  text-decoration: underline;
+}
