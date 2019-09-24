@@ -27,6 +27,11 @@
     padding: 0.5rem 1rem;
     background-color: rgba(0, 0, 0, 0.04);
 }
+
+.uk-subnav-pill > .uk-active > a {
+  background: linear-gradient(75deg, #FF0E5A 0%, #FF6001 100%);
+}
+
 .top-container {
 	z-index: 2;
 }
@@ -87,6 +92,11 @@
 
 .custom-dark-link {
   color:#333333 !important;
+  text-decoration: underline;
+}
+
+.custom-white-link {
+  color:#FFFFFF !important;
   text-decoration: underline;
 }
 
