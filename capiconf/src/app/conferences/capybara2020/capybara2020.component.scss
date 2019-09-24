@@ -54,8 +54,7 @@
 
 .custom-button {
   background: linear-gradient(45deg, #FF0E5A 0%, #FF6001 100%);
-  color: #FFF;
-  font-size: 1.4rem;
+  color: #FFF !important;
 }
 
 .custom-inverted-button {
@@ -76,11 +75,14 @@
 
 .custom-button:hover {
   color:#FAFAFA;
-  opacity: 0.8;
 }
 
-.uk-text-primary  {
+.uk-text-primary, h4.uk-text-primary  {
   color:#FF273F !important;
+}
+
+.uk-text-primary-white  {
+  color:#FFF !important;
 }
 
 .custom-dark-link {
@@ -88,7 +90,7 @@
   text-decoration: underline;
 }
 
-#location, .bg-alternate {
+.bg-alternate {
   background: #FAFAFA;
 }
 
@@ -99,4 +101,9 @@
 
 .counter {
   background: linear-gradient(45deg, #FF0E5A 0%, #FF6001 100%);
+}
+
+
+.custom-mini-text {
+  font-size: 0.8rem;
 }
