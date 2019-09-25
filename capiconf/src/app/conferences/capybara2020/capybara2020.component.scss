@@ -1,9 +1,9 @@
 .nav {
 	position: absolute;
-	top: 15px;
+	top: 0;
 	z-index: 99;
 	left: 0;
-  right: 0;
+	right: 0;
 }
 .uk-sticky-placeholder {
 	height: 0 !important;
@@ -16,13 +16,17 @@
 	bottom: 0;
 	content: '';
 	z-index: 1;
-	background-color: rgba(0,0,0,0.5);
 }
 .top-wrap-height {
 	height: 80vh;
-	min-height: 580px;
+	min-height: 460px;
 	transition: height 0.25s;
 }
+
+.hero-bg {
+  background: url(../../../assets/hero-bg.svg);
+}
+
 .uk-subnav-pill > * > :first-child {
     padding: 0.5rem 1rem;
     background-color: rgba(0, 0, 0, 0.04);
