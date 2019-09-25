@@ -4,9 +4,9 @@ import { Capybara2020Component } from './conferences/capybara2020/capybara2020.c
 
 
 const routes: Routes = [
-  { path: '', redirectTo: '/2020', pathMatch: 'full' },
-  { path: '2020', component: Capybara2020Component },
-  { path: '**', redirectTo: '/2020' },
+  { path: '', redirectTo: '/2020/start', pathMatch: 'full' },
+  { path: '2020/start', component: Capybara2020Component },
+  { path: '**', redirectTo: '/2020/start' },
 ];
 
 @NgModule({
