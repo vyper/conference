@@ -32,17 +32,16 @@
     <!-- TOP CONTAINER -->
     <div class="uk-container uk-flex-auto top-container uk-position-relative uk-margin-medium-top" data-uk-parallax="y: 0,50; easing:0; opacity:0.2">
      <div uk-grid class="uk-grid">
-        <div class="uk-width-1-5@s uk-visible@m uk-margin-large-right uk-margin-top">
-            <img class="uk-margin-large-bottom" src="../../../assets/logo_round_normal.svg" alt="Logo #CapiConf">
-          </div>
-      <div class="uk-width-1-2@s" data-uk-scrollspy="cls: uk-animation-slide-right-medium; target: > *; delay: 150">
-        <h5 class="uk-margin-small-bottom">Curitiba, {{ conference.date }}</h5>
-        <h1 class="uk-margin-remove-top uk-margin-small-bottom">{{ conference.description }}</h1>
-        <p class="subtitle-text">{{ conference.highlight }}</p>
-        <a href="#tickets" title="INSCREVA-SE" class="uk-button uk-button-primary uk-border-pill"
-            data-uk-scroll="duration: 500" data-uk-scrollspy-class="uk-animation-fade">INSCREVA-SE</a>
+       <div class="uk-width-1-4@m uk-visible@m uk-margin-large-right uk-margin-top" data-uk-scrollspy="cls: uk-animation-slide-right-medium; target: > *; delay: 150">
+          <img class="uk-margin-large-bottom" src="../../../assets/logo_round_normal.svg" alt="Logo #CapiConf">
       </div>
-
+       <div class="uk-width-expand@m" data-uk-scrollspy="cls: uk-animation-slide-right-medium; target: > *; delay: 150">
+          <h4 class="uk-margin-small-bottom uk-text-lighter">CURITIBA, {{ conference.date | uppercase }}</h4>
+          <h1 class="uk-margin-remove-top uk-margin-remove-bottom"><span class="uk-text-lighter">O </span> <span class="uk-text-bolder">MAIOR EVENTO</span> <span class="uk-text-lighter"> PARA </span> <span class="uk-text-bolder">PESSOAS DESENVOLVEDORAS</span>  <span class="uk-text-lighter"> DO PARANÁ. </span></h1>
+          <h2 class="subtitle-text uk-margin-small-top uk-margin-large-bottom uk-text-lighter">{{ conference.highlight }}</h2>
+          <a href="#tickets" title="INSCREVA-SE" class="uk-button uk-button-primary uk-border-pill uk-button-large tickets-button"
+              data-uk-scroll="duration: 500" data-uk-scrollspy-class="uk-animation-fade">INSCREVA-SE</a>
+        </div>
      </div>
     </div>
   </div>
@@ -122,7 +121,8 @@
                   <img src="../../../assets/savemoney.png" alt="">
               </div>
               <div data-uk-scrollspy-class="uk-animation-slide-right-medium">
-                <h2 class="uk-margin-small-top">Menor preço nas inscrições</h2>
+                <h6 class="uk-text-primary uk-margin-remove-bottom">NOVIDADES</h6>
+                <h2 class="uk-margin-small-top"><b>MENOR PREÇO</b> NAS INSCRIÇÕES</h2>
                 <p>
                     Muitos participantes da edição de 2019 responderam em nossas pesquisas e formulários de feedbacks que o valor da inscrição estava alto, que não existia opção de meia entrada e nem opção de inscrição sem brindes (camiseta, caneca e adesivos).
                 </p>
@@ -148,7 +148,8 @@
             <img src="../../../assets/half.png" alt="">
           </div>
           <div data-uk-scrollspy-class="uk-animation-slide-right-medium">
-            <h2 class="uk-margin-small-top">Meia entrada</h2>
+            <h6 class="uk-text-primary uk-margin-remove-bottom">NOVIDADES</h6>
+            <h2 class="uk-margin-small-top"><b>MEIA</b> ENTRADA</h2>
             <p>
                 Muitos participantes da edição de 2019 responderam em nossas pesquisas e formulários de feedbacks que o valor da inscrição estava alto, que não existia opção de meia entrada.
             </p>
@@ -156,10 +157,12 @@
                 Diante disso além do menor valor para inscrição todas as opções de inscrição agora possuem meia entrada, para:
             </p>
             <div class="uk-grid uk-child-width-1-2@s" data-uk-grid>
+                <div>
                 <ul>
                   <li>Estudantes;</li>
                   <li>Não estudantes desde que seja doado uma lata de leite em pó no dia do evento.</li>
                 </ul>
+                </div>
             </div>
           </div>
         </div>
@@ -172,7 +175,8 @@
             <img src="../../../assets/date.png" alt="">
           </div>
           <div data-uk-scrollspy-class="uk-animation-slide-right-medium">
-            <h2 class="uk-margin-small-top">Inscrições antecipadas</h2>
+            <h6 class="uk-text-primary uk-margin-remove-bottom">NOVIDADES</h6>
+            <h2 class="uk-margin-small-top">INSCRIÇÕES <b>ANTECIPADAS</b></h2>
             <p>
                 Outros feedbacks foram relacionados ao período disponível para fazer a inscrição no evento, muitos participantes solicitaram mais tempo para poder efetuar a inscrição, como o inicio do ano não é financeiramente fácil nós brasileiros, ter mais tempo para se planejar e poder ir ao evento ajudaria muita pessoas.
             </p>
@@ -189,7 +193,8 @@
             <img src="../../../assets/location.png" alt="">
           </div>
           <div data-uk-scrollspy-class="uk-animation-slide-right-medium">
-            <h2 class="uk-margin-small-top">Novo local</h2>
+              <h6 class="uk-text-primary uk-margin-remove-bottom">NOVIDADES</h6>
+              <h2 class="uk-margin-small-top"><b>NOVO</b> LOCAL</h2>
             <p>
                 Ficou claro para nós da organização que apesar do auditório das edições anteriores ser excelente, não existia muito espação para circulação externa o que deixava o processo de credenciamento muito complicado, e limitava a participação de empresas que gostariam de interagir de forma mais próxima com a comunidade.
             </p>
