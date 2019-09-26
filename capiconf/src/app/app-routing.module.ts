@@ -6,11 +6,11 @@ import { CocComponent } from './conferences/coc/coc.component';
 
 
 const routes: Routes = [
-  { path: '', redirectTo: '2020/start', pathMatch: 'full' },
-  { path: '2020/start', component: Capybara2020Component },
-  { path: '2020/faq', component: Capybara2020faqComponent },
+  { path: '', redirectTo: 'start', pathMatch: 'full' },
+  { path: 'start', component: Capybara2020Component },
+  { path: 'faq', component: Capybara2020faqComponent },
   { path: 'coc', component: CocComponent },
-  { path: '**', redirectTo: '2020/start' },
+  { path: '**', redirectTo: '/' },
 ];
 
 @NgModule({
