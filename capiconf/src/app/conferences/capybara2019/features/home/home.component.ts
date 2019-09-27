@@ -1,5 +1,5 @@
 import { Component, OnInit, Renderer } from '@angular/core';
-import { SPEAKERS, PHOTOS } from './home.data';
+import { PHOTOS } from './home.data';
 import { NAVPAGES } from '../navbar/navigation.data';
 import { shuffle } from '../../utils/array.utils';
 import { TALKS } from '../talks/talks.data';
@@ -11,7 +11,7 @@ import { TALKS } from '../talks/talks.data';
 })
 export class HomeComponent implements OnInit {
   pages = NAVPAGES;
-  speakers = shuffle(TALKS.filter(this.hasRealAvatar));
+  speakers = TALKS;
   photos = PHOTOS;
 
   constructor() {

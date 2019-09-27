@@ -1,3 +1,11 @@
+.nav {
+	position: absolute;
+	top: 0;
+	z-index: 99;
+	left: 0;
+	right: 0;
+}
+
 .capiconf-uk-cover {
     background-image: url("/assets/2019/img/cover.jpg");
     height: 100%;
