@@ -1,7 +1,6 @@
 import { Component, OnInit, Renderer } from '@angular/core';
 import { PHOTOS } from './home.data';
 import { NAVPAGES } from '../navbar/navigation.data';
-import { shuffle } from '../../utils/array.utils';
 import { TALKS } from '../talks/talks.data';
 
 @Component({
