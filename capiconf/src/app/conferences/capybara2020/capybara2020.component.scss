@@ -1,0 +1,150 @@
+.nav {
+	position: absolute;
+	top: 0;
+	z-index: 99;
+	left: 0;
+	right: 0;
+}
+.uk-sticky-placeholder {
+	height: 0 !important;
+}
+.top-wrap::before, .overlay-wrap::before {
+	position: absolute;
+	top:0;
+	right:0;
+	left: 0;
+	bottom: 0;
+	content: '';
+	z-index: 1;
+}
+.top-wrap-height {
+	height: 80vh;
+	min-height: 460px;
+	transition: height 0.25s;
+}
+
+.hero-bg {
+  background: url(../../../assets/hero-bg.svg),linear-gradient(180deg,#222 30.12%,#000 192.47%);
+}
+
+.tickets-button {
+ background: #FFF !important;
+ color:#FF0E5A !important;
+}
+
+.uk-subnav-pill > * > :first-child {
+    padding: 0.5rem 1rem;
+    background-color: rgba(0, 0, 0, 0.04);
+}
+
+.uk-subnav-pill > .uk-active > a {
+  background: linear-gradient(75deg, #FF0E5A 0%, #FF6001 100%);
+}
+
+.top-container {
+	z-index: 2;
+}
+.uk-logo img {
+	height: 38px;
+}
+.subtitle-text {
+	font-size: 1.2em;
+	opacity: 0.7;
+	font-weight: 300;
+}
+.logos-grid img {
+	display: block;
+	width: 60px;
+	margin: 0 auto;
+	filter:  grayscale(100%);
+	transition: filter 0.25s;
+}
+.logos-grid img:hover {
+	display: block;
+	width: 60px;
+	margin: 0 auto;
+	filter:  grayscale(0);
+}
+
+.custom-button {
+  background: linear-gradient(45deg, #FF0E5A 0%, #FF6001 100%);
+  color: #FFF !important;
+}
+
+.custom-inverted-button {
+  border: 1px solid;
+  background: transparent;
+  border-color: linear-gradient(45deg, #FF0E5A 0%, #FF6001 100%);
+  color: #FFF;
+  font-size: 1.4rem;
+}
+
+.custom-inverted-button:hover {
+  border: 1px solid;
+  background: transparent;
+  color: #FFF;
+  font-size: 1.4rem;
+  opacity: 0.5;
+}
+
+.custom-button:hover {
+  color:#FAFAFA;
+}
+
+.uk-text-primary, h4.uk-text-primary  {
+  color:#FF273F !important;
+}
+
+.uk-text-primary-white  {
+  color:#FFF !important;
+}
+
+.custom-dark-link {
+  color:#333333 !important;
+  text-decoration: underline;
+}
+
+.custom-white-link {
+  color:#FFFFFF !important;
+  text-decoration: underline;
+}
+
+.bg-alternate {
+  background: #FAFAFA;
+}
+
+.force-center {
+  display: flex;
+  justify-content: center;
+}
+
+.counter {
+  background: url(../../../assets/hero-bg.svg), linear-gradient(45deg, #FF0E5A 0%, #FF6001 100%);
+}
+
+
+.custom-mini-text {
+  font-size: 0.8rem;
+}
+
+
+.faq-bg {
+  background: #151515;
+}
+
+.faq-header {
+  cursor: pointer;
+}
+
+.video-button {
+  background: transparent !important;
+  border:1px solid #FAFAFA !important;
+  color: #FAFAFA !important;
+}
+
+.palestrantes-logo {
+  width: auto;
+  height: auto;
+  max-width: 30%;
+  max-height: 3rem;
+}
