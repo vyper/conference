@@ -1,0 +1,65 @@
+.capiconf-uk-cover {
+    background-image: url("/assets/2019/img/cover.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.capiconf-bg-primary {
+    background-color: #35096A;
+}
+
+.capiconf-bg-assent {
+    background-color: #FF1744;
+}
+
+.capiconf-center {
+    display: flex;
+    justify-content: center;
+}
+
+.capiconf-bg-white {
+    background-color: #fff;
+}
+
+.capiconf-bg-gray {
+    background-color: #f6f6f6;
+}
+
+
+.capiconf-heading {
+    color: #300563 !important;
+}
+
+.capiconf-text {
+    color: #333  !important;
+}
+
+.uk-logo img {
+    margin-top: 18px;
+    height: 68px;
+}
+
+.uk-text-meta {
+    color: #666 !important;
+}
+
+.wrap::before {
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    content: '';
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+
+  .lead {
+    font-size: 1.175em;
+    font-weight: 300;
+  }
+
+  .uk-button-primary-speakers {
+    background-color: #35096A !important;
+    color: #FFF !important;
+}

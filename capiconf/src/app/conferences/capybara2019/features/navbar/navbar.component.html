@@ -1,0 +1,22 @@
+<!--HEADER https://github.com/zzseba78/Kick-Off/blob/master/album.html -->
+<header>
+    <div class="uk-container">
+        <nav class="uk-navbar-transparent" data-uk-navbar>
+            <div class="uk-navbar-left">
+                <a class="uk-navbar-item uk-logo" href="/home">
+                    <img src="/assets/2019/img/logo_capiconf_color.svg" alt="EBANX apresenta #CapiConf 2019" /></a>
+            </div>
+            <div class="uk-navbar-right uk-visible@m">
+                <ul class="uk-navbar-nav">
+                    <li *ngFor="let page of pages" class="uk-active">
+                        <a title="{{ page.description }}" href="{{ page.route }}">{{ page.title }}</a>
+                    </li>
+                    <li>
+                        <a class="uk-navbar-toggle" data-uk-toggle data-uk-navbar-toggle-icon href="#offcanvas-nav"></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+</header>
+<!--/HEADER-->

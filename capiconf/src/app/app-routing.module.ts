@@ -1,20 +1,29 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { Capybara2020Component } from './conferences/capybara2020/capybara2020.component';
-import { Capybara2020faqComponent } from './conferences/capybara2020faq/capybara2020faq.component';
 import { CocComponent } from './conferences/coc/coc.component';
-
 
 const routes: Routes = [
   { path: '', redirectTo: '2020/start', pathMatch: 'full' },
-  { path: '2020/start', component: Capybara2020Component },
-  { path: '2020/faq', component: Capybara2020faqComponent },
-  { path: 'coc', component: CocComponent },
+  {
+    path: '2020',
+    loadChildren: () =>
+      import(`./conferences/capybara2020/capybara2020.module`).then(
+        m => m.Capybara2020Module,
+      ),
+  },
+  {
+    path: '2019',
+    loadChildren: () =>
+      import(`./conferences/capybara2019/capybara2019.module`).then(
+        m => m.Capybara2019Module,
+      ),
+  },
   { path: '**', redirectTo: '2020/start' },
+  { path: 'coc', component: CocComponent },
 ];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule]
+  exports: [RouterModule],
 })
-export class AppRoutingModule { }
+export class AppRoutingModule {}
