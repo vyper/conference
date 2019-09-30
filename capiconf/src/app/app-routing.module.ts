@@ -18,8 +18,8 @@ const routes: Routes = [
         m => m.Capybara2019Module,
       ),
   },
-  { path: '**', redirectTo: '2020/start' },
   { path: 'coc', component: CocComponent },
+  { path: '**', redirectTo: '2020/start' },
 ];
 
 @NgModule({

@@ -21,7 +21,7 @@
             <li><a href="#sponsors" data-uk-scroll="duration: 500">Patrocinadores</a></li>
             <li><a href="#support" data-uk-scroll="duration: 500">Apoio</a></li>
             <li><a href="#help" data-uk-scroll="duration: 500">Dúvidas</a></li>
-            <li><a href="/coc">COC</a></li>
+            <li><a [routerLink]="['/coc']">COC</a></li>
           </ul>
           <a class="uk-navbar-toggle uk-navbar-item uk-hidden@s" data-uk-toggle data-uk-navbar-toggle-icon
             href="#offcanvas-nav"></a>
@@ -629,7 +629,7 @@
   <div class="uk-container uk-section uk-padding-remove-top">
     <h1 class="uk-text-center">FALE CONOSCO</h1>
     <h3 class="uk-text-center uk-width-3-4 uk-margin-auto uk-margin-medium-bottom">
-      <a href="/faq">👉🏼 Aqui</a> você encontra as perguntas frequentes sobre o #CapiConf.</h3>
+      <a [routerLink]="['/2020/faq']">👉🏼 Aqui</a> você encontra as perguntas frequentes sobre o #CapiConf.</h3>
     <div class="uk-container">
       <div>
         <iframe
@@ -663,7 +663,7 @@
         <p>Edições anteriores</p>
         <div>
          <ul>
-          <li><a href="/2019/start">2019</a></li>
+          <li><a [routerLink]="['/2019/start']">2019</a></li>
           <li> <a href="/2018/index.html" title="#CapiConf 2018">2018</a></li>
           <!-- <li><a href="/2017/start">2017</a></li> -->
          </ul>
@@ -694,7 +694,7 @@
         </ul>
       </li>
       <li class="uk-nav-header">Edições anteriores</li>
-      <li><a href="2019/start">2019</a></li>
+      <li><a [routerLink]="['/2019/start']">2019</a></li>
       <li><a href="/2018/index.html" title="#CapiConf 2018">2018</a></li>
       <!-- <li><a href="/2017/start">2017</a></li> -->
     </ul>
