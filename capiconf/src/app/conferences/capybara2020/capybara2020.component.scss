@@ -5,6 +5,11 @@
 	left: 0;
 	right: 0;
 }
+.inc-button {
+  width: 180px !important;
+  font-size: 1.2em;
+}
+
 .uk-sticky-placeholder {
 	height: 0 !important;
 }
@@ -18,13 +23,15 @@
 	z-index: 1;
 }
 .top-wrap-height {
-	height: 80vh;
+	height: 86vh;
 	min-height: 460px;
 	transition: height 0.25s;
 }
 
 .hero-bg {
-  background: url(../../../assets/hero-bg.svg),linear-gradient(180deg,#222 30.12%,#000 192.47%);
+  background:linear-gradient(180deg,#222 30.12%,#000 192.47%);
+  background-size: cover;
+  content: "";
 }
 
 .tickets-button {

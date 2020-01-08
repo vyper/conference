@@ -9,10 +9,22 @@ import { CONFERENCE } from './data';
 export class Capybara2020Component implements OnInit {
 
   conference = CONFERENCE;
+  bgImages = [
+    { path: '../../../assets/bg_person.jpg' },
+    { path: '../../../assets/bg_person_02.jpg' },
+    { path: '../../../assets/bg_person_03.jpg' },
+    { path: '../../../assets/bg_person_04.jpg' },
+    { path: '../../../assets/bg_person_05.jpg' }
+  ]
 
   constructor() { }
 
   ngOnInit() {
+  }
+
+  radomHeroBackground() {
+    let rdn = Math.floor(Math.random() * this.bgImages.length) + 0;
+    return `url(${this.bgImages[rdn].path})`;
   }
 
 }

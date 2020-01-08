@@ -20,6 +20,7 @@
             <li><a href="#location" data-uk-scroll="duration: 500">Localização</a></li>
             <li><a href="#sponsors" data-uk-scroll="duration: 500">Patrocinadores</a></li>
             <li><a href="#support" data-uk-scroll="duration: 500">Apoio</a></li>
+            <li><a href="https://www.sympla.com.br/capiconf-2020-o-maior-evento-para-pessoas-desenvolvedoras-do-parana__661963">INSCREVA-SE</a></li>
             <li><a href="#help" data-uk-scroll="duration: 500">Dúvidas</a></li>
             <li><a [routerLink]="['/coc']">COC</a></li>
           </ul>
@@ -30,7 +31,7 @@
     </div>
   </div>
   <!-- /NAV -->
-  <div class="uk-cover-container uk-light uk-flex uk-flex-middle top-wrap-height hero-bg">
+  <div class="uk-cover-container uk-light uk-flex uk-flex-middle top-wrap-height hero-bg" [ngStyle]="{'background-image': radomHeroBackground()}">
     <!-- TOP CONTAINER -->
     <div class="uk-container uk-flex-auto top-container uk-position-relative uk-margin-medium-top"
       data-uk-parallax="y: 0,50; easing:0; opacity:0.2">
@@ -48,9 +49,9 @@
           </h1>
           <h2 class="subtitle-text uk-margin-small-top uk-margin-large-bottom uk-text-lighter">
             {{ conference.highlight }}</h2>
-          <a href="#tickets" title="INSCREVA-SE"
+          <a href="https://www.sympla.com.br/capiconf-2020-o-maior-evento-para-pessoas-desenvolvedoras-do-parana__661963" title="INSCREVA-SE"
             class="uk-button uk-button-primary uk-border-pill uk-button-large tickets-button"
-            data-uk-scroll="duration: 500" data-uk-scrollspy-class="uk-animation-fade">INSCREVA-SE</a>
+            data-uk-scroll="duration: 500" data-uk-scrollspy-class="uk-animation-fade"><div class="inc-button">INSCREVA-SE</div></a>
         </div>
       </div>
     </div>
