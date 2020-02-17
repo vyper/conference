@@ -12,7 +12,6 @@ export class Capybara2020Component implements OnInit {
   bgImages = [
     { path: '../../../assets/bg_person.jpg' },
     { path: '../../../assets/bg_person_02.jpg' },
-    { path: '../../../assets/bg_person_03.jpg' },
     { path: '../../../assets/bg_person_04.jpg' },
     { path: '../../../assets/bg_person_05.jpg' }
   ]
