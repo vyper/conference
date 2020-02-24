@@ -82,7 +82,7 @@
     <h3 class="uk-width-3-4 uk-margin-auto uk-margin-remove-bottom">
       Palestrantes e pessoas influenciadoras que são reconhecidas nacionalmente como destaques em suas áreas de atuação.
     </h3>
-    <p>* Primeiros palestrantes confirmados, serão mais de 16 ao todo!</p>
+    <p>* Primeiros palestrantes confirmados, serão mais de 20 ao todo!</p>
   </div>
   <div class="uk-contatiner uk-padding-large uk-padding-remove-bottom">
     <div class="uk-child-width-1-3@s uk-text-center uk-grid-large" uk-grid>
@@ -291,7 +291,7 @@
     <div>
       <div class="uk-card uk-card-body uk-text-center">
         <span uk-icon="icon: microphone; ratio: 3.5"></span>
-        <h1 class="uk-article-title">16</h1>
+        <h1 class="uk-article-title">20</h1>
         <p class="uk-article-meta">Palestras</p>
       </div>
     </div>
@@ -340,7 +340,7 @@
         <h6 class="uk-margin-remove uk-text-primary">CONTEÚDO</h6>
         <h2 class="uk-margin-remove-top">APRESENTADO POR <b>ESPECIALISTAS</b></h2>
         <p>
-          Serão mais de 16 palestrantes de alto nível que compartilharão seus conhecimentos nas áreas de,
+          Serão mais de 20 palestrantes de alto nível que compartilharão seus conhecimentos nas áreas de,
           Desenvolvimento de Software, Testes, Acessibilidade, User Interface e Usabilidade, Inteligência Artificial,
           DevOps, Empreendedorismo, Tecnologia, Comportamento e muito mais! Uma agenda diversa e completa com dezenas de
           novas ideias.
@@ -745,67 +745,8 @@
 </section>
 <!-- /HELP -->
 <!-- FOOTER -->
-<footer class="uk-section uk-section-secondary uk-padding-remove-bottom">
-  <div class="uk-container">
-    <div class="uk-grid uk-grid-large" data-uk-grid>
-      <div class="uk-width-1-6@m">
-        <img class="uk-height-max-small" src="../../../assets/logo_round_normal.svg" alt="Logo #CapiConf">
-      </div>
-      <div class="uk-width-1-2@m">
-        <p>O #CapiConf é um grande encontro de pessoas, comunidades e entusiastas de TI. O evento teve sua primeira
-          edição em 2014 e desde então vem abordando os principais tópicos e temáticas de interesse das comunidades
-          tecnicas.</p>
-        <div>
-          <a href="http://twitter.com/capiconf" target="_blank" class="uk-icon-button" data-uk-icon="twitter"></a>
-          <a href="https://facebook.com/capiconf/" target="_blank" class="uk-icon-button uk-margin-left"
-            data-uk-icon="facebook"></a>
-          <a href="https://instagram.com/capiconf/" target="_blank" class="uk-icon-button uk-margin-left"
-            data-uk-icon="instagram"></a>
-        </div>
-      </div>
-      <div class="uk-width-1-3@m">
-        <p>Edições anteriores</p>
-        <div>
-          <ul>
-            <li><a [routerLink]="['/2019/start']">2019</a></li>
-            <li> <a href="/2018/index.html" title="#CapiConf 2018">2018</a></li>
-            <!-- <li><a href="/2017/start">2017</a></li> -->
-          </ul>
-        </div>
-      </div>
-    </div>
-    <div class="uk-padding uk-padding-remove-horizontal uk-text-center">
-      <span class="uk-text-small uk-text-muted">© 2019 #everydaycapybara | We ❤️
-        Community</span>
-    </div>
-  </div>
-</footer>
+<capi20-footer></capi20-footer>
 <!-- /FOOTER -->
 <!-- OFFCANVAS -->
-<div id="offcanvas-nav" data-uk-offcanvas="flip: true; overlay: false">
-  <div class="uk-offcanvas-bar uk-offcanvas-bar-animation uk-offcanvas-slide">
-    <button class="uk-offcanvas-close uk-close uk-icon" type="button" data-uk-close></button>
-    <ul class="uk-nav uk-nav-default">
-      <li class="uk-active"><a href="#start" data-uk-scroll="duration: 500" data-uk-icon="home"></a></li>
-      <li class="uk-parent">
-        <ul class="uk-nav-sub">
-          <li><a href="#content" data-uk-scroll="duration: 500">Novidades</a></li>
-          <li><a href="#speakers" data-uk-scroll="duration: 500">Palestrantes</a></li>
-          <li><a href="#location" data-uk-scroll="duration: 500">Localização</a></li>
-          <li><a href="#sponsors" data-uk-scroll="duration: 500">Patrocinadores</a></li>
-          <li><a href="#support" data-uk-scroll="duration: 500">Apoio</a></li>
-          <li><a href="#help" data-uk-scroll="duration: 500">Dúvidas</a></li>
-        </ul>
-      </li>
-      <li class="uk-nav-header">Edições anteriores</li>
-      <li><a [routerLink]="['/2019/start']">2019</a></li>
-      <li><a href="/2018/index.html" title="#CapiConf 2018">2018</a></li>
-      <!-- <li><a href="/2017/start">2017</a></li> -->
-    </ul>
-    <h5>SOBRE</h5>
-    <p class="uk-text-small">O #CapiConf é um grande encontro de pessoas, comunidades e entusiastas de software. O
-      evento teve sua primeira edição em 2014 e desde então vem abordando os principais tópicos e temáticas de interesse
-      das comunidades tecnicas.</p>
-  </div>
-</div>
+<capi20-side-nav></capi20-side-nav>
 <!-- /OFFCANVAS -->

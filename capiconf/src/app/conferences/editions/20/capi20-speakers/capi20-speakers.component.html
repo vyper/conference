@@ -1,0 +1,60 @@
+<!-- TOP -->
+<div class="top-wrap uk-position-relative uk-light uk-background-secondary">
+    <!-- NAV -->
+    <capi-20-nav-bar></capi-20-nav-bar>
+    <!-- /NAV -->
+</div>
+<!-- /TOP -->
+<!-- BODY -->
+<section class="uk-section uk-article">
+    <div class="uk-container uk-container">
+        <h2 class="uk-text-bold uk-h1 uk-margin-remove-adjacent uk-margin-remove-top">Pessoas palestrantes e mediadoras
+        </h2>
+        <div class="uk-margin-large-right">
+            <p>Palestrantes e pessoas influenciadoras que são reconhecidas nacionalmente como destaques em suas áreas de
+                atuação vão estar juntas no #CapiConf para compartilhar conhecimento com você. Fique ligado, pois
+                estamos sempre adicionando mais pessoas :)
+            </p>
+            <p class="uk-article-meta">
+                Atualizado em 24 de fevereiro 2020
+            </p>
+        </div>
+        <div class="uk-flex uk-flex-center uk-margin-large-top"  uk-grid="masonry: true">
+            <div class="uk-width-1-3@m uk-width-1-1@s" *ngFor="let item of speakers">
+                  <div class="uk-card uk-card-default uk-card-hover uk-card-small uk-margin-small">
+                    <div class="uk-card-media-top">
+                      <img width="100%" src="{{ item.picture }}" alt="{{ item.name }} @ {{ item.role }}" />
+                    </div>
+                    <div class="uk-card-body uk-text-center">
+                      <h5 class="uk-card-title uk-margin-remove-bottom">
+                        {{ item.name }}
+                      </h5>
+                      <span class="uk-text-meta capiconf-text uk-text-center">
+                        {{ item.role }} @ {{ item.company }}
+                      </span>
+                      <p class="uk-text-meta capiconf-text uk-text-center">
+                        {{ item.bio }} 
+                      </p>
+                    </div>
+                    <div class="uk-card-footer uk-text-center">
+                        <span *ngFor="let social of item.socialProfiles" >
+                            <a *ngIf="social.url" href="{{ social.url }}" target="_blank">
+                              <span *ngIf="social.name === 'linkedin'" class="capiconf-text uk-margin-right	" uk-icon="linkedin"></span>
+                              <span *ngIf="social.name === 'facebook'" class="capiconf-text uk-margin-right	" uk-icon="facebook"></span>
+                              <span *ngIf="social.name === 'twitter'" class="capiconf-text uk-margin-right	" uk-icon="twitter"></span>
+                              <span *ngIf="social.name === 'github'" class="capiconf-text uk-margin-right	" uk-icon="github"></span>
+                            </a>
+                         </span>
+                    </div>
+                  </div>
+            </div>
+          </div>
+    </div>
+</section>
+<!-- /BODY -->
+<!-- FOOTER -->
+<capi20-footer></capi20-footer>
+<!-- /FOOTER -->
+<!-- OFFCANVAS -->
+<capi20-side-nav></capi20-side-nav>
+<!-- /OFFCANVAS -->
