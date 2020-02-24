@@ -1,4 +1,21 @@
-@import "./node_modules/uikit/src/scss/variables-theme.scss";
-@import "./node_modules/uikit/src/scss/mixins-theme.scss";
-@import "./node_modules/uikit/src/scss/uikit-theme.scss";
+@import "../node_modules/uikit/src/scss/variables-theme.scss";
+@import "../node_modules/uikit/src/scss/mixins-theme.scss";
+@import "../node_modules/uikit/src/scss/uikit-theme.scss";
 /* You can add global styles to this file, and also import other style files */
+
+.nav {
+	position: absolute;
+	top: 0;
+	z-index: 99;
+	left: 0;
+	right: 0;
+}
+
+.counter {
+    background: url(./assets/hero-bg.svg), linear-gradient(45deg, #FF0E5A 0%, #FF6001 100%);
+}
+
+.hero-bg {
+    background: url(./assets/hero-bg.svg),linear-gradient(180deg,#222 30.12%,#000 192.47%);
+}
+      

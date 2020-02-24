@@ -2,7 +2,6 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { Capybara2020Component } from './capybara2020.component';
 import { Capybara2020faqComponent } from '../capybara2020faq/capybara2020faq.component';
-import { CocComponent } from '../coc/coc.component';
 
 const routes: Routes = [
   { path: 'start', component: Capybara2020Component },
