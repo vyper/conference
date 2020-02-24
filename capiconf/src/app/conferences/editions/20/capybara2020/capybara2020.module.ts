@@ -4,12 +4,14 @@ import { CommonModule } from '@angular/common';
 import { Capybara2020RoutingModule } from './capybara2020-routing.module';
 import { Capybara2020Component } from './capybara2020.component';
 import { Capybara2020faqComponent } from '../capybara2020faq/capybara2020faq.component';
+import { Capi20NavBarComponent } from '../capi20-nav-bar/capi20-nav-bar.component';
 
 
 @NgModule({
   declarations: [
     Capybara2020Component,
-    Capybara2020faqComponent
+    Capybara2020faqComponent,
+    Capi20NavBarComponent
   ],
   imports: [
     CommonModule,
