@@ -1,10 +1,10 @@
 <!-- TOP -->
 <div class="top-wrap uk-position-relative uk-light uk-background-secondary">
- <capi-20-nav-bar></capi-20-nav-bar>
+  <capi-20-nav-bar></capi-20-nav-bar> 
+  <!-- TOP CONTAINER -->
   <div class="uk-cover-container uk-light uk-flex uk-flex-middle top-wrap-height hero-bg"
     [ngStyle]="{'background-image': radomHeroBackground()}">
-    <!-- TOP CONTAINER -->
-    <div class="uk-container uk-flex-auto top-container uk-position-relative uk-margin-medium-top"
+ <div class="uk-container uk-flex-auto top-container uk-position-relative uk-margin-medium-top"
       data-uk-parallax="y: 0,50; easing:0; opacity:0.2">
       <div uk-grid class="uk-grid">
         <div class="uk-width-1-4@m uk-visible@m uk-margin-large-right uk-margin-top"
@@ -24,10 +24,15 @@
             class="uk-button uk-button-primary uk-border-pill uk-button-large tickets-button">
             <div class="inc-button">INSCREVA-SE</div>
           </a>
+          <a href="/2020/agenda" title="INSCREVA-SE"
+          class="uk-button uk-border-pill uk-button-large uk-margin-left agenda-button">
+          <div class="inc-button">PROGRAMAÇÃO</div>
+        </a>
         </div>
       </div>
     </div>
-  </div>
+  </div> 
+  <!-- /TOP CONTAINER -->
 </div>
 <!-- /TOP -->
 <!-- countdown -->
@@ -85,55 +90,40 @@
     <p>* Primeiros palestrantes confirmados, serão mais de 20 ao todo!</p>
   </div>
   <div class="uk-contatiner uk-padding-large uk-padding-remove-bottom">
-    <div class="uk-child-width-1-3@s uk-text-center uk-grid-large" uk-grid>
-      <div class="uk-text-center">
-        <a href="https://www.linkedin.com/in/juliana-helena/" target="_blank"><img
-            src="../../../assets/speakers/juliana-helena.png" alt="Juliana Helena"></a>
-        <h1 class="uk-card-title uk-margin-small-top">Juliana Helena</h1>
-        <img class="palestrantes-logo" src="../../../assets/logos/ThoughtWorks_logo_white.png" alt="ThoughtWorks">
-        <p class="uk-text-center">Juliana é Consultora Desenvolvedora na ThoughtWorks, líder
-          local do Developers Circle do Facebook e Coorganizadora do FEMUG-BH</p>
+    <div class="uk-flex uk-flex-center" uk-grid="masonry: false">
+      <div class="uk-width-1-3@m uk-width-1-1@s" *ngFor="let item of speakers">
+        <div class="">
+          <div class="uk-card-media-top uk-text-center">
+            <img class="uk-border-circle border-picture" width="240" height="240" src="{{ item.picture }}"
+              alt="{{ item.name }} @ {{ item.role }}" />
+          </div>
+          <div class="uk-margin-small-top uk-text-center">
+            <h5 class="uk-card-title uk-margin-remove-bottom">
+              {{ item.name }}
+            </h5>
+            <span class="uk-text-meta capiconf-text uk-text-center">
+              {{ item.role }} @ {{ item.company }}
+            </span>
+          </div>
+          <div class="uk-text-center">
+            <span *ngFor="let social of item.socialProfiles">
+              <a *ngIf="social.url" href="{{ social.url }}" target="_blank">
+                <span *ngIf="social.name === 'linkedin'" class="capiconf-text uk-margin-right	"
+                  uk-icon="linkedin"></span>
+                <span *ngIf="social.name === 'facebook'" class="capiconf-text uk-margin-right	"
+                  uk-icon="facebook"></span>
+                <span *ngIf="social.name === 'twitter'" class="capiconf-text uk-margin-right	" uk-icon="twitter"></span>
+                <span *ngIf="social.name === 'github'" class="capiconf-text uk-margin-right	" uk-icon="github"></span>
+              </a>
+            </span>
+          </div>
+        </div>
       </div>
-      <div class="uk-text-center">
-        <a href="https://www.linkedin.com/in/magoolation/" target="_blank"><img src="../../../assets/speakers/magoo.png"
-            alt="Alexandre Santos Costa"></a>
-        <h1 class="uk-card-title uk-margin-small-top">Alexandre Santos Costa</h1>
-        <img class="palestrantes-logo" src="../../../assets/logos/arctouch.png" alt="ArcTouch">
-        <p class="uk-text-center">Xamarin Chapter Lead na ArcTouch Mobile
-          Experiences</p>
-      </div>
-      <div class="uk-text-center">
-        <a href="https://www.linkedin.com/in/giselylucas/" target="_blank"><img
-            src="../../../assets/speakers/gisele.png" alt="Gisely Lucas"></a>
-        <h1 class="uk-card-title uk-margin-small-top">Gisely Lucas</h1>
-        <img class="palestrantes-logo" src="../../../assets/logos/ciandt-logo-for-light.png" alt="ArcTouch">
-        <p class="uk-text-center">Gisely é engenheira de software na CI&T. Tem experiência em desenvolvimento de
-          aplicações web, especializando-se em acessibilidade, por acreditar que é necessário torná-la cada vez mais
-          inclusiva</p>
-      </div>
-      <div class="uk-text-center">
-        <a href="https://www.linkedin.com/in/danielwildt/" target="_blank"><img
-            src="../../../assets/speakers/daniel-wildt.png" alt="Daniel Wildt"></a>
-        <h1 class="uk-card-title uk-margin-small-top">Daniel Wildt</h1>
-        <p class="uk-text-center">Mentor @ Wildtech, Content @ danielwildt.com, Founder @ uMov.me
-        </p>
-      </div>
-      <div class="uk-text-center">
-        <a href="https://www.linkedin.com/in/alvarojusten/" target="_blank"><img
-            src="../../../assets/speakers/carlao.png" alt="Carlos dos Santos"></a>
-        <h1 class="uk-card-title uk-margin-small-top">Carlos dos Santos</h1>
-        <img class="palestrantes-logo" src="../../../assets/logos/af_marca_cds_branca.png" alt="CDS">
-        <p class="uk-text-center">CTO na CDS, Microsoft Regional Director e Microsoft Most Valuable Professional (MVP)
-        </p>
-      </div>
-      <div class="uk-text-center">
-        <a href="https://www.linkedin.com/in/alvarojusten/" target="_blank"><img
-            src="../../../assets/speakers/alvaro.png" alt="Álvaro Justen"></a>
-        <h1 class="uk-card-title uk-margin-small-top">Álvaro Justen</h1>
-        <img class="palestrantes-logo" src="../../../assets/logos/escola_de_dados.png" alt="Escola de Dados">
-        <p class="uk-text-center">Fundador do portal de dados abertos acessíveis Brasil.IO, desenvolvedor-chefe do
-          ImpactoJOR, professor da Escola de Dados</p>
-      </div>
+    </div>
+    <div class="uk-text-center">
+      <a href="/2020/palestrantes" title="Conheça todas as pessoas palestrantes"
+       class="uk-button uk-button-secondary uk-margin-medium-top uk-button-large uk-border-pill"
+        data-uk-scrollspy-class="uk-animation-fade">Conheça todas as pessoas palestrantes</a>
     </div>
   </div>
 </section>
@@ -267,8 +257,6 @@
         </div>
       </li>
     </ul>
-
-
   </div>
 </section>
 <!-- /overview -->
@@ -598,8 +586,8 @@
       </div>
       <div class="uk-text-center">
         <a href="https://universidade.up.edu.br/" target="_blank"><img
-            src="../../../assets/sponsors/universidade_positivo.png"  width="90%"  data-src="img/marketing-4.svg" data-uk-img
-            alt="UNIVERSIDADE POSITIVO"></a>
+            src="../../../assets/sponsors/universidade_positivo.png" width="90%" data-src="img/marketing-4.svg"
+            data-uk-img alt="UNIVERSIDADE POSITIVO"></a>
       </div>
       <div class="uk-text-center">
       </div>
@@ -620,12 +608,12 @@
       </div>
       <div class="uk-text-center">
         <a href="https://www.infoq.com/br/?utm_source=capiconf-2020&utm_medium=logo-infoq&utm_campaign=parceria-eventos"
-          target="_blank"><img class="uk-margin-small-top" src="../../../assets/partners/infoq.png" width="70%" data-uk-img
-            alt="InfoQ Brasil"></a>
+          target="_blank"><img class="uk-margin-small-top" src="../../../assets/partners/infoq.png" width="70%"
+            data-uk-img alt="InfoQ Brasil"></a>
       </div>
       <div class="uk-text-center">
-        <a  href="https://devnaestrada.com.br/?utm_source=capiconf&utm_medium=home&utm_campaign=apoio"
-          target="_blank"><img class="uk-margin-medium-top" src="../../../assets/2019/img/sponsors/dne.svg"  data-uk-img
+        <a href="https://devnaestrada.com.br/?utm_source=capiconf&utm_medium=home&utm_campaign=apoio"
+          target="_blank"><img class="uk-margin-medium-top" src="../../../assets/2019/img/sponsors/dne.svg" data-uk-img
             alt="Dev Na Estrada"></a>
       </div>
       <div class="uk-text-center">
@@ -650,18 +638,17 @@
       </div>
       <div class="uk-text-center">
         <a href="https://meetup.com/KotlinCWB?utm_source=capiconf-2020&utm_medium=logo-infoq&utm_campaign=parceria-eventos"
-          target="_blank"><img class="uk-margin-small-top" src="../../../assets/partners/kotlincwb.png" width="45%" data-uk-img
-            alt="Kotlin CWB"></a>
+          target="_blank"><img class="uk-margin-small-top" src="../../../assets/partners/kotlincwb.png" width="45%"
+            data-uk-img alt="Kotlin CWB"></a>
       </div>
       <div class="uk-text-center">
-        <a  href="https://womakerscode.org/?utm_source=capiconf&utm_medium=home&utm_campaign=apoio"
-          target="_blank"><img class="uk-margin-small-top" src="../../../assets/partners/wmc-600x600.png"  data-uk-img
+        <a href="https://womakerscode.org/?utm_source=capiconf&utm_medium=home&utm_campaign=apoio" target="_blank"><img
+            class="uk-margin-small-top" src="../../../assets/partners/wmc-600x600.png" data-uk-img
             alt="Womakers Code"></a>
       </div>
       <div class="uk-text-center">
         <a href="https://www.meetup.com/ReactJS-CWB/?utm_source=capiconf&utm_medium=home&utm_campaign=apoio"
-          target="_blank"><img src="../../../assets/partners/reactCWB.png" width="54%" data-uk-img
-            alt="React CWB"></a>
+          target="_blank"><img src="../../../assets/partners/reactCWB.png" width="54%" data-uk-img alt="React CWB"></a>
       </div>
     </div>
   </div>

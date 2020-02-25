@@ -8,6 +8,7 @@ import { Capi20NavBarComponent } from '../capi20-nav-bar/capi20-nav-bar.componen
 import { Capi20FooterComponent } from '../capi20-footer/capi20-footer.component';
 import { Capi20SpeakersComponent } from '../capi20-speakers/capi20-speakers.component';
 import { Capi20SideNavComponent } from '../capi20-side-nav/capi20-side-nav.component';
+import { Capi20AgendaComponent } from '../capi20-agenda/capi20-agenda.component';
 
 
 @NgModule({
@@ -17,7 +18,8 @@ import { Capi20SideNavComponent } from '../capi20-side-nav/capi20-side-nav.compo
     Capi20NavBarComponent,
     Capi20FooterComponent,
     Capi20SpeakersComponent,
-    Capi20SideNavComponent
+    Capi20SideNavComponent,
+    Capi20AgendaComponent
   ],
   imports: [
     CommonModule,

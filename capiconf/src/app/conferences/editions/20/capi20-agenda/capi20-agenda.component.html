@@ -1,0 +1,82 @@
+<!-- TOP -->
+<div class="top-wrap uk-position-relative uk-light uk-background-secondary">
+    <!-- NAV -->
+    <capi-20-nav-bar></capi-20-nav-bar>
+    <!-- /NAV -->
+</div>
+<!-- /TOP -->
+<!-- BODY -->
+<section class="uk-section uk-article">
+    <div class="uk-container uk-container">
+        <h2 class="uk-text-bold uk-h1 uk-margin-remove-adjacent uk-margin-remove-top">Agenda
+        </h2>
+        <div class="uk-margin-large-right uk-margin-large-bottom">
+            <p>Uma agenda para nenhuma capivara botar defeito! Fique ligado, pois
+                estamos sempre adicionando mais atividades :)
+            </p>
+            <p class="uk-article-meta">
+                Atualizado em 24 de fevereiro 2020
+            </p>
+        </div>
+    </div>
+    <div class="uk-container uk-container">
+    </div>
+    <div class="uk-container uk-container">
+        <div class="uk-margin-small-top">
+            <ul uk-tab="animation: uk-animation-fade">
+                <li><a href="#">
+                        <h5>Palestras Dia 01 ‧ 15 de Maio</h5>
+                    </a></li>
+                <li><a href="#">
+                        <h5>Palestras Dia 02 ‧ 16 de Maio</h5>
+                    </a></li>
+            </ul>
+            <ul class="uk-switcher uk-margin">
+                <!-- dia 01-->
+                <li class="uk-padding">
+                    <div *ngFor="let item of agendaDiaUm">
+                        <div class="uk-grid-small uk-grid-collapse" uk-grid>
+                            <div class="uk-margin-medium-right time">
+                                <span class="hour">{{item.startTime.hour}}</span><span> {{item.startTime.minute}}</span>
+                            </div>
+                            <div>
+                                <span class="title">{{ item.title }}</span>
+                                <p class="uk-margin-remove uk-padding-remove">
+                                    {{item.description}}
+                                </p>
+                            </div>
+                        </div>
+                        <hr class="uk-divider-icon">
+                    </div>
+                </li>
+                <!-- dia 02-->
+                <li class="uk-padding">
+                    <div *ngFor="let item of agendaDiaDois">
+                        <div class="uk-grid-small uk-grid-collapse" uk-grid>
+                            <div class="uk-margin-medium-right time">
+                                <span class="hour">{{item.startTime.hour}}</span><span> {{item.startTime.minute}}</span>
+                            </div>
+                            <div>
+                                <span class="title">{{ item.title }}</span>
+                                <p class="uk-margin-remove uk-padding-remove">
+                                    {{item.description}}
+                                </p>
+                            </div>
+                        </div>
+                        <hr class="uk-divider-icon">
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="uk-text-center uk-margin-large-top">
+            <small class="uk-article-meta"><i>Grade sujeita a alterações sem aviso previo!</i></small>
+        </div>
+    </div>
+</section>
+<!-- /BODY -->
+<!-- FOOTER -->
+<capi20-footer></capi20-footer>
+<!-- /FOOTER -->
+<!-- OFFCANVAS -->
+<capi20-side-nav></capi20-side-nav>
+<!-- /OFFCANVAS -->
