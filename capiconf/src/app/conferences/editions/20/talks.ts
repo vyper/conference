@@ -13,7 +13,7 @@ export const TALKS = [
             company: 'Objective Solutions',
             role: 'Head of UX & CX',
             bio: 'Especialista em Experiência do Usuário (UX), trabalha com Design de Interação e Usabilidade desde 2012. Juliana é responsável pela área de Design da Objective Solutions. Atua na gestão da equipe, identificação de oportunidades, levantamento de requisitos, disseminação de conhecimento e mudança de mindset para a implementação de projetos centrados no usuário',
-            picture: '/assets/speakers/JulianaDoVale.jpeg',
+            picture: '/assets/speakers/JulianaDoVale.png',
             socialProfiles: [
                 {
                     name: 'linkedin',
