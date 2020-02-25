@@ -52,7 +52,7 @@ export const TALKS = [
             company: 'ThoughtWorks',
             role: 'Consultora Desenvolvedora',
             bio: 'Juliana é Consultora Desenvolvedora na ThoughtWorks, líder local do Developers Circle do Facebook e Coorganizadora do FEMUG-BH',
-            picture: '/assets/speakers/JulianaHelena.jpeg',
+            picture: '/assets/speakers/JulianaHelena.png',
             socialProfiles: [
                 {
                     name: 'linkedin',
@@ -451,7 +451,7 @@ export const TALKS = [
             company: 'Matera',
             role: 'Agile Coach',
             bio: 'Desenvolvo sistemas a mais de 12 anos e nesta caminhada aprendi muito com meus erros (independente de linguagem de programação e modelo de trabalho).',
-            picture: '/assets/speakers/fusca.jpeg',
+            picture: '/assets/speakers/fusca.png',
             socialProfiles: [
                 {
                     name: 'github',
@@ -573,7 +573,7 @@ export const TALKS = [
             company: 'VHSYS',
             role: 'Tech Lead',
             bio: 'Sou um apaixonado por Tecnologia e Inovação! Todos os dias estou disposto a encarar vários desafios como Tech Lead na VHSYS. Sou formado em Sistemas de Informação e minha especialidade e experiência são voltadas para o desenvolvimento de aplicações WEB sempre com muita dedicação na estratégia de execução utilizando metodologias ágeis.',
-            picture: '/assets/speakers/Anderson.jpeg',
+            picture: '/assets/speakers/Anderson.jpg',
             socialProfiles: [
                 {
                     url: 'https://www.linkedin.com/in/anderson-weschnhoski/',
@@ -586,7 +586,7 @@ export const TALKS = [
             company: 'VHSYS',
             role: 'Coordenador de desenvolvimento de software',
             bio: 'Sou um dev muito comunicador sempre em busca de superar meus limites e me testar em novos desafios. Atualmente sou coordenador de desenvolvimento na VHSYS e responsável por direcionar squads a se apaixonarem pelo produto que desenvolvem aplicando em seu dia-a-dia técnicas e tecnologias que melhor se adaptem a necessidade do negócio.',
-            picture: '/assets/speakers/MauricioLang.jpeg',
+            picture: '/assets/speakers/MauricioLang.png',
             socialProfiles: [
                 {
                     url: 'https://www.linkedin.com/in/mauricio-lang/',
