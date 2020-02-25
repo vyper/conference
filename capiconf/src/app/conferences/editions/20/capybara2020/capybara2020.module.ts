@@ -9,6 +9,10 @@ import { Capi20FooterComponent } from '../capi20-footer/capi20-footer.component'
 import { Capi20SpeakersComponent } from '../capi20-speakers/capi20-speakers.component';
 import { Capi20SideNavComponent } from '../capi20-side-nav/capi20-side-nav.component';
 import { Capi20AgendaComponent } from '../capi20-agenda/capi20-agenda.component';
+import { Capi20AgendaPaineisComponent } from '../capi20-agenda-paineis/capi20-agenda-paineis.component';
+import { Capi20LocationComponent } from '../capi20-location/capi20-location.component';
+import { Capi20SponsorsComponent } from '../capi20-sponsors/capi20-sponsors.component';
+import { Capi20HelpformComponent } from '../capi20-helpform/capi20-helpform.component';
 
 
 @NgModule({
@@ -19,7 +23,11 @@ import { Capi20AgendaComponent } from '../capi20-agenda/capi20-agenda.component'
     Capi20FooterComponent,
     Capi20SpeakersComponent,
     Capi20SideNavComponent,
-    Capi20AgendaComponent
+    Capi20AgendaComponent,
+    Capi20AgendaPaineisComponent,
+    Capi20LocationComponent,
+    Capi20SponsorsComponent,
+    Capi20HelpformComponent
   ],
   imports: [
     CommonModule,

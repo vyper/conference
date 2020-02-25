@@ -37,5 +37,4 @@ export class Capi20AgendaComponent implements OnInit {
 
     })
   }
-
 }
