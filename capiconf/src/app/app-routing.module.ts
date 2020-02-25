@@ -3,7 +3,7 @@ import { Routes, RouterModule } from '@angular/router';
 import { CocComponent } from './conferences/shared/coc/coc.component';
 
 const routes: Routes = [
-  { path: '', redirectTo: '2020/start', pathMatch: 'full' },
+  { path: '', redirectTo: '2020/inicio', pathMatch: 'full' },
   {
     path: '2020',
     loadChildren: () =>
@@ -19,7 +19,7 @@ const routes: Routes = [
       ),
   },
   { path: 'coc', component: CocComponent },
-  { path: '**', redirectTo: '2020/start' },
+  { path: '**', redirectTo: '2020/inicio' },
 ];
 
 @NgModule({
