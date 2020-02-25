@@ -33,37 +33,63 @@
             </ul>
             <ul class="uk-switcher uk-margin">
                 <!-- dia 01-->
-                <li class="uk-padding">
-                    <div *ngFor="let item of agendaDiaUm">
-                        <div class="uk-grid-small uk-grid-collapse" uk-grid>
-                            <div class="uk-margin-medium-right time">
-                                <span class="hour">{{item.startTime.hour}}</span><span> {{item.startTime.minute}}</span>
+                <li class="uk-remove-padding uk-margin-medium-top">
+                    <div *ngFor="let item of dayOne" class="uk-margin-medium-bottom">
+                        <div class="uk-card uk-card-small uk-card-default">
+                            <div class="uk-card-header">
+                                <h4 class="hour">{{item.startTime.hour}}h{{item.startTime.minute}}</h4>
                             </div>
-                            <div>
-                                <span class="title">{{ item.title }}</span>
-                                <p class="uk-margin-remove uk-padding-remove">
-                                    {{item.description}}
-                                </p>
+                            <div class="uk-card-body">
+                                <h4 class="uk-margin-remove-bottom uk-padding-remove-bottom">{{ item.title }}</h4>
+                                <p class="uk-margin-remove uk-padding-remove uk-article-meta">{{item.description}}</p>
+                            </div>
+                            <div class="uk-card-footer" *ngIf="item.speakers?.length > 0">
+                                <div class="uk-grid-small uk-flex-middle" uk-grid>
+                                    <div *ngFor="let speaker of item.speakers">
+                                        <div class="uk-grid-small uk-flex-middle" uk-grid>
+                                            <div class="uk-width-auto">
+                                                <img class="uk-border-circle" width="40" height="40"
+                                                    src="{{ speaker.picture }}">
+                                            </div>
+                                            <div class="uk-width-expand">
+                                                <p class="uk-margin-remove-bottom">{{ speaker.name }}</p>
+                                                <p class="uk-text-meta uk-margin-remove-top"></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                        <hr class="uk-divider-icon">
                     </div>
                 </li>
                 <!-- dia 02-->
-                <li class="uk-padding">
-                    <div *ngFor="let item of agendaDiaDois">
-                        <div class="uk-grid-small uk-grid-collapse" uk-grid>
-                            <div class="uk-margin-medium-right time">
-                                <span class="hour">{{item.startTime.hour}}</span><span> {{item.startTime.minute}}</span>
+                <li class="uk-remove-padding uk-margin-medium-top">
+                    <div *ngFor="let item of dayTwo" class="uk-margin-medium-bottom">
+                        <div class="uk-card uk-card-small uk-card-default">
+                            <div class="uk-card-header">
+                                <h4 class="hour">{{item.startTime.hour}}h{{item.startTime.minute}}</h4>
                             </div>
-                            <div>
-                                <span class="title">{{ item.title }}</span>
-                                <p class="uk-margin-remove uk-padding-remove">
-                                    {{item.description}}
-                                </p>
+                            <div class="uk-card-body">
+                                <h4 class="uk-margin-remove-bottom uk-padding-remove-bottom">{{ item.title }}</h4>
+                                <p class="uk-margin-remove uk-padding-remove uk-article-meta">{{item.description}}</p>
+                            </div>
+                            <div class="uk-card-footer" *ngIf="item.speakers?.length > 0">
+                                <div class="uk-grid-small uk-flex-middle" uk-grid>
+                                    <div *ngFor="let speaker of item.speakers">
+                                        <div class="uk-grid-small uk-flex-middle" uk-grid>
+                                            <div class="uk-width-auto">
+                                                <img class="uk-border-circle" width="40" height="40"
+                                                    src="{{ speaker.picture }}">
+                                            </div>
+                                            <div class="uk-width-expand">
+                                                <p class="uk-margin-remove-bottom">{{ speaker.name }}</p>
+                                                <p class="uk-text-meta uk-margin-remove-top"></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                        <hr class="uk-divider-icon">
                     </div>
                 </li>
             </ul>
