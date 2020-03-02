@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { CONFERENCE } from './data';
 import { TALKS } from '../talks';
+import { PANELS } from '../panels';
 
 @Component({
   selector: 'app-capybara2020',
@@ -10,6 +11,7 @@ import { TALKS } from '../talks';
 export class Capybara2020Component implements OnInit {
 
   talks = TALKS;
+  panels = PANELS;
   speakers = [];
   conference = CONFERENCE;
   bgImages = [
@@ -21,14 +23,23 @@ export class Capybara2020Component implements OnInit {
   constructor() { }
 
   ngOnInit() {
-    this.talks.forEach(talk => {
-      talk.speakers.forEach(speaker => {
-        this.speakers.push(speaker);
-      });
 
-      this.shuffle(this.speakers);
-      this.speakers = this.speakers.slice(0,6);
-  });
+    this.loadPeople(this.talks);
+    this.loadPeople(this.panels);
+    this.shuffle(this.speakers);
+    this.speakers = this.speakers.slice(0, 6);
+
+  }
+
+  loadPeople(source: any) {
+    source.forEach(content => {
+      content.speakers.forEach(speaker => {
+        let alreadyAdded = this.speakers.filter(s => s.name === speaker.name);
+        if (alreadyAdded.length == 0) {
+          this.speakers.push(speaker);
+        }
+      });
+    });
   }
 
   radomHeroBackground() {

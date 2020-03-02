@@ -42,7 +42,7 @@ export const PANELS = [
         speakers: [{
             name: 'Erika Carvalho',
             company: 'Women Techmakers Curitiba',
-            role: 'Xamarin Chapter Lead',
+            role: 'Women Techmakers Ambassado',
             picture: '/assets/speakers/ErikaCarvalho.jpeg',
             bio: 'Women Techmakers Ambassador | Women Who Go CWB Organizer | Golang Developer',
             socialProfiles: [
