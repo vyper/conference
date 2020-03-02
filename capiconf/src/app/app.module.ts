@@ -4,11 +4,13 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { CocComponent } from './conferences/shared/coc/coc.component';
+import { IncluaTodaPessoaComponent } from './campaigns/inclua-toda-pessoa/inclua-toda-pessoa.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    CocComponent
+    CocComponent,
+    IncluaTodaPessoaComponent
   ],
   imports: [
     BrowserModule,

@@ -8,6 +8,7 @@ import { Capi20AgendaPaineisComponent } from '../capi20-agenda-paineis/capi20-ag
 
 const routes: Routes = [
   { path: 'start', component: Capybara2020Component },
+  { path: 'inicio', component: Capybara2020Component },
   { path: 'pessoas', component: Capi20SpeakersComponent },
   { path: 'palestras', component: Capi20AgendaComponent },
   { path: 'paineis', component: Capi20AgendaPaineisComponent },
