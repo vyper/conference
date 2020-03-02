@@ -88,36 +88,6 @@ export const TALKS = [
             ]
         }]
     },
-    {
-        id: '004',
-        type: 'panel',
-        title: 'Aguarde!',
-        description: 'Aguarde!',
-        tags: [
-            { name: 'Aguarde!' }
-        ],
-        speakers: [{
-            name: 'Alexandre Santos Costa',
-            company: 'ArcTouch Mobile Experiences',
-            role: 'Xamarin Chapter Lead',
-            picture: '/assets/2019/img/speakers/magoo.jpg',
-            bio: 'Desenvolvedor com deficiencia visual apaixonado por tecnologia, Microsoft MVP em Development Technologies e Master Mobile Engineer na ArcTouch',
-            socialProfiles: [
-                {
-                    url: 'https://twitter.com/magoolation	',
-                    name: 'twitter'
-                },
-                {
-                    url: 'https://www.facebook.com/magoolation	',
-                    name: 'facebook'
-                },
-                {
-                    url: 'https://github.com/magoolation	',
-                    name: 'github'
-                }
-            ]
-        }]
-    },
     ,
     {
         id: '005',

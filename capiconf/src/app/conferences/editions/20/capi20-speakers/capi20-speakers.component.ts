@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { TALKS } from '../talks';
+import { PANELS } from '../panels';
 
 @Component({
   selector: 'app-capi20-speakers',
@@ -9,17 +10,26 @@ import { TALKS } from '../talks';
 export class Capi20SpeakersComponent implements OnInit {
 
   talks = TALKS;
+  panels = PANELS;
   speakers = [];
 
-  constructor() { 
+  constructor() {
 
   }
 
   ngOnInit() {
-    this.talks.forEach(talk => {
-        talk.speakers.forEach(speaker => {
+    this.loadPeople(this.talks);
+    this.loadPeople(this.panels);
+  }
+
+  loadPeople(source: any) {
+    source.forEach(content => {
+      content.speakers.forEach(speaker => {
+        let alreadyAdded = this.speakers.filter(s => s.name === speaker.name);
+        if (alreadyAdded.length == 0) {
           this.speakers.push(speaker);
-        });
+        }
+      });
     });
   }
 }
