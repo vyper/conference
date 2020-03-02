@@ -68,10 +68,11 @@ export const TALKS = [
     {
         id: '003',
         type: 'talk',
-        title: 'Aguarde!',
-        description: 'Aguarde!',
+        title: 'O poder da Acessibilidade em aplicações digitais: como a acessibilidade digital envolve diferentes pessoas e pode melhorar a experiência, usabilidade e performance de aplicações.',
+        description: 'Nos dias de hoje, construir sites não é mais um diferencial. Com a conectividade e as possibilidades que encontramos no mundo web, somos exigidos a fornecer muito mais que apenas páginas com conteúdo. Precisamos oferecer experiência, qualidade e uma performance muito atrativa para diversos usuários. Mas será que estamos conseguindo? É aí que a Acessibilidade Digital entra. Será que estamos garantindo uma boa experiência para diferentes usuários? Como podemos desenvolver aplicações acessíveis? Qual a relação de aplicações acessíveis com a performance da página? Como podemos iniciar o desenvolvimento de aplicações web acessíveis? O objetivo dessa palestra é compartilhar muito do meu aprendizado contínuo com desenvolvimento de aplicações acessíveis e como ela pode impactar de forma positiva as nossas aplicações.',
         tags: [
-            { name: 'Aguarde!' }
+            { name: 'acessibilidade!' },
+            { name: 'usabilidade' }
         ],
         speakers: [{
             name: 'Gisely Lucas',
@@ -152,10 +153,10 @@ export const TALKS = [
     {
         id: '006',
         type: 'talk',
-        title: 'Aguarde!',
+        title: '14 princípios para sua equipe de tecnologia!',
         description: 'Aguarde!',
         tags: [
-            { name: 'Aguarde!' }
+            { name: 'Insights' }
         ],
         speakers: [{
             name: 'Daniel Wildt',
@@ -246,10 +247,10 @@ export const TALKS = [
     {
         id: '009',
         type: 'talk',
-        title: 'Aguarde!',
-        description: 'Aguarde!',
+        title: 'PeopleChain e o poder das comunidades técnicas.',
+        description: 'A teoria dos seis graus de separação já foi comrpovada por diversos meios acadêmicos e científicos.  Em 2020, estamos a menos de 4 graus de separação de qualquer outro indivíduo do planeta e se a cadeia de blocos popularizou as criptomoedas, a cadeia de pessoas, peoplechain, muda completamente a forma como profissionais de tecnologia se unem e reúnem em comunidade. O conhecimento está cada vez mais abundante e só fica desempregado quem se isola.',
         tags: [
-            { name: 'Aguarde!' }
+            { name: 'comunidades' }
         ],
         speakers: [{
             name: 'Glauter Jannuzzi',
@@ -472,8 +473,8 @@ export const TALKS = [
     {
         id: '016',
         type: 'talk',
-        title: 'A coisa certa na prática!',
-        description: 'Aguarde!',
+        title: 'A coisa certa e somente a coisa certa, da prática!',
+        description: 'Inspirado pela "Bossa Nova", vários autores e a prática em empresas de tecnologia, apresento uma visão sobre o como resolver problemas "de ponta a ponta" através do conceito de Company-wide Agility, representada pelo ciclo Estratégia -> Descoberta -> Entrega -> Operação. A questão sempre foi e sempre será em como atravessar este ciclo e se manter fazendo a coisa certa.',
         tags: [
             { name: 'Insights' }
         ],
