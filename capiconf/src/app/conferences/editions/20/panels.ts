@@ -12,7 +12,7 @@ export const PANELS = [
             company: 'ArcTouch Mobile Experiences',
             role: 'Xamarin Chapter Lead',
             picture: '/assets/2019/img/speakers/magoo.jpg',
-            bio: 'Desenvolvedor com deficiencia visual apaixonado por tecnologia, Microsoft MVP em Development Technologies e Master Mobile Engineer na ArcTouch',
+            bio: 'Desenvolvedor com deficiência visual apaixonado por tecnologia, Microsoft MVP em Development Technologies e Master Mobile Engineer na ArcTouch',
             socialProfiles: [
                 {
                     url: 'https://twitter.com/magoolation	',
@@ -33,7 +33,7 @@ export const PANELS = [
         id: '102',
         type: 'panel',
         title: 'Dados e algoritmos que excluem',
-        description: 'O intuito é chamar atenção pro fato de que, diferentemente do que a maioria das pessoas acredita, algoritmos e modelos de machine learning não são imparciais, e ressaltar o impacto que isso tem sobre minorias. Pra além disso, discutir possibilidades acessíveis de mitigar esses efeitos.',
+        description: 'O intuito é chamar atenção pro fato de que, diferentemente do que a maioria das pessoas acreditam, algoritmos e modelos de machine learning não são imparciais, e ressaltar o impacto que isso tem sobre minorias. Pra além disso, discutir possibilidades acessíveis de mitigar esses efeitos.',
         tags: [
             { name: 'algoritmos!' },
             { name: 'data' },
@@ -61,7 +61,7 @@ export const PANELS = [
         id: '103',
         type: 'panel',
         title: 'Tecnologia e Comunidades',
-        description: 'Trazer a tona a discussão de criacao e manutentação de comuniade de tecnologia, os problemas comuns e dicas de como desenvolver uma comunidade não tóxica.',
+        description: 'Trazer a tona a discussão de criação e manutenção de comunidade de tecnologia, os problemas comuns e dicas de como desenvolver uma comunidade não tóxica.',
         tags: [
             { name: 'comunidades' }
         ],
@@ -69,7 +69,7 @@ export const PANELS = [
             name: 'Alex Rios',
             company: 'bornlogic',
             role: 'Tech Leader',
-            bio: '13 anos entregando software que impacta milhões de usuários. Tech Leader em empresas de bilhetagem eletronica, pagamentos e telecom. Organizador das comunidades de Kotlin e Go na cidade de Curitiba.',
+            bio: '13 anos entregando software que impacta milhões de usuários. Tech Leader em empresas de bilhetagem eletrônica, pagamentos e telecom. Organizador das comunidades de Kotlin e Go na cidade de Curitiba.',
             picture: '/assets/speakers/AlexRios.jpeg',
             socialProfiles: [
                 {
@@ -91,7 +91,7 @@ export const PANELS = [
         id: '104',
         type: 'panel',
         title: 'Como aplicar DevOps na sua empresa',
-        description: 'Trazer a tona a discussão de criacao e manutentação de comuniade de tecnologia, os problemas comuns e dicas de como desenvolver uma comunidade não tóxica.',
+        description: 'Trazer a tona a discussão de criação e manutenção de comunidade de tecnologia, os problemas comuns e dicas de como desenvolver uma comunidade não tóxica.',
         tags: [
             { name: 'DevOps' }
         ],
