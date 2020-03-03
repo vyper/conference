@@ -85,7 +85,7 @@ export const AGENDA_DIA_01 = [
         title: 'Palestra',
         description: 'Aguarde!',
         startTime: { hour: '13', minute: '40' },
-        contentId: null,
+        contentId: '020',
         speakers: [],
         type: 'talk'
     },
