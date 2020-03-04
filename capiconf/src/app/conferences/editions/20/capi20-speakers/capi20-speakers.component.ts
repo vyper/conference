@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { TALKS } from '../talks';
 import { PANELS } from '../panels';
+import { TEAM } from '../team';
 
 @Component({
   selector: 'app-capi20-speakers',
@@ -9,6 +10,7 @@ import { PANELS } from '../panels';
 })
 export class Capi20SpeakersComponent implements OnInit {
 
+  team = TEAM;
   talks = TALKS;
   panels = PANELS;
   speakers = [];
