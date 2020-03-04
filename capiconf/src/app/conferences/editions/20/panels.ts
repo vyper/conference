@@ -109,4 +109,72 @@ export const PANELS = [
             ]
         }]
     }
+    ,
+    {
+        id: '105',
+        type: 'panel',
+        title: 'As pessoas desenvolvedoras devem ou não abandonar a agilidade?',
+        description: 'Em 2001, 17 pessoas desenvolvedoras trocaram experiências sobre como estavam entregando software de valor fugindo das grandes taxas de insucessos em projetos de software presentes na época. Esta reunião gerou o manifesto ágil para o desenvolvimento de software, o qual embasa todas as atividades do que atualmente chamamos de agilidade (ou agile). 18 anos após esta reunião, muita coisa aconteceu e será que ainda faz sentido utilizar agilidade para desenvolvedor software? Ser ágil ou fazer ágil? Ágil virou mercado de certificação? Cascágil ou ágil? Venha trocar experiências e a sua visão sobre o tema.',
+        tags: [
+            { name: 'agilidade' }
+        ],
+        speakers: [{
+            name: 'Wagner Mendes Voltz - Fusca',
+            company: 'Matera',
+            role: 'Agile Coach',
+            bio: 'Desenvolvo sistemas a mais de 12 anos e nesta caminhada aprendi muito com meus erros (independente de linguagem de programação e modelo de trabalho).',
+            picture: '/assets/speakers/fusca.png',
+            socialProfiles: [
+                {
+                    name: 'github',
+                    url: 'https://github.com/wagnerfusca'
+                },
+                {
+                    name: 'linkedin',
+                    url: 'https://www.linkedin.com/in/wagnerfusca/'
+                }
+                ,
+                {
+                    name: 'twitter',
+                    url: 'https://twitter.com/tiofusca/'
+                }
+            ]
+        }]
+    }
+    ,
+    {
+        id: '106',
+        type: 'panel',
+        title: 'Como incluir na rotina de desenvolvimento a Automação de testes funcionais utilizando Python e Docker.',
+        description: 'Realizar uma discussão sobre o uso efetivo de testes automatizados no ambiente de desenvolvimento e o papel do desenvolvedor e do QA no ciclo de utilização das ferramentas. A discussão é válida para Desenvolvedores, QA´s, Analistas de Negócios juntamente ao processo de CI/CD.',
+        tags: [
+            { name: 'Python' },
+            { name: 'Docker' }
+        ],
+        speakers: [{
+            name: 'Maicon Carvalho',
+            company: 'VHSYS',
+            role: 'Desenvolvedor de Sistemas',
+            bio: 'Especialista em programação de sistemas e processos inserido em um ambiente de desenvolvimento de software buscando a aplicação das melhores soluções para os problemas do dia-a-dia. Vivo de arquitetura e da descoberta de práticas elegantes e performáticas para o DevOps e movido a Coca-Cola para aplicar minha criatividade, dedicação e flexibilidade em nossos desafios. Sou apreciador de churrascos e procuro sair da rotina e degustando uma boa costela de fogo de chão.',
+            picture: '/assets/speakers/MaiconCarvalho.png',
+            socialProfiles: []
+        },
+        {
+            name: 'Paulo Rodrigo Martins',
+            company: 'VHSYS',
+            role: 'Desenvolvedor de Sistemas',
+            bio: 'Fazem mais de 10 anos desde que me apaixonei e atuo pela área de tecnologia. Até mesmo nas horas vagas eu literalmente mergulho no mundo da inovação com o estudo de novas soluções de desenvolvimento, sempre curtindo um rock e degustando uma cerveja artesanal. Meu foco profissional está voltado para processos de integração e melhoria contínua sempre com novas implementações, com as mais variadas linguagens, que buscam facilitar a vida dos nossos desenvolvedores.',
+            picture: '/assets/speakers/foto_paulo_vhsys.png',
+            socialProfiles: []
+        }
+        ,
+        {
+            name: 'Nicollas Ehlers',
+            company: 'VHSYS',
+            role: 'QA e Analista de Negócios',
+            bio: 'Sou um viciado em WoW entre outros games nas horas vagas, mas quando estou atuando profissionalmente meu foco é na área de Qualidade de Software, onde prezo acima de qualquer aspecto pela comunicação e o entendimento completo do negócio. Dessa forma, continuamente estou em busca de melhorar e gerar mais soluções e resultados cada vez mais ligados a satisfação dos nossos clientes.',
+            picture: '/assets/speakers/Nicollas.png',
+            socialProfiles: []
+        }]
+    }
 ];

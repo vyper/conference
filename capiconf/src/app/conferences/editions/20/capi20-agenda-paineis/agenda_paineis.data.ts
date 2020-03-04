@@ -85,7 +85,7 @@ export const AGENDA_PAINEL_DIA_01 = [
         title: 'Painel',
         description: 'Aguarde!',
         startTime: { hour: '13', minute: '40' },
-        contentId: null,
+        contentId: '105',
         speakers: [],
         type: 'panel'
     },
@@ -105,7 +105,7 @@ export const AGENDA_PAINEL_DIA_01 = [
         title: 'Painel',
         description: 'Aguarde!',
         startTime: { hour: '15', minute: '00' },
-        contentId: null,
+        contentId: '103',
         speakers: [],
         type: 'panel'
     },
@@ -122,17 +122,17 @@ export const AGENDA_PAINEL_DIA_01 = [
     {
         order: 13,
         day: 1,
-        title: 'Painel',
+        title: 'Lightning talk',
         description: 'Aguarde!',
         startTime: { hour: '16', minute: '20' },
-        contentId: '103',
+        contentId: '106',
         speakers: [],
         type: 'panel'
     },
     {
         order: 14,
         day: 1,
-        title: 'Painel',
+        title: 'Lightning talk',
         description: 'Aguarde!',
         startTime: { hour: '17', minute: '00' },
         contentId: null,
