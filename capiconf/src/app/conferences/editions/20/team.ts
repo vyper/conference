@@ -103,7 +103,7 @@ export const TEAM = [
         company: 'Playax',
         role: 'UI Engineer',
         picture: '/assets/speakers/wm.png',
-        bio: 'Músico com pé na programação ou programador com pé na música. Engenheiro de Software, formado em sistemas de informação pela Universidade Paranaense, trabalha na Playax criando experiências em software para o mercado musical. Ouve bandas estranhas, gosta de viajar, palestrar e contribuir com a comunidade Open Source. Área de anexos',
+        bio: 'Músico com pé na programação ou programador com pé na música. Engenheiro de Software, formado em sistemas de informação pela Universidade Paranaense, trabalha na Playax criando experiências em software para o mercado musical. Ouve bandas estranhas, gosta de viajar, palestrar e contribuir com a comunidade Open Source.',
         socialProfiles: [
             {
                 url: 'https://twitter.com/Wmitrut',
