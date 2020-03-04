@@ -334,7 +334,7 @@ export const TALKS = [
         ],
         speakers: [{
             name: 'Alex Rios',
-            company: 'bornlogic',
+            company: 'Contabilizei',
             role: 'Tech Leader',
             bio: '13 anos entregando software que impacta milhões de usuários. Tech Leader em empresas de bilhetagem eletronica, pagamentos e telecom. Organizador das comunidades de Kotlin e Go na cidade de Curitiba.',
             picture: '/assets/speakers/AlexRios.jpeg',
