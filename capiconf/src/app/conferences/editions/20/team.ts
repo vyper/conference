@@ -85,7 +85,7 @@ export const TEAM = [
         company: 'Emprego.net',
         role: 'Desenvolvedor Front',
         picture: '/assets/speakers/gabriel.jpeg',
-        bio: 'Graduado em sistemas de informação e pós graduando em BI. Corredor (muito) amador e viciado em animes.',
+        bio: 'Code Wizard, software developer, JavaScript sorcerer.',
         socialProfiles: [
             {
                 url: 'https://twitter.com/yemolai',

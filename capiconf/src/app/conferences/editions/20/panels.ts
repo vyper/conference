@@ -42,9 +42,9 @@ export const PANELS = [
         speakers: [{
             name: 'Erika Carvalho',
             company: 'Women Techmakers Curitiba',
-            role: 'Women Techmakers Ambassador',
+            role: 'Ambassador',
             picture: '/assets/speakers/ErikaCarvalho.jpeg',
-            bio: 'Women Techmakers Ambassador | Women Who Go CWB Organizer | Golang Developer',
+            bio: 'Back-end developer, embaixadora do Women Techmakers e organizadora do Women Who Go Curitiba. Entusiasta de Golang, apaixonada por comunidades, além de vegana e artesã. Ela/dela.',
             socialProfiles: [
                 {
                     url: 'https://twitter.com/erikones_',
