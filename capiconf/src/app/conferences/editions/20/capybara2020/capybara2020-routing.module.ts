@@ -5,6 +5,7 @@ import { Capybara2020faqComponent } from '../capybara2020faq/capybara2020faq.com
 import { Capi20SpeakersComponent } from '../capi20-speakers/capi20-speakers.component';
 import { Capi20AgendaComponent } from '../capi20-agenda/capi20-agenda.component';
 import { Capi20AgendaPaineisComponent } from '../capi20-agenda-paineis/capi20-agenda-paineis.component';
+import { CoronavirusComponent } from '../coronavirus/coronavirus.component';
 
 const routes: Routes = [
   { path: 'start', component: Capybara2020Component },
@@ -12,7 +13,8 @@ const routes: Routes = [
   { path: 'pessoas', component: Capi20SpeakersComponent },
   { path: 'palestras', component: Capi20AgendaComponent },
   { path: 'paineis', component: Capi20AgendaPaineisComponent },
-  { path: 'faq', component: Capybara2020faqComponent }
+  { path: 'faq', component: Capybara2020faqComponent },
+  { path: 'info-sobre-coronavirus', component: CoronavirusComponent }
 ];
 
 @NgModule({

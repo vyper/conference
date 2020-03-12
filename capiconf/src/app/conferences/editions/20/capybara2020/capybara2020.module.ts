@@ -13,6 +13,7 @@ import { Capi20AgendaPaineisComponent } from '../capi20-agenda-paineis/capi20-ag
 import { Capi20LocationComponent } from '../capi20-location/capi20-location.component';
 import { Capi20SponsorsComponent } from '../capi20-sponsors/capi20-sponsors.component';
 import { Capi20HelpformComponent } from '../capi20-helpform/capi20-helpform.component';
+import { CoronavirusComponent } from '../coronavirus/coronavirus.component';
 
 
 @NgModule({
@@ -27,7 +28,8 @@ import { Capi20HelpformComponent } from '../capi20-helpform/capi20-helpform.comp
     Capi20AgendaPaineisComponent,
     Capi20LocationComponent,
     Capi20SponsorsComponent,
-    Capi20HelpformComponent
+    Capi20HelpformComponent,
+    CoronavirusComponent
   ],
   imports: [
     CommonModule,

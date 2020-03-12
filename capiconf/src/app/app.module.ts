@@ -5,6 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { CocComponent } from './conferences/shared/coc/coc.component';
 import { IncluaTodaPessoaComponent } from './campaigns/inclua-toda-pessoa/inclua-toda-pessoa.component';
+import { CoronavirusComponent } from './conferences/editions/20/coronavirus/coronavirus.component';
 
 @NgModule({
   declarations: [
